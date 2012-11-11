@@ -4,10 +4,9 @@ latex-input
 Input methods which make your keyboard LaTeX aware; one for Mac OS X
 and one for Emacs.
 
-When the input method is in effect, one types LaTeX notation for
-a mathematical symbol and it is rendered to the mathematical symbol
-on the fly.  E.g. typing \infty followed by SPACE will enter a ∞ into
-the document.
+When the input method is in effect, one types LaTeX notation and it
+is rendered to the mathematical symbol on the fly.  E.g. type
+\infty followed by a SPACE and an ∞ is inserted into the document.
 
 LaTeX notation which cannot be rendered has no effect.  The input
 method cannot make fractions, radicals, or matrices, for example.
