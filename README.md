@@ -1,7 +1,8 @@
 latex-input
 ===========
 
-Two LaTeX notation input methods; one for Mac OS X and one for Emacs.
+Input methods which make your keyboard LaTeX aware; one for Mac OS X
+and one for Emacs.
 
 When the input method is in effect, one types LaTeX notation for
 a mathematical symbol and it is rendered to the mathematical symbol
