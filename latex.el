@@ -385,3 +385,4 @@
 ("\\not\\sqsupseteq " ?⋣)
 )
 
+(provide 'latex)
