@@ -1,11 +1,12 @@
 latex-input
 ===========
 
-Input methods which use LaTeX notation for Mac OS X or Emacs.
+Two LaTeX notation input methods; one for Mac OS X and one for Emacs.
 
 When the input method is in effect, one types LaTeX notation for
-a mathematical symbol, e.g. \infty followed by SPACE.  The LaTeX is
-replaced by the symbol it represents, e.g. ∞.
+a mathematical symbol and it is rendered to the mathematical symbol
+on the fly.  E.g. typing \infty followed by SPACE will enter a ∞ into
+the document.
 
 LaTeX notation which cannot be rendered has no effect.  The input
 method cannot make fractions, radicals, or matrices, for example.
@@ -18,7 +19,7 @@ Mac Installation
 Copy the file `latex.cin` to `~/Library/Input Methods` and log out
 and log back in.
 
-Require Mac OS 10.5 or higher.
+Requires Mac OS 10.5 or higher.
 
 How to Use on Mac
 =================
