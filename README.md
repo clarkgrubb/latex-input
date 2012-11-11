@@ -18,6 +18,8 @@ Mac Installation
 Copy the file `latex.cin` to `~/Library/Input Methods` and log out
 and log back in.
 
+Require Mac OS 10.5 or higher.
+
 How to Use on Mac
 =================
 
@@ -42,10 +44,17 @@ for Δ and \delta is used for δ, but the Mac LaTeX input source will neverthele
 insist that you disambiguate.  It does this with a pop-up window.  Use the arrow
 keys to select the correct symbol and press RETURN.
 
-*input source keyboard shortcut* 
+There is a Mac OS X keyboard shortcut for switching input source, but the
+default value conflicts with Spotlight.  Consider going to 
+
+    System Preferences | Keyboard | Keyboard Shortcuts | Keyboard & Text Input
+
+and changing it to something like ⌥⌘Space
 
 Emacs Installation
 ==================
+
+Requires GNU Emacs 22 or higher.
 
 Download the Emacs Lisp file to a place in your Emacs library path:
 
@@ -103,4 +112,9 @@ font when a glyph is missing.
 About LaTeX
 ===========
 
-*why latex*
+LaTeX is widely used to typeset mathematics.  There isn't much software out there
+that is inexpensive and capable of typesetting mathematical notation in its full
+generality.  If LaTeX is the standard and you have to learn it, then you might as well
+use it to type the occasional mathematical symbol at the keyboard.
+
+* [Common Mathematical Notation in LaTeX and Unicode](http://hyperpolyglot.org/lightweight-markup#math-notation)
