@@ -96,6 +96,10 @@ There are a few differences:
 * The Emacs input method will show all possible completions for partially typed
   notation in a separate buffer if you type TAB.
 
+Emacs seems to use a font with an impoverished set of Unicode characters.  I think
+what is happening is that Mac OS X GUI apps are better at switching to a different
+font when a glyph is missing.
+
 About LaTeX
 ===========
 
