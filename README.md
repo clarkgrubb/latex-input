@@ -112,9 +112,10 @@ font when a glyph is missing.
 About LaTeX
 ===========
 
+* [Common Mathematical Notation in LaTeX and Unicode](http://hyperpolyglot.org/lightweight-markup#math-notation)
+
 LaTeX is widely used to typeset mathematics.  There isn't much software out there
 that is inexpensive and capable of typesetting mathematical notation in its full
 generality.  If LaTeX is the standard and you have to learn it, then you might as well
 use it to type the occasional mathematical symbol at the keyboard.
 
-* [Common Mathematical Notation in LaTeX and Unicode](http://hyperpolyglot.org/lightweight-markup#math-notation)
