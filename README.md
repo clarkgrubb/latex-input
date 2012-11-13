@@ -65,7 +65,7 @@ You can load `latex.el` manually at any time with the command
 
     M-x load-file RET /PATH/TO/latex.el
 
-To `latex.el` automatically when Emacs starts up, you need to put something
+To load `latex.el` automatically when Emacs starts up, you need to put something
 like this in your startup file, i.e. `~/.emacs`, `~/.emacs.el`, or `~/.emacs.d/init.el`:
 
     (setq emacs-dir (file-name-directory
