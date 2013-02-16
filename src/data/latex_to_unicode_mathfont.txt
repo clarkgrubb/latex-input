@@ -1,0 +1,12 @@
+\mathbb{C} ℂ
+\mathbb{H} ℍ
+\mathbb{N} ℕ
+\mathbb{P} ℙ
+\mathbb{Q} ℚ
+\mathbb{R} ℝ
+\mathbb{Z} ℤ
+\mathfrak{C} ℭ
+\mathfrak{H} ℌ
+\mathfrak{I} ℑ
+\mathfrak{R} ℜ
+\mathfrak{Z} ℨ

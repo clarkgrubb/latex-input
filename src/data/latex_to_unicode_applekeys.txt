@@ -1,0 +1,12 @@
+\cmdkey ⌘
+\optkey ⌥
+\shiftkey ⇧
+\delkey ⌫
+\capslockkey ⇪
+\ejectkey ⏏
+\tabkey ⇥
+\revtabkey ⇤
+\esckey ⎋
+\returnkey ⏎
+\enterkey ⌤
+\rightdelkey ⌦
