@@ -71,7 +71,7 @@ Requires GNU Emacs 22 or higher.
 
 Download the Emacs Lisp file to a place in your Emacs library path:
 
-    wget https://raw.github.com/clarkgrubb/latex-input/master/latex.el
+    $ wget https://raw.github.com/clarkgrubb/latex-input/master/latex.el
 
 You can load `latex.el` manually at any time with the command
 
