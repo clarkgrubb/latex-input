@@ -118,6 +118,10 @@ There are a few differences:
 * The Emacs input method will show all possible completions for partially typed
   notation in a separate buffer if you type TAB.
 
+In my experience Emacs has a somewhat impoverished font, and as a result it doesn't
+always render the symbol, even though the Unicode character was inserted into the
+document.
+
 About LaTeX
 ===========
 
@@ -127,13 +131,12 @@ About LaTeX
 Mac Keyboard Symbols
 ====================
 
-There is a [LaTeX package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols)
-which adds Mac keyboard symbols:
+We support the following LaTeX notation, which can be added to a LaTeX distrubtion with [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols)
 
     LaTeX         Unicode
     =====         =======
     \cmdkey       ⌘
-    \optkey ⌥     ⌥⌥
+    \optkey       ⌥
     \shiftkey     ⇧
     \delkey       ⌫
     \capslockkey  ⇪
