@@ -1,8 +1,20 @@
 latex-input
 ===========
 
-Input methods which make your keyboard LaTeX aware; one for Mac OS X
+Use LaTeX notation to enter Unicode characters.
+
+Two input methods are provided; one for Mac OS X
 and one for Emacs.
+
+    LaTeX         Unicode
+    =====         =======
+    \infty        ∞
+    \sum          ∑
+    \int          ∫
+    \leftarrow    ←
+    \alpha        α
+    \subseteq     ⊆
+    
 
 When the input method is in effect, one types LaTeX notation and it
 is rendered to the mathematical symbol on the fly.  E.g. type
@@ -106,17 +118,29 @@ There are a few differences:
 * The Emacs input method will show all possible completions for partially typed
   notation in a separate buffer if you type TAB.
 
-Emacs seems to use a font with an impoverished set of Unicode characters.  I think
-what is happening is that Mac OS X GUI apps are better at switching to a different
-font when a glyph is missing.
-
 About LaTeX
 ===========
 
-* [Common Mathematical Notation in LaTeX and Unicode](http://hyperpolyglot.org/lightweight-markup#math-notation)
+* [Common Mathematical Notation in LaTeX and Unicode](http://hyperpolyglot.org/math-notation)
 
-LaTeX is widely used to typeset mathematics.  There isn't much software out there
-that is inexpensive and capable of typesetting mathematical notation in its full
-generality.  If LaTeX is the standard and you have to learn it, then you might as well
-use it to type the occasional mathematical symbol at the keyboard.
 
+Mac Keyboard Symbols
+====================
+
+There is a [LaTeX package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols)
+which adds Mac keyboard symbols:
+
+    LaTeX         Unicode
+    =====         =======
+    \cmdkey       ⌘
+    \optkey ⌥     ⌥⌥
+    \shiftkey     ⇧
+    \delkey       ⌫
+    \capslockkey  ⇪
+    \ejectkey     ⏏
+    \tabkey       ⇥
+    \revtabkey    ⇤
+    \esckey       ⎋
+    \returnkey    ⏎
+    \enterkey     ⌤
+    \rightdelkey  ⌦
