@@ -1,7 +1,7 @@
 latex-input
 ===========
 
-Use LaTeX notation to enter Unicode characters.
+Use LaTeX notation to enter over 400 Unicode characters.
 
 Two input methods are provided; one for Mac OS X
 and one for Emacs.
