@@ -250,7 +250,7 @@
 \rightsquigarrow ⇝
 \rightthreetimes ⋌
 \risingdotseq ≓
-\rtimes ⋈
+\rtimes ⋊
 \searrow ↘
 \section §
 \setminus ∖
