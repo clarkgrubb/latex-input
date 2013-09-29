@@ -1,0 +1,12 @@
+` ‘ 
+' ’
+`` “
+'' ” 
+-- –
+--- —
+\S §
+\dag †
+\ddag ‡
+\P ¶
+\copyright ©
+\pounds £

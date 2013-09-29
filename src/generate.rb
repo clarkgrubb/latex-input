@@ -10,6 +10,9 @@ BUILD_DIR = File.join(ROOT_DIR, 'build')
 
 LATEX_FILES = %w(
   latex_to_unicode.txt
+  latex_to_unicode_english_punct.txt
+  latex_to_unicode_latin_accent.txt
+  latex_to_unicode_greek.txt
   latex_to_unicode_applekeys.txt
   latex_to_unicode_mathfont.txt
   latex_to_unicode_not.txt
@@ -28,7 +31,7 @@ LATEX_EL = File.join(BUILD_DIR, 'latex.el')
 LATEX_EL_TEMPLATE = File.join(TEMPLATES_DIR, 'latex.el.erb')
 
 def escape(str)
-    str.gsub(/\\/, '\\\\\\\\')
+  str.gsub(/\\/, '\\\\\\\\').gsub(/"/, '\\\\"')
 end
 
 latex_to_unicode = {}
