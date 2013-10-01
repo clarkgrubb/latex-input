@@ -1,7 +1,11 @@
-latex-input
-===========
+[mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-insatll) | [how to use on emacs](#emacs-howto)
 
-Use LaTeX notation to enter 574 Unicode characters.
+[about latex](#latex-about) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [keyboard symbols](#latex-keyboard)
+
+Introduction
+============
+
+Use LaTeX notation to enter over 500 Unicode characters.
 
 Two input methods are provided; one for Mac OS X
 and one for Emacs.
@@ -25,6 +29,7 @@ method cannot make fractions, radicals, or matrices, for example.
 Only LaTeX notation for which there is a Unicode character in the Basic
 Multilingual Plane (i.e. with a Unicode point less than 64k) is rendered.
 
+<a name="mac-install"/>
 Mac Installation
 ================
 
@@ -33,6 +38,7 @@ and log back in.
 
 Requires Mac OS 10.5 or higher.
 
+<a name="mac-howto"/>
 How to Use on Mac
 =================
 
@@ -64,6 +70,7 @@ default value conflicts with Spotlight.  Consider going to
 
 and changing it to something like ⌥⌘Space
 
+<a name="emacs-install"/>
 Emacs Installation
 ==================
 
@@ -88,6 +95,7 @@ like this in your startup file, i.e. `~/.emacs`, `~/.emacs.el`, or `~/.emacs.d/i
 Note that the above code assumes that `latex.el` is in the same directory
 as your startup file.  Modify to suit your needs.
 
+<a name="emacs-howto"/>
 How to Use on Emacs
 ===================
 
@@ -122,28 +130,56 @@ In my experience Emacs has a somewhat impoverished font, and as a result it does
 always render the symbol, even though the Unicode character was inserted into the
 document.
 
+<a name="latex-about"/>
 About LaTeX
 ===========
 
 * [Common Mathematical Notation in LaTeX and Unicode](http://hyperpolyglot.org/math-notation)
 
+<a name="latex-english-punct"/>
+LaTeX: English Punctuation
+==========================
+    `        ‘                \S           §
+    '        ’                \dag         †
+    ``       “                \ddag        ‡
+    ''       ”                \P           ¶
+    --       –               \copyright   ©
+    ---      —              \pounds      £
 
-Mac Keyboard Symbols
-====================
+<a name="latex-latin-accent"/>
+LaTeX: Latin Accent
+===================
+    \'{a}   á
+    \`{a}   à
+    \^{a}   â
+    \"{a}   ä
+    \={a}   ā
 
-We support the following LaTeX notation, which can be added to a LaTeX distrubtion by installing [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols).
+    {\ss}   ß           {\ae}   æ
+    !'      ¡           {\AE}   Æ
+    ?'      ¿           {\aa}   å
+    \c{c}   ç           {\AA}   Å
+    \c{C}   Ç           {\o}    ø
+    \~{n}   ñ           {\O}    Ø
+    \~{N}   Ñ           {\l}    ł
+    {\oe}   œ           {\L}    Ł         
+    {\OE}   Œ                 
 
-    LaTeX         Unicode
-    =====         =======
-    \cmdkey       ⌘
-    \optkey       ⌥
-    \shiftkey     ⇧
-    \delkey       ⌫
-    \capslockkey  ⇪
-    \ejectkey     ⏏
-    \tabkey       ⇥
-    \revtabkey    ⇤
-    \esckey       ⎋
-    \returnkey    ⏎
-    \enterkey     ⌤
-    \rightdelkey  ⌦
+
+<a name="latex-keyboard"/>
+LaTeX: Keyboard Symbols
+=======================
+The following notation can be added to a LaTeX distrubtion by installing [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols).
+
+    \cmdkey       ⌘          \tabkey       ⇥
+    \optkey       ⌥            \revtabkey    ⇤
+    \shiftkey     ⇧           \esckey       ⎋
+    \delkey       ⌫            \returnkey    ⏎
+    \capslockkey  ⇪           \enterkey     ⌤
+    \ejectkey     ⏏            \rightdelkey  ⌦
+    
+    
+    
+    
+    
+    
