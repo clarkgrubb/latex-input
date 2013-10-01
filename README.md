@@ -177,7 +177,17 @@ Analysis
 <a name="latex-arrows"/>
 Arrows
 ======
-
+    \rightarrow         →           \Rightarrow       ⇒
+    \leftarrow          ←           \Leftarrow        ⇐
+    \uparrow            ↑            \Uparrow          ⇑
+    \downarrow          ↓            \Downarrow        ⇓
+    \nwarrow            ↖           \nearrow          ↗
+    \searrow            ↘           \swarrow          ↙
+    \mapsto             ↦
+    \leftrightarrow     ↔           \Leftrightarrow   ⇔ 
+    \rightarrowtail     ↣
+    \twoheadrightarrow  ↠
+    \hookrightarrow     ↪
 
 <a name="latex-english-punct"/>
 English Punctuation
