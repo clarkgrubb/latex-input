@@ -1,6 +1,6 @@
 **setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto)
 
-**latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [analysis](#latex-analysis) | [arrows](#latex-arrows) | [blackboard bold and fraktur](#latex-blackboard-fraktur) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [arrows](#latex-arrows) | [blackboard bold and fraktur](#latex-blackboard-fraktur) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
 
 Introduction
 ============
@@ -161,6 +161,16 @@ Sets and Logic
     \bigcup       ⋃          \blacksquare   ∎
     \bigcap       ⋂
 
+<a name="latex-geometry"/>
+Geometry
+========
+    \angle         ∠
+    \triangle      △
+    \perp          ⊥
+    \parallel      ∥
+    \cong          ≅
+    \sim           ∼
+
 <a name="latex-analysis"/>
 Analysis
 ========
@@ -173,6 +183,15 @@ Analysis
     \int          ∫            \rangle       ⟩
     \oint         ∮
 
+<a name="latex-algebra"/>
+Algebra
+=======
+    \oplus          ⊕             \bigoplus     ⨁
+    \otimes         ⊗             \bigotimes    ⨂
+    \triangleleft   ◃
+    \unlhd          ⊴
+    \rtimes         ⋊
+    \wr             ≀
 
 <a name="latex-arrows"/>
 Arrows
