@@ -2,7 +2,7 @@
 \beta β
 \gamma γ
 \delta δ
-\epsilon ε
+\epsilon ∊
 \zeta ζ
 \eta η
 \theta θ
