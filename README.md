@@ -173,8 +173,8 @@ Greek
     \beta    β        \Beta Β
     \gamma   γ        \Gamma Γ
     \delta   δ        \Delta Δ
-    \epsilon ε         \Epsilon Ε
-    \zeta    ζ         \Zeta Ζ
+    \epsilon ε        \Epsilon Ε
+    \zeta    ζ        \Zeta Ζ
     \eta     η        \Eta Η
     \theta   θ        \Theta Θ
     \kappa   κ        \Kappa Κ
@@ -189,17 +189,17 @@ Greek
     \tau     τ        \Tau Τ
     \upsilon υ        \Upsilon Υ
     \phi     φ        \Phi Φ
-    \chi     χ         \Chi Χ
+    \chi     χ        \Chi Χ
     \psi     ψ        \Psi Ψ
     \omega   ω        \Omega Ω
 
     \varepsilon ε
-    \varkappa ϰ
-    \varphi φ
-    \varpi ϖ
-    \varrho ϱ
-    \varsigma ς
-    \vartheta ϑ
+    \varkappa   ϰ
+    \varphi     φ
+    \varpi      ϖ
+    \varrho     ϱ
+    \varsigma   ς
+    \vartheta   ϑ
 
 <a name="latex-keyboard"/>
 Keyboard Symbols
