@@ -1,6 +1,6 @@
-[mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto)
+**setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto)
 
-latex notation: [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [analysis](#latex-analysis) | [arrows](#latex-arrows) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
 
 Introduction
 ============
@@ -160,6 +160,24 @@ Sets and Logic
     \cap          ∩          \models         ⊨
     \bigcup       ⋃          \blacksquare   ∎
     \bigcap       ⋂
+
+<a name="latex-analysis"/>
+Analysis
+========
+    \infty        ∞            \lfloor       ⌊
+    \Delta        Δ            \rfloor       ⌋
+    \nabla        ∇            \lceil        ⌈
+    \partial      ∂            \rceil        ⌉
+    \sum          ∑           \|            ∥
+    \prod         ∏           \langle       ⟨
+    \int          ∫            \rangle       ⟩
+    \oint         ∮
+
+
+<a name="latex-arrows"/>
+Arrows
+======
+
 
 <a name="latex-english-punct"/>
 English Punctuation
