@@ -7,7 +7,7 @@ Introduction
 
 Use LaTeX notation to enter over 500 Unicode characters.
 
-Here some examples of LaTeX notation:
+Here are some examples of LaTeX notation:
 
     \infty        ∞
     \sum          ∑
@@ -237,9 +237,3 @@ The following notation can be added to a LaTeX distrubtion by installing [this p
     \delkey       ⌫           \returnkey    ⏎
     \capslockkey  ⇪           \enterkey     ⌤
     \ejectkey     ⏏           \rightdelkey  ⌦
-    
-    
-    
-    
-    
-    
