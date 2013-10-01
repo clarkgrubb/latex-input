@@ -1,26 +1,24 @@
 [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto)
 
-[about latex](#latex-about) | [relations and operators](#latex-relation-op) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
+latex notation: [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
 
 Introduction
 ============
 
 Use LaTeX notation to enter over 500 Unicode characters.
 
-Two input methods are provided; one for Mac OS X
-and one for Emacs.
+Here some examples of LaTeX notation:
 
-    LaTeX         Unicode
-    =====         =======
     \infty        ∞
     \sum          ∑
     \int          ∫
     \leftarrow    ←
     \alpha        α
     \subseteq     ⊆
-    
 
-When the input method is in effect, one types LaTeX notation and it
+Two input methods are provided; one for Mac OS X and one for Emacs.
+
+When an input method is in effect, one types LaTeX notation and it
 is rendered to the mathematical symbol on the fly.  E.g. type
 \infty followed by a SPACE and an ∞ is inserted into the document.
 
@@ -33,8 +31,9 @@ Multilingual Plane (i.e. with a Unicode point less than 64k) is rendered.
 Mac Installation
 ================
 
-Copy the file `latex.cin` to `~/Library/Input Methods` and log out
-and log back in.
+    curl https://raw.github.com/clarkgrubb/latex-input/master/latex.el > ~/Library/Input\ Methods/latex.el
+
+Log out and log back in.
 
 Requires Mac OS 10.5 or higher.
 
@@ -130,24 +129,37 @@ In my experience Emacs has a somewhat impoverished font, and as a result it does
 always render the symbol, even though the Unicode character was inserted into the
 document.
 
-<a name="latex-about"/>
-About LaTeX
-===========
-
-* [Common Mathematical Notation in LaTeX and Unicode](http://hyperpolyglot.org/math-notation)
-
 <a name="latex-relation-op"/>
 Relations and Operators
 =======================
-    \le         ≤          \pm         ±
-    \ge         ≥          \mp         ∓
-    \neq        ≠          \times      ×
-    \approx     ≈          \div        ÷
-    \not\approx ≉          \cdot       ⋅
-    \simeq      ≃          \circ       ∘
-    \cong       ≅
-    \equiv      ≡
-    \not\equiv  ≢
+    \le           ≤          \pm         ±
+    \ge           ≥          \mp         ∓
+    \neq          ≠          \times      ×
+    \approx       ≈          \div        ÷
+    \not\approx   ≉          \cdot       ⋅
+    \simeq        ≃          \circ       ∘
+    \cong         ≅
+    \equiv        ≡
+    \not\equiv    ≢
+
+<a name="latex-sets-logic"/>
+Sets and Logic
+==============
+    \emptyset     ∅          \setminus       ∖
+    \in           ∈          \aleph          א
+    \notin        ∉          \neq            ¬
+    \subset       ⊂          \wedge          ∧
+    \subseteq     ⊆          \vee            ∨
+    \not\subset   ⊄          \veebar         ⊻
+    \not\subseteq ⊈          \forall         ∀
+    \subsetneq    ⊊          \exists         ∃
+    \supsetneq    ⊋          \top            ⊤
+    \supset       ⊃          \bot            ⊥
+    \supseteq     ⊇          \therefore      ∴
+    \cup          ∪          \vdash          ⊢
+    \cap          ∩          \models         ⊨
+    \bigcup       ⋃          \blacksquare   ∎
+    \bigcap       ⋂
 
 <a name="latex-english-punct"/>
 English Punctuation
