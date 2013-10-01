@@ -139,15 +139,15 @@ About LaTeX
 <a name="latex-relation-op"/>
 Relations and Operators
 =======================
-\le         ≤          \pm         ±
-\ge         ≥          \mp         ∓
-\neq        ≠          \times      ×
-\approx     ≈          \div        ÷
-\not\approx ≉          \cdot       ⋅
-\simeq      ≃          \circ       ∘
-\cong       ≅
-\equiv      ≡
-\not\equiv  ≢
+    \le         ≤          \pm         ±
+    \ge         ≥          \mp         ∓
+    \neq        ≠          \times      ×
+    \approx     ≈          \div        ÷
+    \not\approx ≉          \cdot       ⋅
+    \simeq      ≃          \circ       ∘
+    \cong       ≅
+    \equiv      ≡
+    \not\equiv  ≢
 
 <a name="latex-english-punct"/>
 English Punctuation
