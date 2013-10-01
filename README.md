@@ -168,8 +168,8 @@ Analysis
     \Delta        Δ            \rfloor       ⌋
     \nabla        ∇            \lceil        ⌈
     \partial      ∂            \rceil        ⌉
-    \sum          ∑           \|            ∥
-    \prod         ∏           \langle       ⟨
+    \sum          ∑            \|            ∥
+    \prod         ∏            \langle       ⟨
     \int          ∫            \rangle       ⟩
     \oint         ∮
 
