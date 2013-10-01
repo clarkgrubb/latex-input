@@ -173,7 +173,7 @@ Greek
     \beta    β        \Beta Β
     \gamma   γ        \Gamma Γ
     \delta   δ        \Delta Δ
-    \epsilon ε        \Epsilon Ε
+    \epsilon ϵ        \Epsilon Ε
     \zeta    ζ        \Zeta Ζ
     \eta     η        \Eta Η
     \theta   θ        \Theta Θ
