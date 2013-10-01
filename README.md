@@ -1,4 +1,4 @@
-[mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-insatll) | [how to use on emacs](#emacs-howto)
+[mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto)
 
 [about latex](#latex-about) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [keyboard symbols](#latex-keyboard)
 
@@ -137,38 +137,38 @@ About LaTeX
 * [Common Mathematical Notation in LaTeX and Unicode](http://hyperpolyglot.org/math-notation)
 
 <a name="latex-english-punct"/>
-LaTeX: English Punctuation
-==========================
+English Punctuation
+===================
     `        ‘                \S           §
     '        ’                \dag         †
     ``       “                \ddag        ‡
     ''       ”                \P           ¶
-    --       –               \copyright   ©
-    ---      —              \pounds      £
+    --       –                \copyright   ©
+    ---      —                \pounds      £
 
 <a name="latex-latin-accent"/>
-LaTeX: Latin Accent
-===================
+Latin Accent
+============
     \'{a}   á
     \`{a}   à
     \^{a}   â
     \"{a}   ä
     \={a}   ā
 
-    {\ss}   ß           {\ae}   æ
-    !'      ¡           {\AE}   Æ
-    ?'      ¿           {\aa}   å
-    \c{c}   ç           {\AA}   Å
-    \c{C}   Ç           {\o}    ø
-    \~{n}   ñ           {\O}    Ø
-    \~{N}   Ñ           {\l}    ł
-    {\oe}   œ           {\L}    Ł         
+    {\ss}   ß              {\ae}   æ
+    !'      ¡              {\AE}   Æ
+    ?'      ¿              {\aa}   å
+    \c{c}   ç              {\AA}   Å
+    \c{C}   Ç              {\o}    ø
+    \~{n}   ñ              {\O}    Ø
+    \~{N}   Ñ              {\l}    ł
+    {\oe}   œ              {\L}    Ł         
     {\OE}   Œ                 
 
 
 <a name="latex-keyboard"/>
-LaTeX: Keyboard Symbols
-=======================
+Keyboard Symbols
+================
 The following notation can be added to a LaTeX distrubtion by installing [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols).
 
     \cmdkey       ⌘          \tabkey       ⇥
