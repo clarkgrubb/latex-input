@@ -171,10 +171,10 @@ Keyboard Symbols
 ================
 The following notation can be added to a LaTeX distrubtion by installing [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols).
 
-    \cmdkey       ⌘          \tabkey       ⇥
+    \cmdkey       ⌘           \tabkey       ⇥
     \optkey       ⌥            \revtabkey    ⇤
     \shiftkey     ⇧           \esckey       ⎋
-    \delkey       ⌫            \returnkey    ⏎
+    \delkey       ⌫           \returnkey    ⏎
     \capslockkey  ⇪           \enterkey     ⌤
     \ejectkey     ⏏            \rightdelkey  ⌦
     
