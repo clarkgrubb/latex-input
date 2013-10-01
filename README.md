@@ -1,6 +1,6 @@
 **setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto)
 
-**latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [analysis](#latex-analysis) | [arrows](#latex-arrows) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [analysis](#latex-analysis) | [arrows](#latex-arrows) | [blackboard bold and fraktur](#latex-blackboard-fraktur) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
 
 Introduction
 ============
@@ -188,6 +188,18 @@ Arrows
     \rightarrowtail     ↣
     \twoheadrightarrow  ↠
     \hookrightarrow     ↪
+
+<a name="latex-blackboard-fraktur"/>
+Blackboard Bold and Fraktur
+===========================
+    \mathbb{C}    ℂ                  \mathfrak{C}    ℭ
+    \mathbb{H}    ℍ                  \mathfrak{H}    ℌ
+                                     \mathfrak{I}    ℑ
+    \mathbb{N}    ℕ
+    \mathbb{P}    ℙ
+    \mathbb{Q}    ℚ
+    \mathbb{R}    ℝ                  \mathfrak{R}    ℜ
+    \mathbb{Z}    ℤ                  \mathfrak{Z}    ℨ
 
 <a name="latex-english-punct"/>
 English Punctuation
