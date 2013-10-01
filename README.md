@@ -1,6 +1,6 @@
 [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto)
 
-[about latex](#latex-about) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
+[about latex](#latex-about) | [relations and operators](#latex-relation-op) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
 
 Introduction
 ============
@@ -135,6 +135,19 @@ About LaTeX
 ===========
 
 * [Common Mathematical Notation in LaTeX and Unicode](http://hyperpolyglot.org/math-notation)
+
+<a name="latex-relation-op"/>
+Relations and Operators
+=======================
+\le         ≤          \pm         ±
+\ge         ≥          \mp         ∓
+\neq        ≠          \times      ×
+\approx     ≈          \div        ÷
+\not\approx ≉          \cdot       ⋅
+\simeq      ≃          \circ       ∘
+\cong       ≅
+\equiv      ≡
+\not\equiv  ≢
 
 <a name="latex-english-punct"/>
 English Punctuation
