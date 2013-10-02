@@ -214,9 +214,9 @@ Superscripts and Subscripts
     ^\beta              ᵝ                   _\beta              ᵦ
     ^\gamma             ᵞ                   _\gamma             ᵧ
 
-The complete list of superscripts is: {{0-9a-pr-zABD-PRTUVW+-=()αβγδ∊θιϕφχ}}
+The complete list of superscripts is: `0-9a-pr-zABD-PRTUVW+-=()αβγδ∊θιϕφχ`
 
-The complete list of subscripts is: {{0-9aeioruvx+-=()βγρφχ}}
+The complete list of subscripts is: `0-9aeioruvx+-=()βγρφχ`
 
 
 <a name="latex-arrows"/>
