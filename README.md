@@ -259,11 +259,12 @@ English Punctuation
 <a name="latex-latin-accent"/>
 Latin Accent
 ============
-    \'{a}               á
-    \`{a}               à
-    \^{a}               â
-    \"{a}               ä
-    \={a}               ā
+    \'a                 á
+    \`a                 à
+    \^a                 â
+    \"a                 ä
+    \=a                 ā
+    \~a                 ã
 
     {\ss}               ß                   {\ae}               æ
     !'                  ¡                   {\AE}               Æ
