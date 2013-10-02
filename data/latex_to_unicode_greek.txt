@@ -17,7 +17,7 @@
 \sigma σ
 \tau τ
 \upsilon υ
-\phi ϕ
+\phi φ
 \chi χ
 \psi ψ
 \omega ω

@@ -1,0 +1,12 @@
+%gen_inp
+%cname LaTeX
+%ename LaTeX
+%encoding UTF-8
+%selkey \abcdefghijklmnopqrstuvwxyz
+%endkey 
+%keyname begin
+<% latex_to_unicode.keys.sort.each do |latex| %><%= latex %> <%= latex_to_unicode[latex] %>
+<% end %>%keyname end
+%chardef begin
+<% latex_to_unicode.keys.sort.each do |latex| %><%= latex %> <%= latex_to_unicode[latex] %>
+<% end %>%chardef end

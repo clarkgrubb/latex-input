@@ -3,7 +3,7 @@
  "Use LaTeX notation to enter mathematical symbols.")
 
 (quail-define-rules
-<% latex_to_unicode.each do |latex, unicode| %>("<%= escape(latex)%> " ?<%= unicode %>)
+<% latex_to_unicode.keys.sort.each do |latex| %>("<%= escape(latex)%> " ?<%= latex_to_unicode[latex] %>)
 <% end %>)
 
 (provide 'latex)

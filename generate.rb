@@ -6,7 +6,7 @@ require 'fileutils'
 ROOT_DIR = File.dirname(__FILE__)
 DATA_DIR = File.join(ROOT_DIR, 'data')
 TEMPLATES_DIR = File.join(ROOT_DIR, 'templates')
-BUILD_DIR = File.join(ROOT_DIR, 'build')
+BUILD_DIR = ROOT_DIR
 
 LATEX_FILES = %w(
   latex_to_unicode.txt
