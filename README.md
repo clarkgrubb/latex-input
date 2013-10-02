@@ -196,23 +196,23 @@ Algebra
 <a name="latex-superscripts-subscripts"/>
 Superscripts and Subscripts
 ===========================
-    ^0                  ⁰
-    ^1                  ¹
-    ^2                  ²
-    ^3                  ³
-    ^a                  ᵃ
+    ^0                  ⁰                   _0                  ₀
+    ^1                  ¹                   _1                  ₁
+    ^2                  ²                   _2                  ₂
+    ^3                  ³                   _3                  ₃
+    ^a                  ᵃ                   _a                  ₐ
     ^b                  ᵇ
     ^c                  ᶜ
     ^A                  ᴬ
     ^B                  ᴮ
-    ^+                  ⁺
-    ^-                  ⁻
-    ^=                  ⁼
-    ^(                  ⁽
-    ^)                  ⁾
-    ^\alpha             
-    ^\beta
-    ^\gamma
+    ^+                  ⁺                   _+                  ₊
+    ^-                  ⁻                   _-                  ₋
+    ^=                  ⁼                   _=                  ₌
+    ^(                  ⁽                   _(                  ₍
+    ^)                  ⁾                   _)                  ₎
+    ^\alpha             ᵅ
+    ^\beta              ᵝ                   _\beta              ᵦ
+    ^\gamma             ᵞ                   _\gamma             ᵧ
 
 <a name="latex-arrows"/>
 Arrows
