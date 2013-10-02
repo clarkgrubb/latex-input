@@ -1,6 +1,6 @@
 **setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto)
 
-**latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [arrows](#latex-arrows) | [blackboard bold and fraktur](#latex-blackboard-fraktur) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscript](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [blackboard bold and fraktur](#latex-blackboard-fraktur) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
 
 Introduction
 ============
@@ -192,6 +192,27 @@ Algebra
     \unlhd              ⊴
     \rtimes             ⋊
     \wr                 ≀
+
+<a name="latex-superscripts-subscripts"/>
+Superscripts and Subscripts
+===========================
+    ^0                  ⁰
+    ^1                  ¹
+    ^2                  ²
+    ^3                  ³
+    ^a                  ᵃ
+    ^b                  ᵇ
+    ^c                  ᶜ
+    ^A                  ᴬ
+    ^B                  ᴮ
+    ^+                  ⁺
+    ^-                  ⁻
+    ^=                  ⁼
+    ^(                  ⁽
+    ^)                  ⁾
+    ^\alpha             
+    ^\beta
+    ^\gamma
 
 <a name="latex-arrows"/>
 Arrows
