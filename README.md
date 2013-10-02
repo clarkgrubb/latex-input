@@ -293,7 +293,7 @@ Greek
     \sigma              σ                   \Sigma              Σ
     \tau                τ                   \Tau                Τ
     \upsilon            υ                   \Upsilon            Υ
-    \phi                φ                   \Phi                Φ
+    \phi                ϕ                   \Phi                Φ
     \chi                χ                   \Chi                Χ
     \psi                ψ                   \Psi                Ψ
     \omega              ω                   \Omega              Ω
