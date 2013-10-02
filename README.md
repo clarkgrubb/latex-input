@@ -9,12 +9,12 @@ Use LaTeX notation to enter over 500 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
-    \infty        ∞
-    \sum          ∑
-    \int          ∫
-    \leftarrow    ←
-    \alpha        α
-    \subseteq     ⊆
+    \infty             ∞
+    \sum               ∑
+    \int               ∫
+    \leftarrow         ←
+    \alpha             α
+    \subseteq          ⊆
 
 Two input methods are provided; one for Mac OS X and one for Emacs.
 
@@ -132,78 +132,78 @@ document.
 <a name="latex-relation-op"/>
 Relations and Operators
 =======================
-    \le           ≤          \pm         ±
-    \ge           ≥          \mp         ∓
-    \neq          ≠          \times      ×
-    \approx       ≈          \div        ÷
-    \not\approx   ≉          \cdot       ⋅
-    \simeq        ≃          \circ       ∘
-    \cong         ≅
-    \equiv        ≡
-    \not\equiv    ≢
+    \le                 ≤                   \pm                 ±
+    \ge                 ≥                   \mp                 ∓
+    \neq                ≠                   \times              ×
+    \approx             ≈                   \div                ÷
+    \not\approx         ≉                   \cdot               ⋅
+    \simeq              ≃                   \circ               ∘
+    \cong               ≅
+    \equiv              ≡
+    \not\equiv          ≢
 
 <a name="latex-sets-logic"/>
 Sets and Logic
 ==============
-    \emptyset     ∅          \setminus       ∖
-    \in           ∈          \aleph          א
-    \notin        ∉          \neq            ¬
-    \subset       ⊂          \wedge          ∧
-    \subseteq     ⊆          \vee            ∨
-    \not\subset   ⊄          \veebar         ⊻
-    \not\subseteq ⊈          \forall         ∀
-    \subsetneq    ⊊          \exists         ∃
-    \supsetneq    ⊋          \top            ⊤
-    \supset       ⊃          \bot            ⊥
-    \supseteq     ⊇          \therefore      ∴
-    \cup          ∪          \vdash          ⊢
-    \cap          ∩          \models         ⊨
-    \bigcup       ⋃          \blacksquare   ∎
-    \bigcap       ⋂
+    \emptyset           ∅                   \setminus           ∖
+    \in                 ∈                   \aleph              א
+    \notin              ∉                   \neq                ¬
+    \subset             ⊂                   \wedge              ∧
+    \subseteq           ⊆                   \vee                ∨
+    \not\subset         ⊄                   \veebar             ⊻
+    \not\subseteq       ⊈                   \forall             ∀
+    \subsetneq          ⊊                   \exists             ∃
+    \supsetneq          ⊋                   \top                ⊤
+    \supset             ⊃                   \bot                ⊥
+    \supseteq           ⊇                   \therefore          ∴
+    \cup                ∪                   \vdash              ⊢
+    \cap                ∩                   \models             ⊨
+    \bigcup             ⋃                   \blacksquare        ∎
+    \bigcap             ⋂
 
 <a name="latex-geometry"/>
 Geometry
 ========
-    \angle         ∠
-    \triangle      △
-    \perp          ⊥
-    \parallel      ∥
-    \cong          ≅
-    \sim           ∼
+    \angle              ∠
+    \triangle           △
+    \perp               ⊥
+    \parallel           ∥
+    \cong               ≅
+    \sim                ∼
 
 <a name="latex-analysis"/>
 Analysis
 ========
-    \infty        ∞            \lfloor       ⌊
-    \Delta        Δ            \rfloor       ⌋
-    \nabla        ∇            \lceil        ⌈
-    \partial      ∂            \rceil        ⌉
-    \sum          ∑            \|            ∥
-    \prod         ∏            \langle       ⟨
-    \int          ∫            \rangle       ⟩
-    \oint         ∮
+    \infty              ∞                   \lfloor             ⌊
+    \Delta              Δ                   \rfloor             ⌋
+    \nabla              ∇                   \lceil              ⌈
+    \partial            ∂                   \rceil              ⌉
+    \sum                ∑                   \|                  ∥
+    \prod               ∏                   \langle             ⟨
+    \int                ∫                   \rangle             ⟩
+    \oint               ∮
 
 <a name="latex-algebra"/>
 Algebra
 =======
-    \oplus          ⊕             \bigoplus     ⨁
-    \otimes         ⊗             \bigotimes    ⨂
-    \triangleleft   ◃
-    \unlhd          ⊴
-    \rtimes         ⋊
-    \wr             ≀
+    \oplus              ⊕                   \bigoplus           ⨁
+    \otimes             ⊗                   \bigotimes          ⨂
+    \triangleleft       ◃
+    \unlhd              ⊴
+    \rtimes             ⋊
+    \wr                 ≀
 
 <a name="latex-arrows"/>
 Arrows
 ======
-    \rightarrow         →           \Rightarrow       ⇒
-    \leftarrow          ←           \Leftarrow        ⇐
-    \uparrow            ↑            \Uparrow          ⇑
-    \downarrow          ↓            \Downarrow        ⇓
-    \nwarrow            ↖           \nearrow          ↗
-    \searrow            ↘           \swarrow          ↙
+    \rightarrow         →                   \Rightarrow         ⇒
+    \leftarrow          ←                   \Leftarrow          ⇐
+    \uparrow            ↑                   \Uparrow            ⇑
+    \downarrow          ↓                   \Downarrow          ⇓
+    \nwarrow            ↖                   \nearrow            ↗
+    \searrow            ↘                   \swarrow            ↙
     \mapsto             ↦
-    \leftrightarrow     ↔           \Leftrightarrow   ⇔ 
+    \leftrightarrow     ↔                   \Leftrightarrow     ⇔ 
     \rightarrowtail     ↣
     \twoheadrightarrow  ↠
     \hookrightarrow     ↪
@@ -211,88 +211,88 @@ Arrows
 <a name="latex-blackboard-fraktur"/>
 Blackboard Bold and Fraktur
 ===========================
-    \mathbb{C}    ℂ                  \mathfrak{C}    ℭ
-    \mathbb{H}    ℍ                  \mathfrak{H}    ℌ
-                                     \mathfrak{I}    ℑ
-    \mathbb{N}    ℕ
-    \mathbb{P}    ℙ
-    \mathbb{Q}    ℚ
-    \mathbb{R}    ℝ                  \mathfrak{R}    ℜ
-    \mathbb{Z}    ℤ                  \mathfrak{Z}    ℨ
+    \mathbb{C}          ℂ                   \mathfrak{C}        ℭ
+    \mathbb{H}          ℍ                   \mathfrak{H}        ℌ
+                                            \mathfrak{I}        ℑ
+    \mathbb{N}          ℕ
+    \mathbb{P}          ℙ
+    \mathbb{Q}          ℚ
+    \mathbb{R}          ℝ                   \mathfrak{R}        ℜ
+    \mathbb{Z}          ℤ                   \mathfrak{Z}        ℨ
 
 <a name="latex-english-punct"/>
 English Punctuation
 ===================
-    `        ‘                \S           §
-    '        ’                \dag         †
-    ``       “                \ddag        ‡
-    ''       ”                \P           ¶
-    --       –                \copyright   ©
-    ---      —                \pounds      £
+    `                   ‘                   \S                  §
+    '                   ’                   \dag                †
+    ``                  “                   \ddag               ‡
+    ''                  ”                   \P                  ¶
+    --                  –                   \copyright          ©
+    ---                 —                   \pounds             £
 
 <a name="latex-latin-accent"/>
 Latin Accent
 ============
-    \'{a}   á
-    \`{a}   à
-    \^{a}   â
-    \"{a}   ä
-    \={a}   ā
+    \'{a}               á
+    \`{a}               à
+    \^{a}               â
+    \"{a}               ä
+    \={a}               ā
 
-    {\ss}   ß              {\ae}   æ
-    !'      ¡              {\AE}   Æ
-    ?'      ¿              {\aa}   å
-    \c{c}   ç              {\AA}   Å
-    \c{C}   Ç              {\o}    ø
-    \~{n}   ñ              {\O}    Ø
-    \~{N}   Ñ              {\l}    ł
-    {\oe}   œ              {\L}    Ł         
-    {\OE}   Œ                 
+    {\ss}               ß                   {\ae}               æ
+    !'                  ¡                   {\AE}               Æ
+    ?'                  ¿                   {\aa}               å
+    \c{c}               ç                   {\AA}               Å
+    \c{C}               Ç                   {\o}                ø
+    \~{n}               ñ                   {\O}                Ø
+    \~{N}               Ñ                   {\l}                ł
+    {\oe}               œ                   {\L}                Ł         
+    {\OE}               Œ                 
 
 
 <a name="latex-greek"/>
 Greek
 =====
-    \alpha   α        \Alpha Α
-    \beta    β        \Beta Β
-    \gamma   γ        \Gamma Γ
-    \delta   δ        \Delta Δ
-    \epsilon ϵ        \Epsilon Ε
-    \zeta    ζ        \Zeta Ζ
-    \eta     η        \Eta Η
-    \theta   θ        \Theta Θ
-    \kappa   κ        \Kappa Κ
-    \lambda  λ        \Lambda Λ
-    \mu      μ        \Mu Μ
-    \nu      ν        \Nu Ν
-    \xi      ξ        \Xi Ξ
-    \omicron ο        \Omicron Ο
-    \pi      π        \Pi Π
-    \rho     ρ        \Rho Ρ
-    \sigma   σ        \Sigma Σ
-    \tau     τ        \Tau Τ
-    \upsilon υ        \Upsilon Υ
-    \phi     φ        \Phi Φ
-    \chi     χ        \Chi Χ
-    \psi     ψ        \Psi Ψ
-    \omega   ω        \Omega Ω
+    \alpha              α                   \Alpha              Α
+    \beta               β                   \Beta               Β
+    \gamma              γ                   \Gamma              Γ
+    \delta              δ                   \Delta              Δ
+    \epsilon            ϵ                   \Epsilon            Ε
+    \zeta               ζ                   \Zeta               Ζ
+    \eta                η                   \Eta                Η
+    \theta              θ                   \Theta              Θ
+    \kappa              κ                   \Kappa              Κ
+    \lambda             λ                   \Lambda             Λ
+    \mu                 μ                   \Mu                 Μ
+    \nu                 ν                   \Nu                 Ν
+    \xi                 ξ                   \Xi                 Ξ
+    \omicron            ο                   \Omicron            Ο
+    \pi                 π                   \Pi                 Π
+    \rho                ρ                   \Rho                Ρ
+    \sigma              σ                   \Sigma              Σ
+    \tau                τ                   \Tau                Τ
+    \upsilon            υ                   \Upsilon            Υ
+    \phi                φ                   \Phi                Φ
+    \chi                χ                   \Chi                Χ
+    \psi                ψ                   \Psi                Ψ
+    \omega              ω                   \Omega              Ω
 
-    \varepsilon ε
-    \varkappa   ϰ
-    \varphi     φ
-    \varpi      ϖ
-    \varrho     ϱ
-    \varsigma   ς
-    \vartheta   ϑ
+    \varepsilon         ε
+    \varkappa           ϰ
+    \varphi             φ
+    \varpi              ϖ
+    \varrho             ϱ
+    \varsigma           ς
+    \vartheta           ϑ
 
 <a name="latex-keyboard"/>
 Keyboard Symbols
 ================
 The following notation can be added to a LaTeX distrubtion by installing [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols).
 
-    \cmdkey       ⌘           \tabkey       ⇥
-    \optkey       ⌥           \revtabkey    ⇤
-    \shiftkey     ⇧           \esckey       ⎋
-    \delkey       ⌫           \returnkey    ⏎
-    \capslockkey  ⇪           \enterkey     ⌤
-    \ejectkey     ⏏           \rightdelkey  ⌦
+    \cmdkey            ⌘            \tabkey                ⇥
+    \optkey            ⌥            \revtabkey             ⇤
+    \shiftkey          ⇧            \esckey                ⎋
+    \delkey            ⌫            \returnkey             ⏎
+    \capslockkey       ⇪            \enterkey              ⌤
+    \ejectkey          ⏏            \rightdelkey           ⌦
