@@ -1,6 +1,6 @@
 **setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto)
 
-**latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscript](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [blackboard bold and fraktur](#latex-blackboard-fraktur) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscript](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
 
 Introduction
 ============
@@ -24,8 +24,7 @@ is rendered to the mathematical symbol on the fly.  E.g. type
 
 LaTeX notation which cannot be rendered has no effect.  The input
 method cannot make fractions, radicals, or matrices, for example.
-Only LaTeX notation for which there is a Unicode character in the Basic
-Multilingual Plane (i.e. with a Unicode point less than 64k) is rendered.
+Only LaTeX notation for which there is a Unicode character is rendered.
 
 <a name="mac-install"/>
 Mac Installation
@@ -234,9 +233,9 @@ Arrows
     \twoheadrightarrow  ↠
     \hookrightarrow     ↪
 
-<a name="latex-blackboard-fraktur"/>
-Blackboard Bold and Fraktur
-===========================
+<a name="latex-blackboard-fraktur-calligraphic"/>
+Blackboard Bold, Fraktur, and Calligraphic
+==========================================
     \mathbb{C}          ℂ                   \mathfrak{C}        ℭ
     \mathbb{H}          ℍ                   \mathfrak{H}        ℌ
                                             \mathfrak{I}        ℑ

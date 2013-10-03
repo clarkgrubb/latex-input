@@ -29,7 +29,7 @@ def load_data(data_dir)
   latex_to_unicode
 end
 
-def generate(latex_el, latex_cin)
+def generate(latex_el, latex_cin, stats_file)
   latex_to_unicode = load_data(DATA_DIR)
 
   if (latex_el)
@@ -40,6 +40,13 @@ def generate(latex_el, latex_cin)
   if (latex_cin)
     cin_template = ERB.new(File.open(LATEX_CIN_TEMPLATE).read)
     File.open(latex_cin, 'w') { |fout| fout.puts cin_template.result(binding) }
+  end
+
+  if (stats_file)
+    File.open(stats_file, 'w') do |fout|
+      fout.puts "characters: #{latex_to_unicode.values.uniq.size}"
+      fout.puts "input strings: #{latex_to_unicode.keys.uniq.size}"
+    end
   end
 end
 
@@ -57,7 +64,12 @@ if $0 == __FILE__
     opts.on("-c", "--cin-file FILE") do |arg|
       options[:cin_file] = arg
     end
+
+    opts.on("-s", "--stats-file FILE") do |arg|
+      options[:stats_file] = arg
+    end
+
   end.parse!
 
-  generate(options[:emacs_lisp_file], options[:cin_file])
+  generate(options[:emacs_lisp_file], options[:cin_file], options[:stats_file])
 end
