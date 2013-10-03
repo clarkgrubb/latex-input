@@ -5,7 +5,7 @@
 Introduction
 ============
 
-Use LaTeX notation to enter over 500 Unicode characters.
+Use LaTeX notation to enter over 689 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
@@ -236,14 +236,18 @@ Arrows
 <a name="latex-blackboard-fraktur-calligraphic"/>
 Blackboard Bold, Fraktur, and Calligraphic
 ==========================================
-    \mathbb{C}          ℂ                   \mathfrak{C}        ℭ
-    \mathbb{H}          ℍ                   \mathfrak{H}        ℌ
-                                            \mathfrak{I}        ℑ
-    \mathbb{N}          ℕ
-    \mathbb{P}          ℙ
-    \mathbb{Q}          ℚ
-    \mathbb{R}          ℝ                   \mathfrak{R}        ℜ
-    \mathbb{Z}          ℤ                   \mathfrak{Z}        ℨ
+    \mathbb{A}          𝔸                   \mathbb{a}          𝕒
+    \mathbb{B}          𝔹                   \mathbb{b}          𝕓
+    \mathbb{C}          ℂ                   \mathbb{c}          𝕔
+    \mathbb{0}          𝟘
+    \mathbb{1}          𝟙
+    \mathbb{2}          𝟚
+    \mathfrak{A}        𝔄                   \mathfrak{a}        𝔞
+    \mathfrak{B}        𝔅                   \mathfrak{b}        𝔟
+    \mathfrak{C}        ℭ                   \mathfrak{c}        𝔠
+    \mathcal{A}         𝒜                   \mathcal{a}         𝒶
+    \mathcal{B}         ℬ                   \mathcal{b}         𝒷
+    \mathcal{C}         𝒞                   \mathcal{c}         𝒸
 
 <a name="latex-english-punct"/>
 English Punctuation
