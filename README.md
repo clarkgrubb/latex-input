@@ -30,11 +30,11 @@ Only LaTeX notation for which there is a Unicode character is rendered.
 Mac Installation
 ================
 
+Requires Mac OS 10.5 or higher.
+
     $ curl https://raw.github.com/clarkgrubb/latex-input/master/latex.cin > ~/Library/Input\ Methods/latex.cin
 
 Log out and log back in.
-
-Requires Mac OS 10.5 or higher.
 
 <a name="mac-howto"/>
 How to Use on Mac
