@@ -30,7 +30,7 @@ Only LaTeX notation for which there is a Unicode character is rendered.
 Mac Installation
 ================
 
-    $ curl https://raw.github.com/clarkgrubb/latex-input/master/latex.cin > ~/Library/Input\ Methods
+    $ curl https://raw.github.com/clarkgrubb/latex-input/master/latex.cin > ~/Library/Input\ Methods/latex.cin
 
 Log out and log back in.
 
