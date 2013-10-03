@@ -124,7 +124,7 @@ There are a few differences:
 * The Emacs input method will show all possible completions for partially typed
   notation in a separate buffer if you type TAB.
 
-In my experience Emacs has a somewhat impoverished font, and as a result it doesn't
+In my experience Emacs uses a somewhat impoverished font, and as a result it doesn't
 always render the symbol, even though the Unicode character was inserted into the
 document.
 
