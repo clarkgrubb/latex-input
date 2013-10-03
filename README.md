@@ -242,9 +242,11 @@ Blackboard Bold, Fraktur, and Calligraphic
     \mathbb{0}          𝟘
     \mathbb{1}          𝟙
     \mathbb{2}          𝟚
+
     \mathfrak{A}        𝔄                   \mathfrak{a}        𝔞
     \mathfrak{B}        𝔅                   \mathfrak{b}        𝔟
     \mathfrak{C}        ℭ                   \mathfrak{c}        𝔠
+
     \mathcal{A}         𝒜                   \mathcal{a}         𝒶
     \mathcal{B}         ℬ                   \mathcal{b}         𝒷
     \mathcal{C}         𝒞                   \mathcal{c}         𝒸
