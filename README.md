@@ -5,7 +5,7 @@
 Introduction
 ============
 
-Use LaTeX notation to enter 691 Unicode characters.
+Use LaTeX notation to enter 694 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
@@ -144,8 +144,8 @@ Relations and Operators
 <a name="latex-sets-logic"/>
 Sets and Logic
 ==============
-    \emptyset           ∅                   \setminus           ∖
-    \in                 ∈                   \aleph              א
+    \emptyset           ∅                  \aleph              א 
+    \in                 ∈                   \beth              ב
     \notin              ∉                   \neq                ¬
     \subset             ⊂                   \wedge              ∧
     \subseteq           ⊆                   \vee                ∨
@@ -158,7 +158,8 @@ Sets and Logic
     \cup                ∪                   \vdash              ⊢
     \cap                ∩                   \models             ⊨
     \bigcup             ⋃                   \blacksquare        ∎
-    \bigcap             ⋂
+    \bigcap             ⋂                   \Box                □
+    \setminus           ∖
 
 <a name="latex-geometry"/>
 Geometry
@@ -180,7 +181,13 @@ Analysis
     \sum                ∑                   \|                  ∥
     \prod               ∏                   \langle             ⟨
     \int                ∫                   \rangle             ⟩
+    \iint               ∬                   '                   ′
+    \iiint              ∭                   ''                  ″
+    \iiiint             ⨌                   '''                 ‴
     \oint               ∮
+    \Re                 ℜ
+    \Im                 ℑ
+    \wp                 ℘
 
 <a name="latex-algebra"/>
 Algebra
