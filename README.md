@@ -141,10 +141,10 @@ Outside of the markers LaTeX is in *paragraph mode*.
 
 Most of the notation used by the input methods is drawn from *math mode*.  Notation from
 *paragraph mode* is also used where it does not conflict.  An example of a conflict is the single
-quote `'` and doubled single quotes `''` which are right single quotes and right double quotes
+quote `'` and doubled single quotes `''` which are right single quote and right double quote
 in *paragraph mode* and prime and double prime in *math mode*.
 
-The input methods also use notation from the following two pacakages:
+The input methods also use notation from the following two packages:
 
     \usepackage{amsmath}
     \usepackage{amssymb}
