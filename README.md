@@ -314,7 +314,7 @@ Latin Accent
                                             \th                 þ
                                             \TH                 Þ
 
-The complete list of acute accents: `áćéǵíḱĺḿńóṕŕśúẃýźÁĆÉǴÍḰĹḾŃÓṔŔŚÚẂÝŹ`
+The complete list of acute accents: `á ć é ǵ í ḱ ĺ ḿ ń ó ṕ ŕ ś ú ẃ ý ź Á Ć É Ǵ Í Ḱ Ĺ Ḿ Ń Ó Ṕ Ŕ Ś Ú Ẃ Ý Ź`
 
 <a name="latex-greek"/>
 Greek
