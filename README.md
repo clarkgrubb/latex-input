@@ -133,7 +133,10 @@ About LaTeX
 ===========
 
 LaTeX is used for documents which contain mathematical notation.  The mathematical notation
-is set off from the rest of the text by markers such as the double dollar sign: `$$ x = 3 $$`.
+is set off from the rest of the text by markers such as the double dollar sign, e.g:
+
+    $$ x = 3 $$
+
 Inside such markers, LaTeX is in *math mode*.  Outside of the markers LaTeX is in *paragraph mode*.
 
 Most of the notation used by the input methods is drawn from *math mode*.  Notation from
