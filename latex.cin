@@ -6,8 +6,9 @@
 %endkey 
 %keyname begin
 !' ¡
-' ’
-'' ”
+' ′
+'' ″
+''' ‴
 -- –
 --- —
 ?' ¿
@@ -506,6 +507,8 @@
 \mathfrak{x} 𝔵
 \mathfrak{y} 𝔶
 \mathfrak{z} 𝔷
+\mbox{''} ”
+\mbox{'} ’
 \measuredangle ∡
 \mho ℧
 \mid ∣
@@ -813,8 +816,9 @@ _x ₓ
 %keyname end
 %chardef begin
 !' ¡
-' ’
-'' ”
+' ′
+'' ″
+''' ‴
 -- –
 --- —
 ?' ¿
@@ -1313,6 +1317,8 @@ _x ₓ
 \mathfrak{x} 𝔵
 \mathfrak{y} 𝔶
 \mathfrak{z} 𝔷
+\mbox{''} ”
+\mbox{'} ’
 \measuredangle ∡
 \mho ℧
 \mid ∣

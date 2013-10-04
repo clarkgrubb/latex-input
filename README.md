@@ -5,7 +5,7 @@
 Introduction
 ============
 
-Use LaTeX notation to enter 689 Unicode characters.
+Use LaTeX notation to enter 691 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
@@ -255,9 +255,9 @@ Blackboard Bold, Fraktur, and Calligraphic
 English Punctuation
 ===================
     `                   ‘                   \S                  §
-    '                   ’                   \dag                †
+    \mbox{'}            ’                   \dag                †
     ``                  “                   \ddag               ‡
-    ''                  ”                   \P                  ¶
+    \mbox{''}           ”                   \P                  ¶
     --                  –                   \copyright          ©
     ---                 —                   \pounds             £
 
