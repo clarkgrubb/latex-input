@@ -5,7 +5,7 @@
 Introduction
 ============
 
-Use LaTeX notation to enter 694 Unicode characters.
+Use LaTeX notation to enter 724 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
@@ -277,6 +277,8 @@ Latin Accent
     \"a                 ä
     \=a                 ā
     \~a                 ã
+    \.a                 ȧ
+    \v{a}               ǎ
 
     {\ss}               ß                   {\ae}               æ
     !'                  ¡                   {\AE}               Æ
