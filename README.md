@@ -1,4 +1,4 @@
-**setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [x windows installation](#x-install) | [how to use on x windows](#x-howto) | [how to use on emacs](#emacs-howto) | [about latex](#about-latex)
+**setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [x windows installation](#x-install) | [how to use on x windows](#x-howto) | [about latex](#about-latex)
 
 **latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscript](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
 
@@ -154,9 +154,7 @@ Log out of X Windows and log back in.  There should be a keyboard symbol in the 
 How to Use on X Windows
 =======================
 
-There should be an iBus icon in the menu bar which changes depending upon the input method that is in effect.  When no input method is in effect, the icon is a keyboard.  The input method can be changed by clicking the icon and selecting from the drop down.
-
-The input method is set per application.
+There should be an iBus icon in the menu bar which changes depending upon the input method that is in effect.  When no input method is in effect, the icon is a keyboard.  The input method can be changed by clicking the icon and selecting from the drop down.  The input method is set per application.
 
 When the latex input method is in effect, one types LaTeX notation, following by SPACE to render or RETURN to accept the LaTeX notation literally.
 
