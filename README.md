@@ -16,7 +16,7 @@ Here are some examples of LaTeX notation:
     \alpha             α
     \subseteq          ⊆
 
-Two input methods are provided; one for Mac OS X and one for Emacs.  How to install a similar input method for X Windows is also described.
+Two input methods are provided; one for Mac OS X and one for Emacs.  How to install a LaTeX input method for X Windows is described.
 
 When an input method is in effect, one types LaTeX notation and it
 is rendered to the mathematical symbol on the fly.  E.g. type
