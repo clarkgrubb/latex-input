@@ -154,7 +154,7 @@ Log out of X Windows and log back in.  There should be a keyboard symbol in the 
 How to Use on X Windows
 =======================
 
-If iBus and the latex input method are installed, there should be an iBus icon in the menu bar which changes depending upon the input method that is in effect.  When no input method is in effect, the icon is a keyboard.  The input method can be changed by clicking the icon and selecting from the drop down.
+There should be an iBus icon in the menu bar which changes depending upon the input method that is in effect.  When no input method is in effect, the icon is a keyboard.  The input method can be changed by clicking the icon and selecting from the drop down.
 
 The input method is set per application.
 
