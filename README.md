@@ -212,8 +212,8 @@ Sets and Logic
     \supsetneq          ⊋                   \therefore          ∴
     \supset             ⊃                  \vdash              ⊢ 
     \supseteq           ⊇                  \models             ⊨ 
-    \cup                ∪                   \blacksquare        ∎
-    \cap                ∩                   \Box                □
+    \cup                ∪                   \Box                □
+    \cap                ∩                   
     \bigcup             ⋃                   
     \bigcap             ⋂                   
     \setminus           ∖
