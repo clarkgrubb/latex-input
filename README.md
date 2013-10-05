@@ -1,4 +1,4 @@
-**setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [about latex](#about-latex)
+**setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)[how to use on emacs](#emacs-howto) | [about latex](#about-latex)
 
 **latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscript](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
 
@@ -129,6 +129,36 @@ There are a few differences:
 In my experience Emacs uses a somewhat impoverished font, and as a result it doesn't
 always render the symbol, even though the Unicode character was inserted into the
 document.
+
+<a name="x-install"/>
+X Windows Installation
+======================
+
+The following procedure works on Ubuntu 12.04.
+
+Install the necessary packages:
+
+    $ sudo apt-get install im-config ibus-latex-table
+
+This command launches a pop-up window to choose the input method configuration.  Choose `ibus`:
+
+    $ im-config
+
+The above command should also create the file `.xinputrc` if it does not exist and add this line:
+
+    run_im ibus
+
+Log out of X Windows and log back in.  There should be a keyboard symbol in the menu bar.  Click on the symbol and select `Preferences`.  Under the `Input Methods` tab, select the `Customize active input methods` checkbox.  Then in the `Select an input method` drop down, select `Other`.  Find the latex input method and add it.
+
+<a name="x-howto"/>
+How to Use on X Windows
+=======================
+
+If iBus and the latex input method are installed, there should be an iBus icon in the menu bar which changes depending upon the input method that is in effect.  The input method can be changed by clicking the icon and selecting from the drop down.
+
+In my experience, selecting from the iBus drop down doesn't always work. One may have to try multiple times to get the input method to change or to get the Preferences window to launch.
+
+When the latex input method is in effect, one types LaTeX notation, following by SPACE to render or RETURN to accept the LaTeX notation literally.
 
 <a name="about-latex"/>
 About LaTeX
