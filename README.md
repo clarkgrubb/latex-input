@@ -1,4 +1,4 @@
-**setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)[how to use on emacs](#emacs-howto) | [about latex](#about-latex)
+**setup and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [x windows installation](#x-install) | [how to use on x windows](#x-howto) | [how to use on emacs](#emacs-howto) | [about latex](#about-latex)
 
 **latex notation:** [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscript](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
 
@@ -16,7 +16,7 @@ Here are some examples of LaTeX notation:
     \alpha             α
     \subseteq          ⊆
 
-Two input methods are provided; one for Mac OS X and one for Emacs.
+Two input methods are provided; one for Mac OS X and one for Emacs.  How to install a similar input method for X Windows is also described.
 
 When an input method is in effect, one types LaTeX notation and it
 is rendered to the mathematical symbol on the fly.  E.g. type
