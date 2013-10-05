@@ -702,6 +702,7 @@
 \star ⋆
 \subset ⊂
 \subseteq ⊆
+\subsetneq ⊊
 \succ ≻
 \succcurlyeq ≽
 \succeq ≽
@@ -709,6 +710,7 @@
 \sum ∑
 \supset ⊃
 \supseteq ⊇
+\supsetneq ⊋
 \surd √
 \swarrow ↙
 \tabkey ⇥
@@ -1622,6 +1624,7 @@ _x ₓ
 \star ⋆
 \subset ⊂
 \subseteq ⊆
+\subsetneq ⊊
 \succ ≻
 \succcurlyeq ≽
 \succeq ≽
@@ -1629,6 +1632,7 @@ _x ₓ
 \sum ∑
 \supset ⊃
 \supseteq ⊇
+\supsetneq ⊋
 \surd √
 \swarrow ↙
 \tabkey ⇥

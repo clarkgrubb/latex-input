@@ -18,3 +18,5 @@
 \not\Vdash ⊮
 \not\sqsubseteq ⋢
 \not\sqsupseteq ⋣
+\subsetneq ⊊
+\supsetneq ⊋
