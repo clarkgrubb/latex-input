@@ -5,6 +5,7 @@
 \not\supset ⊅
 \not\supseteq ⊉
 \not\in ∉
+\not\ni ∌
 \not< ≮
 \not> ≯
 \not\le ≰

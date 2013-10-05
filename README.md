@@ -5,7 +5,7 @@
 Introduction
 ============
 
-Use LaTeX notation to enter 743 Unicode characters.
+Use LaTeX notation to enter 744 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
@@ -71,6 +71,8 @@ and changing it to something like ⌥⌘Space
 <a name="emacs-install"/>
 Emacs Installation
 ==================
+
+*Note: Emacs already comes with an input method called* TeX.
 
 Requires GNU Emacs 22 or higher.
 
@@ -161,6 +163,10 @@ Relations and Operators
     \cong               ≅
     \equiv              ≡
     \not\equiv          ≢
+    \not<               ≮
+    \not>               ≯
+    \not\le             ≰
+    \not\ge             ≱
 
 <a name="latex-sets-logic"/>
 Sets and Logic
@@ -168,18 +174,20 @@ Sets and Logic
     \emptyset           ∅                  \aleph              א 
     \in                 ∈                   \beth              ב
     \notin              ∉                   \neq                ¬
-    \subset             ⊂                   \wedge              ∧
-    \subseteq           ⊆                   \vee                ∨
-    \not\subset         ⊄                   \veebar             ⊻
-    \not\subseteq       ⊈                   \forall             ∀
-    \subsetneq          ⊊                   \exists             ∃
-    \supsetneq          ⊋                   \top                ⊤
-    \supset             ⊃                   \bot                ⊥
-    \supseteq           ⊇                   \therefore          ∴
-    \cup                ∪                   \vdash              ⊢
-    \cap                ∩                   \models             ⊨
-    \bigcup             ⋃                   \blacksquare        ∎
-    \bigcap             ⋂                   \Box                □
+    \ni                 ∋                   \wedge              ∧
+    \not\ni             ∌                   \vee                ∨
+    \subset             ⊂                   \veebar             ⊻
+    \subseteq           ⊆                   \forall             ∀
+    \not\subset         ⊄                   \exists             ∃
+    \not\subseteq       ⊈                   \top                ⊤
+    \subsetneq          ⊊                   \bot                ⊥
+    \supsetneq          ⊋                   \therefore          ∴
+    \supset             ⊃                  \vdash              ⊢ 
+    \supseteq           ⊇                  \models             ⊨ 
+    \cup                ∪                   \blacksquare        ∎
+    \cap                ∩                   \Box                □
+    \bigcup             ⋃                   
+    \bigcap             ⋂                   
     \setminus           ∖
 
 <a name="latex-geometry"/>

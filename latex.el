@@ -602,6 +602,7 @@
 ("\\not\\in " ?∉)
 ("\\not\\le " ?≰)
 ("\\not\\models " ?⊭)
+("\\not\\ni " ?∌)
 ("\\not\\sim " ?≄)
 ("\\not\\sqsubseteq " ?⋢)
 ("\\not\\sqsupseteq " ?⋣)
