@@ -370,6 +370,8 @@ Caret: `â ĉ ê ĝ ĥ î  ĵ m̂ n̂ ô ŝ û ŵ ŷ ẑ Â Ĉ Ê Ĝ Ĥ Î Ĵ M�
 
 Dieresis: `ä ë ḧ ï ö ẗ ü ẅ ẍ ÿ Ä Ë Ḧ Ï Ö T̈ Ü Ẅ Ẍ Ÿ`
 
+Macron: `ā ē ḡ ō s̄ ū ȳ z̄ Ā Ē Ḡ Ī Ō S̄ Ū Ȳ Z̄`
+
 <a name="latex-greek"/>
 Greek
 =====
