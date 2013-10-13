@@ -9,6 +9,7 @@ DATA_DIR = File.join(ROOT_DIR, 'data')
 TEMPLATES_DIR = File.join(ROOT_DIR, 'templates')
 LATEX_CIN_TEMPLATE = File.join(TEMPLATES_DIR, 'latex.cin.erb')
 LATEX_EL_TEMPLATE = File.join(TEMPLATES_DIR, 'latex.el.erb')
+LATEX_TXT_TEMPLATE = File.join(TEMPLATES_DIR, 'latex.txt.erb')
 
 def escape(str)
   str.gsub(/\\/, '\\\\\\\\').gsub(/"/, '\\\\"')
@@ -29,7 +30,7 @@ def load_data(data_dir)
   latex_to_unicode
 end
 
-def generate(latex_el, latex_cin, stats_file)
+def generate(latex_el, latex_cin, stats_file, latex_txt)
   latex_to_unicode = load_data(DATA_DIR)
 
   if (latex_el)
@@ -41,6 +42,12 @@ def generate(latex_el, latex_cin, stats_file)
     cin_template = ERB.new(File.open(LATEX_CIN_TEMPLATE).read)
     File.open(latex_cin, 'w') { |fout| fout.puts cin_template.result(binding) }
   end
+
+  if (latex_txt)
+    txt_template = ERB.new(File.open(LATEX_TXT_TEMPLATE).read)
+    File.open(latex_txt, 'w') { |fout| fout.puts txt_template.result(binding) }
+  end
+
 
   if (stats_file)
     File.open(stats_file, 'w') do |fout|
@@ -65,11 +72,18 @@ if $0 == __FILE__
       options[:cin_file] = arg
     end
 
+    opts.on("-i", "--ibus-file FILE") do |arg|
+      options[:ibus_file] = arg
+    end
+
     opts.on("-s", "--stats-file FILE") do |arg|
       options[:stats_file] = arg
     end
 
   end.parse!
 
-  generate(options[:emacs_lisp_file], options[:cin_file], options[:stats_file])
+  generate(options[:emacs_lisp_file],
+           options[:cin_file],
+           options[:stats_file],
+           options[:ibus_file])
 end

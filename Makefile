@@ -7,13 +7,16 @@ SHELL := /bin/bash
 
 data_dir := data
 data_files := $(wildcard $(data_dir)/*)
-targets := latex.el latex.cin stats.txt
+targets := latex.el latex.cin latex.txt stats.txt
 
 latex.el: $(data_files)
 	./generate.rb --emacs-lisp-file=$@
 
 latex.cin: $(data_files)
 	./generate.rb --cin-file=$@
+
+latex.txt: $(data_files)
+	./generate.rb --ibus-file=$@
 
 stats.txt: $(data_files)
 	./generate.rb --stats-file=$@
