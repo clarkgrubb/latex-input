@@ -27,13 +27,10 @@ RULES =
 
 END_DEFINITION
 
-### Begin Table data.
-### Format of every line whose formated in "input_keys\tphrase\tfreq\n" is an
-### entry.
-### From left to right, the 1st column are the input key combination that you
-### entered via keyboard; the 2nd column are presented character or phrase of
-### the key combination you want; the 3rd column are frequency of the character
-### or phrase.
+### Format:
+###     input \t output \t frequency
+###
+### Frequency is used to order the output when there are multiple choices.
 
 BEGIN_TABLE
 !'	¡	1
