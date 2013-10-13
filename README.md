@@ -5,7 +5,7 @@
 Introduction
 ============
 
-Use LaTeX notation to enter 772 Unicode characters.
+Use LaTeX notation to enter 780 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
@@ -350,11 +350,13 @@ Latin Accent
                                             \th                 þ
                                             \TH                 Þ
 
-Acute accents: `á ć é ǵ í ḱ ĺ ḿ ń ó ṕ ŕ ś ú ẃ ý ź Á Ć É Ǵ Í Ḱ Ĺ Ḿ Ń Ó Ṕ Ŕ Ś Ú Ẃ Ý Ź`
+Acute: `á ć é ǵ í ḱ ĺ ḿ ń ó ṕ ŕ ś ú ẃ ý ź Á Ć É Ǵ Í Ḱ Ĺ Ḿ Ń Ó Ṕ Ŕ Ś Ú Ẃ Ý Ź`
 
-Grave accents: `à è ì ǹ ò ù ẁ ỳ À È Ì Ǹ Ò Ù Ẁ Ỳ`
+Grave: `à è ì ǹ ò ù ẁ ỳ À È Ì Ǹ Ò Ù Ẁ Ỳ`
 
-Caret accents: `â ĉ ê ĝ ĥ î  ĵ m̂ n̂ ô ŝ û ŵ ŷ ẑ Â Ĉ Ê Ĝ Ĥ Î Ĵ M̂ N̂ Ô Ŝ Û Ŵ Ŷ Ẑ`
+Caret: `â ĉ ê ĝ ĥ î  ĵ m̂ n̂ ô ŝ û ŵ ŷ ẑ Â Ĉ Ê Ĝ Ĥ Î Ĵ M̂ N̂ Ô Ŝ Û Ŵ Ŷ Ẑ`
+
+Dieresis: `ä ë ḧ ï ö ẗ ü ẅ ẍ ÿ Ä Ë Ḧ Ï Ö T̈ Ü Ẅ Ẍ Ÿ`
 
 <a name="latex-greek"/>
 Greek
