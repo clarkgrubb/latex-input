@@ -5,7 +5,7 @@
 Introduction
 ============
 
-Use LaTeX notation to enter 780 Unicode characters.
+Use LaTeX notation to enter 786 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
