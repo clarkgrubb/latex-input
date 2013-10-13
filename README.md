@@ -154,10 +154,13 @@ Then install the input method
 
     $ sudo ./ibus-install.sh
 
+*If you want to install both the* `ibus-latex-table` *input method and the input method provided
+by this repository, you must give it a name other than the default* `latex`.  *Do something like this instead:*
+
+    $ sudo ./ibus-install.sh latex2
+
 Log out of X Windows and log back in.  There should be a keyboard symbol in the menu bar.  Click on the symbol and select `Preferences`.  Under the `Input Methods` tab, select the `Customize active input methods` checkbox.  Then in the `Select an input method` drop down, select `Other`.  Find the latex input method and add it.
 
-*If you want to install both the* `ibus-latex-table` *input method and the input method provided
-by this repository, you must give it a name other than* `latex`.  *You can do this by providing a command line argument to* `./ibus-install.sh`.
 
 <a name="x-howto"/>
 How to Use on X Windows
