@@ -354,6 +354,8 @@ Acute accents: `á ć é ǵ í ḱ ĺ ḿ ń ó ṕ ŕ ś ú ẃ ý ź Á Ć É 
 
 Grave accents: `à è ì ǹ ò ù ẁ ỳ À È Ì Ǹ Ò Ù Ẁ Ỳ`
 
+Caret accents: `â ĉ ê ĝ ĥ î  ĵ m̂ n̂ ô ŝ û ŵ ŷ ẑ Â Ĉ Ê Ĝ Ĥ Î Ĵ M̂ N̂ Ô Ŝ Û Ŵ Ŷ Ẑ`
+
 <a name="latex-greek"/>
 Greek
 =====
