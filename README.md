@@ -140,7 +140,7 @@ The following procedure works on Ubuntu 12.04.
 
 Install the necessary packages:
 
-    $ sudo apt-get install im-config
+    $ sudo apt-get install im-config ibus-table
 
 This command launches a pop-up window to choose the input method configuration.  Choose `ibus`:
 
