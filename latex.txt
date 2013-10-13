@@ -8,7 +8,7 @@ BEGIN_DEFINITION
 LICENSE = LGPL
 UUID = 3c3667ae-25e0-4c66-a9cb-3efda8614c6b
 SERIAL_NUMBER = 20131012
-ICON = latex.svg
+ICON = latex-input.svg
 NAME = LaTeX
 DESCRIPTION = latex input method
 LANGUAGES = en_US
