@@ -4,8 +4,9 @@ trap exit ERR
 set -o pipefail
 
 datadir=/usr/share
-tabledir=${datadir}/ibus-table
-icondir=${tabledir}/icons
+ibusdir=${datadir}/ibus-table
+tabledir=${ibusdir}/tables
+icondir=${ibusdir}/icons
 name=latex
 table=latex.txt
 image=latex-input.svg
