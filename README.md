@@ -134,11 +134,13 @@ document.
 X Windows Installation
 ======================
 
+*Note: Ubuntu already comes with a package called* ibus-latex-table.
+
 The following procedure works on Ubuntu 12.04.
 
 Install the necessary packages:
 
-    $ sudo apt-get install im-config ibus-latex-table
+    $ sudo apt-get install im-config
 
 This command launches a pop-up window to choose the input method configuration.  Choose `ibus`:
 
@@ -148,7 +150,14 @@ The above command should also create the file `.xinputrc` if it does not exist a
 
     run_im ibus
 
+Then install the input method
+
+    $ sudo ./ibus-install.sh
+
 Log out of X Windows and log back in.  There should be a keyboard symbol in the menu bar.  Click on the symbol and select `Preferences`.  Under the `Input Methods` tab, select the `Customize active input methods` checkbox.  Then in the `Select an input method` drop down, select `Other`.  Find the latex input method and add it.
+
+*If you want to install both the* `ibus-latex-table` *input method and the input method provided
+by this repository, you must give it a name other than* `latex`.  *You can do this by providing a command line argument to* `./ibus-install.sh`.
 
 <a name="x-howto"/>
 How to Use on X Windows

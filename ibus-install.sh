@@ -21,3 +21,4 @@ fi
 
 ibus-table-createdb -n ${tabledir}/${name}.db -s latex.txt
 cp images/${image} ${icondir}/${image}
+ibus-daemon -drx
