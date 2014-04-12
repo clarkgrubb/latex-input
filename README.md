@@ -42,7 +42,7 @@ How to Use on Mac
 
 In
 
-    System Preferences | Languages & Text | Input Sources
+    System Preferences | Keyboard | Input Sources
 
 you should see a new input source called `LaTeX`.  An input source
 is what Mac OS X calls an input method.  If you check the box next
