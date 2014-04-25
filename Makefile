@@ -21,7 +21,9 @@ latex.txt: $(data_files)
 stats.txt: $(data_files)
 	./generate.rb --stats-file=$@
 
+.PHONY: all
 all: $(targets)
 
+.PHONY: clean
 clean:
 	rm $(targets)
