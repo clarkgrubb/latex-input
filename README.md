@@ -391,7 +391,7 @@ Macron: `ā ē ḡ ō ū ȳ Ā Ē Ḡ Ī Ō Ū Ȳ`
 Breve: `ă ĕ ğ ĭ ŏ ŭ Ă Ĕ Ğ Ĭ Ŏ Ŭ` 
 
 Overdot: `ȧ ḃ ċ ḋ ė ḟ ġ ḣ ṁ ṅ ȯ ṗ ṙ ṡ ṫ ẇ ẋ ẏ ż Ȧ Ḃ Ċ Ḋ Ė Ḟ Ġ Ḣ İ Ṁ Ṅ Ȯ Ṗ Ṙ Ṡ Ṫ Ẇ Ẋ Ẏ Ż`
-scorpio
+
 Underdot: 
 
 <a name="latex-greek"/>
@@ -451,11 +451,11 @@ Astronomy
     \jupiter           ♃                   \leo                ♌
     \saturn            ♄                   \virgo              ♍
     \uranus            ⛢                   \libra              ♎
-    \neptune           ♆                  \scorpio             ♏
-    \pluto             ♇                  \sagittarius         ♐
-    \astrosun          ☉                  \capricornus         ♑
-    \rightmoon         ☽                  \aquarius            ♒
-    \leftmoon          ☾                  \pisces              ♓
+    \neptune           ♆                   \scorpio            ♏
+    \pluto             ♇                   \sagittarius        ♐
+    \astrosun          ☉                   \capricornus        ♑
+    \rightmoon         ☽                   \aquarius           ♒
+    \leftmoon          ☾                   \pisces             ♓
     \ascnode           ☊
     \descnode          ☋
     \conjunction       ☌
