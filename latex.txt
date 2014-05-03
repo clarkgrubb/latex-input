@@ -448,7 +448,6 @@ BEGIN_TABLE
 \flat	♭	1
 \forall	∀	1
 \frown	⌢	1
-\fullmoon	🌕	1
 \gamma	γ	1
 \ge	≥	1
 \gemini	♊	1
@@ -698,7 +697,6 @@ BEGIN_TABLE
 \neg	¬	1
 \neptune	♆	1
 \neq	≠	1
-\newmoon	🌑	1
 \nexists	∄	1
 \ni	∋	1
 \not<	≮	1

@@ -5,7 +5,7 @@
 Introduction
 ============
 
-Use LaTeX notation to enter 806 Unicode characters.
+Use LaTeX notation to enter 804 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
@@ -433,10 +433,8 @@ Astronomy Symbols
     \neptune           ♆                   \scorpio             ♏
     \pluto             ♇                   \sagittarius         ♐
     \astrosun          ☉                   \capricornus         ♑
-    \fullmoon          🌕                  \aquarius            ♒
+    \rightmoon         ☽                  \aquarius            ♒
     \leftmoon          ☾                   \pisces              ♓
-    \newmoon           🌑
-    \rightmoon         ☽
     \ascnode           ☊
     \descnode          ☋
     \conjunction       ☌

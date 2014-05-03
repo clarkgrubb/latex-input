@@ -24,7 +24,5 @@
 \conjunction ☌
 \opposition ☍
 \astrosun ☉
-\fullmoon 🌕
 \leftmoon ☾
-\newmoon 🌑
 \rightmoon ☽
