@@ -322,6 +322,8 @@ Dots
 <a name="latex-blackboard-fraktur-calligraphic"/>
 Blackboard Bold, Fraktur, and Calligraphic
 ==========================================
+Some of the characters in this section have Unicode points greater than `U+FFFF`.
+
     \mathbb{A}          𝔸                   \mathbb{a}          𝕒
     \mathbb{B}          𝔹                   \mathbb{b}          𝕓
     \mathbb{C}          ℂ                   \mathbb{c}          𝕔
