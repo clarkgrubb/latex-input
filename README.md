@@ -421,8 +421,8 @@ We support the following non-standard notation which can be added to a LaTeX dis
     \ejectkey          ⏏                   \rightdelkey        ⌦
 
 <a name="latex-astronomy"/>
-Astronomy Symbols
-=================
+Astronomy
+=========
     \mercury           ☿                   \aries              ♈
     \venus             ♀                   \taurus             ♉
     \earth             ⊕                  \gemini              ♊
