@@ -425,10 +425,10 @@ Astronomy
 =========
     \mercury           ☿                   \aries              ♈
     \venus             ♀                   \taurus             ♉
-    \earth             ⊕                  \gemini              ♊
-    \mars              ♂                  \cancer              ♋
-    \jupiter           ♃                  \leo                 ♌
-    \saturn            ♄                  \virgo               ♍
+    \earth             ⊕                   \gemini             ♊
+    \mars              ♂                   \cancer             ♋
+    \jupiter           ♃                   \leo                ♌
+    \saturn            ♄                   \virgo              ♍
     \uranus            ⛢                   \libra              ♎
     \neptune           ♆                   \scorpio             ♏
     \pluto             ♇                   \sagittarius         ♐
