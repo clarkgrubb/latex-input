@@ -253,7 +253,7 @@ Analysis
     \int                ∫                   \rangle             ⟩
     \iint               ∬                   '                   ′
     \iiint              ∭                   ''                  ″
-    \iiiint             ⨌                   '''                 ‴
+    \iiiint             ⨌                  '''                 ‴
     \oint               ∮
     \Re                 ℜ
     \Im                 ℑ
