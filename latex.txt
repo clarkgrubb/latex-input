@@ -432,7 +432,6 @@ BEGIN_TABLE
 \doteq	≐	1
 \doteqdot	≑	1
 \dotplus	∔	1
-\dots	…	1
 \downarrow	↓	1
 \downdownarrows	⇊	1
 \downharpoonleft	⇃	1
@@ -491,6 +490,7 @@ BEGIN_TABLE
 \l	ł	1
 \lambda	λ	1
 \lceil	⌈	1
+\ldots	…	1
 \le	≤	1
 \leadsto	↝	1
 \leftarrow	←	1

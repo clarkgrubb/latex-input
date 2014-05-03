@@ -119,7 +119,7 @@
 \doteq ≐
 \doteqdot ≑
 \dotplus ∔
-\dots …
+\ldots …
 \downarrow ↓
 \downdownarrows ⇊
 \downharpoonleft ⇃

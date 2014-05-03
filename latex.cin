@@ -404,7 +404,6 @@
 \doteq ≐
 \doteqdot ≑
 \dotplus ∔
-\dots …
 \downarrow ↓
 \downdownarrows ⇊
 \downharpoonleft ⇃
@@ -463,6 +462,7 @@
 \l ł
 \lambda λ
 \lceil ⌈
+\ldots …
 \le ≤
 \leadsto ↝
 \leftarrow ←
@@ -1422,7 +1422,6 @@ _x ₓ
 \doteq ≐
 \doteqdot ≑
 \dotplus ∔
-\dots …
 \downarrow ↓
 \downdownarrows ⇊
 \downharpoonleft ⇃
@@ -1481,6 +1480,7 @@ _x ₓ
 \l ł
 \lambda λ
 \lceil ⌈
+\ldots …
 \le ≤
 \leadsto ↝
 \leftarrow ←
