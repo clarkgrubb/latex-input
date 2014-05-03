@@ -350,15 +350,15 @@ English Punctuation
 <a name="latex-latin-accent"/>
 Latin Accent
 ============
-    \'a                 á
-    \`a                 à
-    \^a                 â
-    \"a                 ä
-    \~a                 ã
-    \v{a}               ǎ
-    \=a                 ā
-    \u{a}               ǎ
-    \.a                 ȧ
+    \'a                 á                   \acute{a}           á
+    \`a                 à                   \grave{a}           à
+    \^a                 â                   \hat{a}             â
+    \"a                 ä                   \ddot{a}            ä
+    \~a                 ã                   \tilde{a}           ã
+    \v{a}               ǎ                   \check{a}           ǎ
+    \=a                 ā                   \bar{a}             ā
+    \u{a}               ǎ                   \breve{a}           ȧ
+    \.a                 ȧ                   \dot{a}             ạ
     \d{a}               ạ
 
     \ss                 ß                   \ae                 æ
