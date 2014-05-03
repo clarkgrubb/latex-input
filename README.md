@@ -452,10 +452,10 @@ Games
 
     \blackbishop       ♝                    \whitebishop        ♗
     \blackking         ♚                    \whiteking          ♔
-    \blackknight       ♞                    \whiteknight         ♘
-    \blackpawn         ♟                    \whitepawn           ♙
-    \blackqueen        ♛                    \whitequeen          ♕
-    \blackrook         ♜                    \whiterook           ♖
+    \blackknight       ♞                    \whiteknight        ♘
+    \blackpawn         ♟                    \whitepawn          ♙
+    \blackqueen        ♛                    \whitequeen         ♕
+    \blackrook         ♜                    \whiterook          ♖
 
 
 
