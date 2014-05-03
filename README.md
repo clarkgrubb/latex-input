@@ -432,7 +432,7 @@ Greek
 <a name="latex-keyboard"/>
 Keyboard Symbols
 ================
-We support the following non-standard notation which can be added to a LaTeX distribution by installing [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols).
+The following notation can be added to a LaTeX distribution by installing [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols).
 
     \cmdkey            ⌘                   \tabkey             ⇥
     \optkey            ⌥                   \revtabkey          ⇤
