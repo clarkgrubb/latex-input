@@ -335,7 +335,7 @@ Blackboard Bold, Fraktur, and Calligraphic
 
     \mathcal{A}         𝒜                   \mathcal{a}         𝒶
     \mathcal{B}         ℬ                   \mathcal{b}         𝒷
-    \mathcal{C}         𝒞                   \mathcal{c}         𝒸
+    \mathcal{C}         𝒞                    \mathcal{c}         𝒸
 
 <a name="latex-english-punct"/>
 English Punctuation
