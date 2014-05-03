@@ -302,8 +302,8 @@ Arrows
     \leftarrow          ←                   \Leftarrow          ⇐
     \uparrow            ↑                   \Uparrow            ⇑
     \downarrow          ↓                   \Downarrow          ⇓
-    \nwarrow            ↖                   \nearrow            ↗
-    \searrow            ↘                   \swarrow            ↙
+    \nwarrow            ↖                  \nearrow            ↗
+    \searrow            ↘                  \swarrow            ↙
     \mapsto             ↦
     \leftrightarrow     ↔                   \Leftrightarrow     ⇔ 
     \rightarrowtail     ↣
