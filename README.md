@@ -426,14 +426,14 @@ Astronomy Symbols
     \mercury           ☿                   \aries              ♈
     \venus             ♀                   \taurus             ♉
     \earth             ⊕                  \gemini              ♊
-    \mars              ♂                  \cancer               ♋
+    \mars              ♂                  \cancer                ♋
     \jupiter           ♃                  \leo                 ♌
     \saturn            ♄                  \virgo               ♍
     \uranus            ⛢                   \libra              ♎
     \neptune           ♆                   \scorpio             ♏
     \pluto             ♇                   \sagittarius         ♐
     \astrosun          ☉                   \capricornus         ♑
-    \rightmoon         ☽                  \aquarius            ♒
+    \rightmoon         ☽                   \aquarius            ♒
     \leftmoon          ☾                   \pisces              ♓
     \ascnode           ☊
     \descnode          ☋
