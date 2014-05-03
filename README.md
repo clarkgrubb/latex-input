@@ -443,7 +443,9 @@ Astronomy
 <a name="latex-games"/>
 Games
 =====
-Dice symbols are available in the package `epsdice`.  Chess games and chess boards can be rendered with the packages `skak` and `texmate`.
+Dice symbols are available in the package `epsdice`.
+
+Chess games and chess boards can be rendered with the packages `skak` and `texmate`.
 
 
     \epsdice{1}        ⚀                   \clubsuit           ♣
