@@ -22,7 +22,7 @@ def load_data(data_dir)
     File.open(path).each do |line|
       fields = line.strip.split()
       if fields.size != 2
-        raise Exception('expected two fields on line: #{line}')
+        raise Exception.new("expected two fields on line: #{line}")
       end
       latex_to_unicode[fields[0]] = fields[1]
     end
