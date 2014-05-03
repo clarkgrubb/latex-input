@@ -382,6 +382,8 @@ Dieresis: `ä ë ḧ ï ö ẗ ü ẅ ẍ ÿ Ä Ë Ḧ Ï Ö Ü Ẅ Ẍ Ÿ`
 
 Macron: `ā ē ḡ ō ū ȳ Ā Ē Ḡ Ī Ō Ū Ȳ`
 
+Tilde: `Ā ã Ẽ ẽ Ĩ ĩ Ñ ñ Õ õ Ũ ũ Ỹ ỹ`
+
 <a name="latex-greek"/>
 Greek
 =====
