@@ -426,7 +426,7 @@ Astronomy Symbols
     \mercury           ☿                   \aries              ♈
     \venus             ♀                   \taurus             ♉
     \earth             ⊕                  \gemini              ♊
-    \mars              ♂                  \cancer                ♋
+    \mars              ♂                  \cancer              ♋
     \jupiter           ♃                  \leo                 ♌
     \saturn            ♄                  \virgo               ♍
     \uranus            ⛢                   \libra              ♎
