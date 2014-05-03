@@ -1,6 +1,6 @@
 **install and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)
 
-**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard) | [astronomy](#latex-astronomy)
+**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [keyboard symbols](#latex-keyboard)
 
 Introduction
 ============
@@ -429,18 +429,6 @@ Greek
     \varsigma           ς
     \vartheta           ϑ
 
-<a name="latex-keyboard"/>
-Keyboard Symbols
-================
-The following notation can be added to a LaTeX distribution by installing [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols).
-
-    \cmdkey            ⌘                   \tabkey             ⇥
-    \optkey            ⌥                   \revtabkey          ⇤
-    \shiftkey          ⇧                   \esckey             ⎋
-    \delkey            ⌫                   \returnkey          ⏎
-    \capslockkey       ⇪                   \enterkey           ⌤
-    \ejectkey          ⏏                   \rightdelkey        ⌦
-
 <a name="latex-astronomy"/>
 Astronomy
 =========
@@ -461,3 +449,14 @@ Astronomy
     \conjunction       ☌
     \opposition        ☍    
 
+<a name="latex-keyboard"/>
+Keyboard Symbols
+================
+The following notation can be added to a LaTeX distribution by installing [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols).
+
+    \cmdkey            ⌘                   \tabkey             ⇥
+    \optkey            ⌥                   \revtabkey          ⇤
+    \shiftkey          ⇧                   \esckey             ⎋
+    \delkey            ⌫                   \returnkey          ⏎
+    \capslockkey       ⇪                   \enterkey           ⌤
+    \ejectkey          ⏏                   \rightdelkey        ⌦
