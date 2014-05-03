@@ -330,7 +330,11 @@ BEGIN_TABLE
 \angle	∠	1
 \approx	≈	1
 \approxeq	≊	1
+\aquarius	♒	1
+\aries	♈	1
+\ascnode	☊	1
 \ast	∗	1
+\astrosun	☉	1
 \asymp	≍	1
 \backepsilon	∍	1
 \backprime	‵	1
@@ -367,7 +371,9 @@ BEGIN_TABLE
 \boxtimes	⊠	1
 \bullet	∙	1
 \bumpeq	≏	1
+\cancer	♋	1
 \cap	∩	1
+\capricornus	♑	1
 \capslockkey	⇪	1
 \cdot	⋅	1
 \cdots	⋯	1
@@ -386,6 +392,7 @@ BEGIN_TABLE
 \cmdkey	⌘	1
 \complement	∁	1
 \cong	≅	1
+\conjunction	☌	1
 \coprod	∐	1
 \copyright	©	1
 \cup	∪	1
@@ -409,6 +416,7 @@ BEGIN_TABLE
 \degree	°	1
 \delkey	⌫	1
 \delta	δ	1
+\descnode	☋	1
 \dh	ð	1
 \diamond	⋄	1
 \diamondsuit	♢	1
@@ -423,6 +431,7 @@ BEGIN_TABLE
 \downdownarrows	⇊	1
 \downharpoonleft	⇃	1
 \downharpoonright	⇂	1
+\earth	⊕	1
 \ejectkey	⏏	1
 \ell	ℓ	1
 \emptyset	∅	1
@@ -439,8 +448,10 @@ BEGIN_TABLE
 \flat	♭	1
 \forall	∀	1
 \frown	⌢	1
+\fullmoon	🌕	1
 \gamma	γ	1
 \ge	≥	1
+\gemini	♊	1
 \geq	≥	1
 \geqq	≧	1
 \gg	≫	1
@@ -464,6 +475,7 @@ BEGIN_TABLE
 \int	∫	1
 \intercal	⊺	1
 \iota	ι	1
+\jupiter	♃	1
 \kappa	κ	1
 \l	ł	1
 \lambda	λ	1
@@ -475,11 +487,13 @@ BEGIN_TABLE
 \leftharpoondown	↽	1
 \leftharpoonup	↼	1
 \leftleftarrows	⇇	1
+\leftmoon	☾	1
 \leftrightarrow	↔	1
 \leftrightarrows	⇆	1
 \leftrightharpoons	⇋	1
 \leftrightsquigarrow	↭	1
 \leftthreetimes	⋋	1
+\leo	♌	1
 \leq	≤	1
 \leqq	≦	1
 \leqslant	≤	1
@@ -489,6 +503,7 @@ BEGIN_TABLE
 \lesssim	≲	1
 \lfloor	⌊	1
 \lhd	⊲	1
+\libra	♎	1
 \ll	≪	1
 \lll	⋘	1
 \longleftarrow	←	1
@@ -500,6 +515,7 @@ BEGIN_TABLE
 \lozenge	◊	1
 \ltimes	⋉	1
 \mapsto	↦	1
+\mars	♂	1
 \mathbb{0}	𝟘	1
 \mathbb{1}	𝟙	1
 \mathbb{2}	𝟚	1
@@ -669,6 +685,7 @@ BEGIN_TABLE
 \mbox{''}	”	1
 \mbox{'}	’	1
 \measuredangle	∡	1
+\mercury	☿	1
 \mho	℧	1
 \mid	∣	1
 \models	⊨	1
@@ -679,7 +696,9 @@ BEGIN_TABLE
 \natural	♮	1
 \nearrow	↗	1
 \neg	¬	1
+\neptune	♆	1
 \neq	≠	1
+\newmoon	🌑	1
 \nexists	∄	1
 \ni	∋	1
 \not<	≮	1
@@ -713,6 +732,7 @@ BEGIN_TABLE
 \omicron	ο	1
 \ominus	⊖	1
 \oplus	⊕	1
+\opposition	☍	1
 \optkey	⌥	1
 \oslash	⊘	1
 \otimes	⊗	1
@@ -722,7 +742,9 @@ BEGIN_TABLE
 \phi	φ	1
 \pi	π	1
 \pilcrow	¶	1
+\pisces	♓	1
 \pitchfork	⋔	1
+\pluto	♇	1
 \pm	±	1
 \pound	£	1
 \pounds	£	1
@@ -748,11 +770,15 @@ BEGIN_TABLE
 \rightharpoonup	⇀	1
 \rightleftarrows	⇄	1
 \rightleftharpoons	⇌	1
+\rightmoon	☽	1
 \rightrightarrows	⇉	1
 \rightsquigarrow	⇝	1
 \rightthreetimes	⋌	1
 \risingdotseq	≓	1
 \rtimes	⋊	1
+\sagittarius	♐	1
+\saturn	♄	1
+\scorpio	♏	1
 \searrow	↘	1
 \section	§	1
 \setminus	∖	1
@@ -793,6 +819,7 @@ BEGIN_TABLE
 \swarrow	↙	1
 \tabkey	⇥	1
 \tau	τ	1
+\taurus	♉	1
 \textregistered	®	1
 \texttrademark	™	1
 \th	þ	1
@@ -821,6 +848,7 @@ BEGIN_TABLE
 \uplus	⊎	1
 \upsilon	υ	1
 \upuparrows	⇈	1
+\uranus	⛢	1
 \vDash	⊨	1
 \varepsilon	ε	1
 \varkappa	ϰ	1
@@ -838,6 +866,8 @@ BEGIN_TABLE
 \vdots	⋮	1
 \vee	∨	1
 \veebar	⊻	1
+\venus	♀	1
+\virgo	♍	1
 \v{A}	Ǎ	1
 \v{C}	Č	1
 \v{D}	Ď	1

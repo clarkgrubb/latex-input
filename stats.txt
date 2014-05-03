@@ -1,2 +1,2 @@
-characters: 777
-input strings: 970
+characters: 806
+input strings: 1000

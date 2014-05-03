@@ -1,11 +1,11 @@
 **install and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)
 
-**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard) | [astronomy](#lastex-astronomy)
 
 Introduction
 ============
 
-Use LaTeX notation to enter 777 Unicode characters.
+Use LaTeX notation to enter 806 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
@@ -186,10 +186,11 @@ Most of the notation used by the input methods is drawn from *math mode*.  Notat
 quote `'` and doubled single quotes `''` which are right single quote and right double quote
 in *paragraph mode* and prime and double prime in *math mode*.
 
-The input methods also use notation from the following two packages:
+The input methods also use notation from the following three packages:
 
     \usepackage{amsmath}
     \usepackage{amssymb}
+    \usepackage{wasysym}
 
 <a name="latex-relation-op"/>
 Relations and Operators
@@ -418,3 +419,27 @@ We support the following non-standard notation which can be added to a LaTeX dis
     \delkey            ⌫                   \returnkey          ⏎
     \capslockkey       ⇪                   \enterkey           ⌤
     \ejectkey          ⏏                   \rightdelkey        ⌦
+
+<a name="latex-astronomy"/>
+Astronomy Symbols
+=================
+    \mercury ☿                              \aries ♈
+    \venus ♀                                \taurus ♉
+    \earth ⊕                               \gemini ♊
+    \mars ♂                                 \cancer ♋
+    \jupiter ♃                             \leo ♌
+    \saturn ♄                              \virgo ♍
+    \uranus ⛢                              \libra ♎
+    \neptune ♆                             \scorpio ♏
+    \pluto ♇                               \sagittarius ♐
+    \astrosun ☉                            \capricornus ♑
+    \fullmoon 🌕                           \aquarius ♒
+    \leftmoon ☾                             \pisces ♓
+    \newmoon 🌑
+    \rightmoon ☽
+    \ascnode ☊
+    \descnode ☋
+    \conjunction ☌
+    \opposition ☍    
+
+

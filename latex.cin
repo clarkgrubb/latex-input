@@ -302,7 +302,11 @@
 \angle ∠
 \approx ≈
 \approxeq ≊
+\aquarius ♒
+\aries ♈
+\ascnode ☊
 \ast ∗
+\astrosun ☉
 \asymp ≍
 \backepsilon ∍
 \backprime ‵
@@ -339,7 +343,9 @@
 \boxtimes ⊠
 \bullet ∙
 \bumpeq ≏
+\cancer ♋
 \cap ∩
+\capricornus ♑
 \capslockkey ⇪
 \cdot ⋅
 \cdots ⋯
@@ -358,6 +364,7 @@
 \cmdkey ⌘
 \complement ∁
 \cong ≅
+\conjunction ☌
 \coprod ∐
 \copyright ©
 \cup ∪
@@ -381,6 +388,7 @@
 \degree °
 \delkey ⌫
 \delta δ
+\descnode ☋
 \dh ð
 \diamond ⋄
 \diamondsuit ♢
@@ -395,6 +403,7 @@
 \downdownarrows ⇊
 \downharpoonleft ⇃
 \downharpoonright ⇂
+\earth ⊕
 \ejectkey ⏏
 \ell ℓ
 \emptyset ∅
@@ -411,8 +420,10 @@
 \flat ♭
 \forall ∀
 \frown ⌢
+\fullmoon 🌕
 \gamma γ
 \ge ≥
+\gemini ♊
 \geq ≥
 \geqq ≧
 \gg ≫
@@ -436,6 +447,7 @@
 \int ∫
 \intercal ⊺
 \iota ι
+\jupiter ♃
 \kappa κ
 \l ł
 \lambda λ
@@ -447,11 +459,13 @@
 \leftharpoondown ↽
 \leftharpoonup ↼
 \leftleftarrows ⇇
+\leftmoon ☾
 \leftrightarrow ↔
 \leftrightarrows ⇆
 \leftrightharpoons ⇋
 \leftrightsquigarrow ↭
 \leftthreetimes ⋋
+\leo ♌
 \leq ≤
 \leqq ≦
 \leqslant ≤
@@ -461,6 +475,7 @@
 \lesssim ≲
 \lfloor ⌊
 \lhd ⊲
+\libra ♎
 \ll ≪
 \lll ⋘
 \longleftarrow ←
@@ -472,6 +487,7 @@
 \lozenge ◊
 \ltimes ⋉
 \mapsto ↦
+\mars ♂
 \mathbb{0} 𝟘
 \mathbb{1} 𝟙
 \mathbb{2} 𝟚
@@ -641,6 +657,7 @@
 \mbox{''} ”
 \mbox{'} ’
 \measuredangle ∡
+\mercury ☿
 \mho ℧
 \mid ∣
 \models ⊨
@@ -651,7 +668,9 @@
 \natural ♮
 \nearrow ↗
 \neg ¬
+\neptune ♆
 \neq ≠
+\newmoon 🌑
 \nexists ∄
 \ni ∋
 \not< ≮
@@ -685,6 +704,7 @@
 \omicron ο
 \ominus ⊖
 \oplus ⊕
+\opposition ☍
 \optkey ⌥
 \oslash ⊘
 \otimes ⊗
@@ -694,7 +714,9 @@
 \phi φ
 \pi π
 \pilcrow ¶
+\pisces ♓
 \pitchfork ⋔
+\pluto ♇
 \pm ±
 \pound £
 \pounds £
@@ -720,11 +742,15 @@
 \rightharpoonup ⇀
 \rightleftarrows ⇄
 \rightleftharpoons ⇌
+\rightmoon ☽
 \rightrightarrows ⇉
 \rightsquigarrow ⇝
 \rightthreetimes ⋌
 \risingdotseq ≓
 \rtimes ⋊
+\sagittarius ♐
+\saturn ♄
+\scorpio ♏
 \searrow ↘
 \section §
 \setminus ∖
@@ -765,6 +791,7 @@
 \swarrow ↙
 \tabkey ⇥
 \tau τ
+\taurus ♉
 \textregistered ®
 \texttrademark ™
 \th þ
@@ -793,6 +820,7 @@
 \uplus ⊎
 \upsilon υ
 \upuparrows ⇈
+\uranus ⛢
 \vDash ⊨
 \varepsilon ε
 \varkappa ϰ
@@ -810,6 +838,8 @@
 \vdots ⋮
 \vee ∨
 \veebar ⊻
+\venus ♀
+\virgo ♍
 \v{A} Ǎ
 \v{C} Č
 \v{D} Ď
@@ -1274,7 +1304,11 @@ _x ₓ
 \angle ∠
 \approx ≈
 \approxeq ≊
+\aquarius ♒
+\aries ♈
+\ascnode ☊
 \ast ∗
+\astrosun ☉
 \asymp ≍
 \backepsilon ∍
 \backprime ‵
@@ -1311,7 +1345,9 @@ _x ₓ
 \boxtimes ⊠
 \bullet ∙
 \bumpeq ≏
+\cancer ♋
 \cap ∩
+\capricornus ♑
 \capslockkey ⇪
 \cdot ⋅
 \cdots ⋯
@@ -1330,6 +1366,7 @@ _x ₓ
 \cmdkey ⌘
 \complement ∁
 \cong ≅
+\conjunction ☌
 \coprod ∐
 \copyright ©
 \cup ∪
@@ -1353,6 +1390,7 @@ _x ₓ
 \degree °
 \delkey ⌫
 \delta δ
+\descnode ☋
 \dh ð
 \diamond ⋄
 \diamondsuit ♢
@@ -1367,6 +1405,7 @@ _x ₓ
 \downdownarrows ⇊
 \downharpoonleft ⇃
 \downharpoonright ⇂
+\earth ⊕
 \ejectkey ⏏
 \ell ℓ
 \emptyset ∅
@@ -1383,8 +1422,10 @@ _x ₓ
 \flat ♭
 \forall ∀
 \frown ⌢
+\fullmoon 🌕
 \gamma γ
 \ge ≥
+\gemini ♊
 \geq ≥
 \geqq ≧
 \gg ≫
@@ -1408,6 +1449,7 @@ _x ₓ
 \int ∫
 \intercal ⊺
 \iota ι
+\jupiter ♃
 \kappa κ
 \l ł
 \lambda λ
@@ -1419,11 +1461,13 @@ _x ₓ
 \leftharpoondown ↽
 \leftharpoonup ↼
 \leftleftarrows ⇇
+\leftmoon ☾
 \leftrightarrow ↔
 \leftrightarrows ⇆
 \leftrightharpoons ⇋
 \leftrightsquigarrow ↭
 \leftthreetimes ⋋
+\leo ♌
 \leq ≤
 \leqq ≦
 \leqslant ≤
@@ -1433,6 +1477,7 @@ _x ₓ
 \lesssim ≲
 \lfloor ⌊
 \lhd ⊲
+\libra ♎
 \ll ≪
 \lll ⋘
 \longleftarrow ←
@@ -1444,6 +1489,7 @@ _x ₓ
 \lozenge ◊
 \ltimes ⋉
 \mapsto ↦
+\mars ♂
 \mathbb{0} 𝟘
 \mathbb{1} 𝟙
 \mathbb{2} 𝟚
@@ -1613,6 +1659,7 @@ _x ₓ
 \mbox{''} ”
 \mbox{'} ’
 \measuredangle ∡
+\mercury ☿
 \mho ℧
 \mid ∣
 \models ⊨
@@ -1623,7 +1670,9 @@ _x ₓ
 \natural ♮
 \nearrow ↗
 \neg ¬
+\neptune ♆
 \neq ≠
+\newmoon 🌑
 \nexists ∄
 \ni ∋
 \not< ≮
@@ -1657,6 +1706,7 @@ _x ₓ
 \omicron ο
 \ominus ⊖
 \oplus ⊕
+\opposition ☍
 \optkey ⌥
 \oslash ⊘
 \otimes ⊗
@@ -1666,7 +1716,9 @@ _x ₓ
 \phi φ
 \pi π
 \pilcrow ¶
+\pisces ♓
 \pitchfork ⋔
+\pluto ♇
 \pm ±
 \pound £
 \pounds £
@@ -1692,11 +1744,15 @@ _x ₓ
 \rightharpoonup ⇀
 \rightleftarrows ⇄
 \rightleftharpoons ⇌
+\rightmoon ☽
 \rightrightarrows ⇉
 \rightsquigarrow ⇝
 \rightthreetimes ⋌
 \risingdotseq ≓
 \rtimes ⋊
+\sagittarius ♐
+\saturn ♄
+\scorpio ♏
 \searrow ↘
 \section §
 \setminus ∖
@@ -1737,6 +1793,7 @@ _x ₓ
 \swarrow ↙
 \tabkey ⇥
 \tau τ
+\taurus ♉
 \textregistered ®
 \texttrademark ™
 \th þ
@@ -1765,6 +1822,7 @@ _x ₓ
 \uplus ⊎
 \upsilon υ
 \upuparrows ⇈
+\uranus ⛢
 \vDash ⊨
 \varepsilon ε
 \varkappa ϰ
@@ -1782,6 +1840,8 @@ _x ₓ
 \vdots ⋮
 \vee ∨
 \veebar ⊻
+\venus ♀
+\virgo ♍
 \v{A} Ǎ
 \v{C} Č
 \v{D} Ď
