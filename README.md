@@ -212,8 +212,8 @@ Relations and Operators
 <a name="latex-sets-logic"/>
 Sets and Logic
 ==============
-    \emptyset           ∅                  \aleph              א 
-    \in                 ∈                   \beth              ב
+    \emptyset           ∅                   \aleph              א 
+    \in                 ∈                   \beth               ב
     \notin              ∉                   \neq                ¬
     \ni                 ∋                   \wedge              ∧
     \not\ni             ∌                   \vee                ∨
@@ -223,8 +223,8 @@ Sets and Logic
     \not\subseteq       ⊈                   \top                ⊤
     \subsetneq          ⊊                   \bot                ⊥
     \supsetneq          ⊋                   \therefore          ∴
-    \supset             ⊃                  \vdash              ⊢ 
-    \supseteq           ⊇                  \models             ⊨ 
+    \supset             ⊃                   \vdash              ⊢ 
+    \supseteq           ⊇                   \models             ⊨ 
     \cup                ∪                   \Box                □
     \cap                ∩                   
     \bigcup             ⋃                   
