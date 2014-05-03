@@ -1,11 +1,11 @@
 **install and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)
 
-**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard) | [astronomy](#latex-astronomy) | [games](#latex-games)
+**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [keyboard symbols](#latex-keyboard) | [astronomy](#latex-astronomy)
 
 Introduction
 ============
 
-Use LaTeX notation to enter 834 Unicode characters.
+Use LaTeX notation to enter 907 Unicode characters.
 
 Here are some examples of LaTeX notation:
 
@@ -359,6 +359,7 @@ Latin Accent
     \=a                 ā
     \u{a}               ǎ
     \.a                 ȧ
+    \d{a}               ạ
 
     \ss                 ß                   \ae                 æ
     !'                  ¡                   \AE                 Æ
@@ -383,13 +384,15 @@ Dieresis: `ä ë ḧ ï ö ẗ ü ẅ ẍ ÿ Ä Ë Ḧ Ï Ö Ü Ẅ Ẍ Ÿ`
 
 Tilde: `ã ẽ ĩ ñ õ ũ ỹ Ā Ẽ Ĩ Ñ Õ Ũ Ỹ`
 
-Hachek: `ǎ č ď ň ř š ť ž Ǎ Č Ď Ň Ř Š Ť Ž`
+Caron: `ǎ č ď ň ř š ť ž Ǎ Č Ď Ň Ř Š Ť Ž`
 
 Macron: `ā ē ḡ ō ū ȳ Ā Ē Ḡ Ī Ō Ū Ȳ`
 
-Breve:
+Breve: `ă ĕ ğ ĭ ŏ ŭ Ă Ĕ Ğ Ĭ Ŏ Ŭ` 
 
-Overdot: `ȧ ż Ȧ Ż`
+Overdot: `ȧ ḃ ċ ḋ ė ḟ ġ ḣ ṁ ṅ ȯ ṗ ṙ ṡ ṫ ẇ ẋ ẏ ż Ȧ Ḃ Ċ Ḋ Ė Ḟ Ġ Ḣ İ Ṁ Ṅ Ȯ Ṗ Ṙ Ṡ Ṫ Ẇ Ẋ Ẏ Ż`
+scorpio
+Underdot: 
 
 <a name="latex-greek"/>
 Greek
@@ -448,42 +451,13 @@ Astronomy
     \jupiter           ♃                   \leo                ♌
     \saturn            ♄                   \virgo              ♍
     \uranus            ⛢                   \libra              ♎
-    \neptune           ♆                   \scorpio             ♏
-    \pluto             ♇                   \sagittarius         ♐
-    \astrosun          ☉                   \capricornus         ♑
-    \rightmoon         ☽                   \aquarius            ♒
-    \leftmoon          ☾                   \pisces              ♓
+    \neptune           ♆                  \scorpio             ♏
+    \pluto             ♇                  \sagittarius         ♐
+    \astrosun          ☉                  \capricornus         ♑
+    \rightmoon         ☽                  \aquarius            ♒
+    \leftmoon          ☾                  \pisces              ♓
     \ascnode           ☊
     \descnode          ☋
     \conjunction       ☌
     \opposition        ☍    
-
-<a name="latex-games"/>
-Games
-=====
-Dice symbols are available in the package `epsdice`.
-
-Chess games and chess boards can be rendered with the packages `skak` and `texmate`.
-
-
-    \epsdice{1}        ⚀                   \clubsuit           ♣
-    \epsdice{2}        ⚁                   \heartsuit          ♡
-    \epsdice{3}        ⚂                   \spadesuit          ♠
-    \epsdice{4}        ⚃                   \diamondsuit        ♢
-    \epsdice{5}        ⚄
-    \epsdice{6}        ⚅
-
-    \blackbishop       ♝                    \whitebishop        ♗
-    \blackking         ♚                    \whiteking          ♔
-    \blackknight       ♞                    \whiteknight        ♘
-    \blackpawn         ♟                    \whitepawn          ♙
-    \blackqueen        ♛                    \whitequeen         ♕
-    \blackrook         ♜                    \whiterook          ♖
-
-
-
-
-
-
-
 
