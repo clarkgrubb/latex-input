@@ -429,7 +429,7 @@ Astronomy Symbols
     \mars              ♂                  \cancer               ♋
     \jupiter           ♃                  \leo                 ♌
     \saturn            ♄                  \virgo               ♍
-    \uranus            ⛢                   \libra ♎
+    \uranus            ⛢                   \libra              ♎
     \neptune           ♆                   \scorpio             ♏
     \pluto             ♇                   \sagittarius         ♐
     \astrosun          ☉                   \capricornus         ♑
@@ -438,8 +438,8 @@ Astronomy Symbols
     \newmoon           🌑
     \rightmoon         ☽
     \ascnode           ☊
-    \descnode           ☋
+    \descnode          ☋
     \conjunction       ☌
-    \opposition         ☍    
+    \opposition        ☍    
 
 
