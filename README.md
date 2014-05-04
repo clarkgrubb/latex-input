@@ -1,6 +1,6 @@
 **install and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)
 
-**latex notation:** [about latex](#about-latex) | [about unicode](#about-unicode) |[relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [about latex](#about-latex) | [use of unicode](#use-of-unicode) |[relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [keyboard symbols](#latex-keyboard)
 
 Introduction
 ============
@@ -193,8 +193,8 @@ The input methods also use notation from the following three packages:
     \usepackage{wasysym}
 
 <a name="about-unicode"/>
-About Unicode
-=============
+Use of Unicode
+==============
 As of version 6.2, Unicode specifies over 110,000 characters, but not all software which processes or
 renders Unicode strings handles all of them.  Mindful of this, the input methods
 in this repository use some restraint in their use of Unicode.
