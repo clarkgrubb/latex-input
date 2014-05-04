@@ -212,8 +212,8 @@ Relations and Operators
 <a name="latex-sets-logic"/>
 Sets and Logic
 ==============
-    \emptyset           ∅                   \aleph              א 
-    \in                 ∈                   \beth               ב
+    \emptyset           ∅                   \aleph              ℵ
+    \in                 ∈                   \beth               ℶ
     \notin              ∉                   \neq                ¬
     \ni                 ∋                   \wedge              ∧
     \not\ni             ∌                   \vee                ∨
