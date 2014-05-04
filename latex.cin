@@ -401,7 +401,7 @@
 \acute{y} ý
 \acute{z} ź
 \ae æ
-\aleph א
+\aleph ℵ
 \alpha α
 \angle ∠
 \approx ≈
@@ -432,7 +432,7 @@
 \bar{y} ȳ
 \because ∵
 \beta β
-\beth ב
+\beth ℶ
 \between ≬
 \bigcap ⋂
 \bigcirc ○
@@ -532,7 +532,7 @@
 \c{c} ç
 \dag †
 \dagger †
-\daleth ד
+\daleth ℸ
 \dashleftarrow ⇠
 \dashrightarrow ⇢
 \dashv ⊣
@@ -682,7 +682,7 @@
 \geqq ≧
 \gg ≫
 \ggg ⋙
-\gimel ג
+\gimel ℷ
 \grave{A} À
 \grave{E} È
 \grave{I} Ì
@@ -1730,7 +1730,7 @@ _x ₓ
 \acute{y} ý
 \acute{z} ź
 \ae æ
-\aleph א
+\aleph ℵ
 \alpha α
 \angle ∠
 \approx ≈
@@ -1761,7 +1761,7 @@ _x ₓ
 \bar{y} ȳ
 \because ∵
 \beta β
-\beth ב
+\beth ℶ
 \between ≬
 \bigcap ⋂
 \bigcirc ○
@@ -1861,7 +1861,7 @@ _x ₓ
 \c{c} ç
 \dag †
 \dagger †
-\daleth ד
+\daleth ℸ
 \dashleftarrow ⇠
 \dashrightarrow ⇢
 \dashv ⊣
@@ -2011,7 +2011,7 @@ _x ₓ
 \geqq ≧
 \gg ≫
 \ggg ⋙
-\gimel ג
+\gimel ℷ
 \grave{A} À
 \grave{E} È
 \grave{I} Ì

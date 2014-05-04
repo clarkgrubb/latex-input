@@ -34,7 +34,7 @@
 \Vdash ⊩
 \Vvdash ⊪
 \Xi Ξ
-\aleph א
+\aleph ℵ
 \alpha α
 \angle ∠
 \approx ≈
@@ -47,7 +47,7 @@
 \barwedge ⊼
 \because ∵
 \beta β
-\beth ב
+\beth ℶ
 \between ≬
 \bigcap ⋂
 \bigcirc ○
@@ -103,7 +103,7 @@
 \curvearrowleft ↶
 \curvearrowright ↷
 \dagger †
-\daleth ד
+\daleth ℸ
 \dashleftarrow ⇠
 \dashrightarrow ⇢
 \dashv ⊣
@@ -143,7 +143,7 @@
 \geqq ≧
 \gg ≫
 \ggg ⋙
-\gimel ג
+\gimel ℷ
 \gtrdot ⋗
 \gtreqless ⋛
 \gtrless ≷

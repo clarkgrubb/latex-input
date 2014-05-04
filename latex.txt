@@ -429,7 +429,7 @@ BEGIN_TABLE
 \acute{y}	ý	1
 \acute{z}	ź	1
 \ae	æ	1
-\aleph	א	1
+\aleph	ℵ	1
 \alpha	α	1
 \angle	∠	1
 \approx	≈	1
@@ -460,7 +460,7 @@ BEGIN_TABLE
 \bar{y}	ȳ	1
 \because	∵	1
 \beta	β	1
-\beth	ב	1
+\beth	ℶ	1
 \between	≬	1
 \bigcap	⋂	1
 \bigcirc	○	1
@@ -560,7 +560,7 @@ BEGIN_TABLE
 \c{c}	ç	1
 \dag	†	1
 \dagger	†	1
-\daleth	ד	1
+\daleth	ℸ	1
 \dashleftarrow	⇠	1
 \dashrightarrow	⇢	1
 \dashv	⊣	1
@@ -710,7 +710,7 @@ BEGIN_TABLE
 \geqq	≧	1
 \gg	≫	1
 \ggg	⋙	1
-\gimel	ג	1
+\gimel	ℷ	1
 \grave{A}	À	1
 \grave{E}	È	1
 \grave{I}	Ì	1
