@@ -235,7 +235,7 @@ Sets and Logic
 ==============
     \emptyset           ∅                   \aleph              ℵ
     \in                 ∈                   \beth               ℶ
-    \notin              ∉                   \neq                ¬
+    \notin              ∉                   \neg                ¬
     \ni                 ∋                   \wedge              ∧
     \not\ni             ∌                   \vee                ∨
     \subset             ⊂                   \veebar             ⊻
