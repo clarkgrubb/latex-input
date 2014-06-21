@@ -15,11 +15,10 @@ def escape(str)
   str.gsub(/\\/, '\\\\\\\\').gsub(/"/, '\\\\"')
 end
 
-def load_data(data_dir)
+def load_data(latex_to_unicode_files)
   latex_to_unicode = {}
-  latex_to_unicode_files = Dir.glob("#{data_dir}/*")
   latex_to_unicode_files.each do |path|
-    File.open(path).each do |line|
+    File.open(path, "r:utf-8").each do |line|
       fields = line.strip.split()
       if fields.size != 2
         raise Exception.new("expected two fields on line: #{line}")
@@ -30,8 +29,8 @@ def load_data(data_dir)
   latex_to_unicode
 end
 
-def generate(latex_el, latex_cin, stats_file, latex_txt)
-  latex_to_unicode = load_data(DATA_DIR)
+def generate(latex_el, latex_cin, stats_file, latex_txt, data_files)
+  latex_to_unicode = load_data(data_files)
 
   if (latex_el)
     el_template = ERB.new(File.open(LATEX_EL_TEMPLATE).read)
@@ -85,5 +84,6 @@ if $0 == __FILE__
   generate(options[:emacs_lisp_file],
            options[:cin_file],
            options[:stats_file],
-           options[:ibus_file])
+           options[:ibus_file],
+           ARGV)
 end
