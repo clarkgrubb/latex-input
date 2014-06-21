@@ -32,9 +32,9 @@ Mac Installation
 
 Requires Mac OS 10.5 or higher.
 
-    $ curl https://raw.github.com/clarkgrubb/latex-input/master/latex.cin > ~/Library/Input\ Methods/latex.cin
+    $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.cin > ~/Library/Input\ Methods/latex.cin
 
-Log out and log back in.
+Log out and log back in. (Not needed in recent versions of OS X)
 
 <a name="mac-howto"/>
 How to Use on Mac
@@ -78,7 +78,7 @@ Requires GNU Emacs 22 or higher.
 
 Download the Emacs Lisp file to a place in your Emacs library path:
 
-    $ wget https://raw.github.com/clarkgrubb/latex-input/master/latex.el
+    $ wget https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.el
 
 You can load `latex.el` manually at any time with the command
 
