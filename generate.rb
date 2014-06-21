@@ -15,22 +15,22 @@ def escape(str)
   str.gsub(/\\/, '\\\\\\\\').gsub(/"/, '\\\\"')
 end
 
-def load_data(latex_to_unicode_files)
-  latex_to_unicode = {}
-  latex_to_unicode_files.each do |path|
+def load_data(notation_to_unicode_files)
+  notation_to_unicode = {}
+  notation_to_unicode_files.each do |path|
     File.open(path, "r:utf-8").each do |line|
       fields = line.strip.split()
       if fields.size != 2
         raise Exception.new("expected two fields on line: #{line}")
       end
-      latex_to_unicode[fields[0]] = fields[1]
+      notation_to_unicode[fields[0]] = fields[1]
     end
   end
-  latex_to_unicode
+  notation_to_unicode
 end
 
 def generate(latex_el, latex_cin, stats_file, latex_txt, data_files)
-  latex_to_unicode = load_data(data_files)
+  notation_to_unicode = load_data(data_files)
 
   if (latex_el)
     el_template = ERB.new(File.open(LATEX_EL_TEMPLATE).read)
@@ -50,8 +50,8 @@ def generate(latex_el, latex_cin, stats_file, latex_txt, data_files)
 
   if (stats_file)
     File.open(stats_file, 'w') do |fout|
-      fout.puts "characters: #{latex_to_unicode.values.uniq.size}"
-      fout.puts "input strings: #{latex_to_unicode.keys.uniq.size}"
+      fout.puts "characters: #{notation_to_unicode.values.uniq.size}"
+      fout.puts "input strings: #{notation_to_unicode.keys.uniq.size}"
     end
   end
 end

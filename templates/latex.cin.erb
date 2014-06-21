@@ -2,11 +2,11 @@
 %cname LaTeX
 %ename LaTeX
 %encoding UTF-8
-%selkey \abcdefghijklmnopqrstuvwxyz
+%selkey @\abcdefghijklmnopqrstuvwxyz
 %endkey 
 %keyname begin
-<% latex_to_unicode.keys.sort.each do |latex| %><%= latex %> <%= latex_to_unicode[latex] %>
+<% notation_to_unicode.keys.sort.each do |latex| %><%= latex %> <%= notation_to_unicode[latex] %>
 <% end %>%keyname end
 %chardef begin
-<% latex_to_unicode.keys.sort.each do |latex| %><%= latex %> <%= latex_to_unicode[latex] %>
+<% notation_to_unicode.keys.sort.each do |latex| %><%= latex %> <%= notation_to_unicode[latex] %>
 <% end %>%chardef end
