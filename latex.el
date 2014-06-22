@@ -1,6 +1,6 @@
 (quail-define-package
- "latex" "LaTeX" "LTX" t
- "Use LaTeX notation to enter mathematical symbols.")
+ "latex" "LaTeX" "LAT" t
+ "Use LaTeX  notation to enter Unicode characters.")
 
 (quail-define-rules
 ("!' " ?¡)

@@ -1,9 +1,0 @@
-(quail-define-package
- "latex" "LaTeX" "LTX" t
- "Use LaTeX notation to enter mathematical symbols.")
-
-(quail-define-rules
-<% notation_to_unicode.keys.sort.each do |latex| %>("<%= escape(latex)%> " ?<%= notation_to_unicode[latex] %>)
-<% end %>)
-
-(provide 'latex)

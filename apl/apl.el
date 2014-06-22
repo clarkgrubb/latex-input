@@ -1,6 +1,6 @@
 (quail-define-package
- "latex" "LaTeX" "LTX" t
- "Use LaTeX notation to enter mathematical symbols.")
+ "apl" "APL" "APL" t
+ "Use APL  notation to enter Unicode characters.")
 
 (quail-define-rules
 ("0 " ?0)
@@ -200,4 +200,4 @@
 ("z " ?z)
 )
 
-(provide 'latex)
+(provide 'apl)

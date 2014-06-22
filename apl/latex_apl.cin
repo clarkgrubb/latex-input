@@ -1,6 +1,6 @@
 %gen_inp
-%cname LaTeX
-%ename LaTeX
+%cname LaTeX/APL
+%ename LaTeX/APL
 %encoding UTF-8
 %selkey @\abcdefghijklmnopqrstuvwxyz
 %endkey 

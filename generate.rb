@@ -7,9 +7,9 @@ require 'optparse'
 ROOT_DIR = File.dirname(__FILE__)
 DATA_DIR = File.join(ROOT_DIR, 'data')
 TEMPLATES_DIR = File.join(ROOT_DIR, 'templates')
-LATEX_CIN_TEMPLATE = File.join(TEMPLATES_DIR, 'latex.cin.erb')
-LATEX_EL_TEMPLATE = File.join(TEMPLATES_DIR, 'latex.el.erb')
-LATEX_TXT_TEMPLATE = File.join(TEMPLATES_DIR, 'latex.txt.erb')
+CIN_TEMPLATE = File.join(TEMPLATES_DIR, 'cin.erb')
+EL_TEMPLATE = File.join(TEMPLATES_DIR, 'el.erb')
+TXT_TEMPLATE = File.join(TEMPLATES_DIR, 'txt.erb')
 
 def escape(str)
   str.gsub(/\\/, '\\\\\\\\').gsub(/"/, '\\\\"')
@@ -29,21 +29,21 @@ def load_data(notation_to_unicode_files)
   notation_to_unicode
 end
 
-def generate(latex_el, latex_cin, stats_file, latex_txt, data_files)
+def generate(name, latex_el, latex_cin, stats_file, latex_txt, data_files)
   notation_to_unicode = load_data(data_files)
 
   if (latex_el)
-    el_template = ERB.new(File.open(LATEX_EL_TEMPLATE).read)
+    el_template = ERB.new(File.open(EL_TEMPLATE).read)
     File.open(latex_el, 'w') { |fout| fout.puts el_template.result(binding) }
   end
 
   if (latex_cin)
-    cin_template = ERB.new(File.open(LATEX_CIN_TEMPLATE).read)
+    cin_template = ERB.new(File.open(CIN_TEMPLATE).read)
     File.open(latex_cin, 'w') { |fout| fout.puts cin_template.result(binding) }
   end
 
   if (latex_txt)
-    txt_template = ERB.new(File.open(LATEX_TXT_TEMPLATE).read)
+    txt_template = ERB.new(File.open(TXT_TEMPLATE).read)
     File.open(latex_txt, 'w') { |fout| fout.puts txt_template.result(binding) }
   end
 
@@ -63,6 +63,10 @@ if $0 == __FILE__
     opts.banner =
       "usage: #{$0} [OPTIONS] [ARG ...]"
 
+    opts.on("-n", "--name NAME") do |arg|
+      options[:name] = arg
+    end
+
     opts.on("-e", "--emacs-lisp-file FILE") do |arg|
       options[:emacs_lisp_file] = arg
     end
@@ -81,7 +85,8 @@ if $0 == __FILE__
 
   end.parse!
 
-  generate(options[:emacs_lisp_file],
+  generate(options[:name],
+           options[:emacs_lisp_file],
            options[:cin_file],
            options[:stats_file],
            options[:ibus_file],
