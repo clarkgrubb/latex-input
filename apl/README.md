@@ -169,26 +169,26 @@ Dyadic _log_ `⍟` is the logarithmic function, where the left operand is the ba
 
 Dyadic _circle_ `○` is used for the trigonometric functions.  If the first argument is `1`, `2`, or `3`, then the sin, cos, or tan of the second argument is returned.  If the first argument is `¯1`, `¯2`, or `¯3`, then the arcsin, arccos, or arctan of the second argument is returned.  Monadic _circle_ `○` returns the argument times `π`.
 
-Monadic _factorial_ `!` is the functionn `Γ(arg + 1)`.  When the argument is an integer it is the factorial function.  Dyadic _factorial_ `!` is the beta function.  `!` is an ASCII character.
+Monadic _factorial_ `!` is the function `Γ(ω + 1)`.  When the argument is an integer it is the factorial function.  Dyadic _factorial_ `!` is the function `1/((ω + 1)Beta(ω - α + 1, α + 1))`.  When the arguments are integers this is `ω` choose `α`.  `!` is an ASCII character.
 
 <a name="truncation"/>
 truncation
 ----------
 
-    @left ⊣
-    @right ⊢
+    @left    ⊣
+    @right   ⊢
     @ceiling ⌈
-    @floor ⌊
-    @format ⍕
+    @floor   ⌊
+    @format  ⍕
 
 1d array
 --------
 
-    @reverse ⌽
-    @drop ↓
-    @take ↑
-    @by ,
-    @grade ⍋
+    @reverse   ⌽
+    @drop      ↓
+    @take      ↑
+    @by        ,
+    @grade     ⍋
     @downgrade ⍒
 
 2d array
