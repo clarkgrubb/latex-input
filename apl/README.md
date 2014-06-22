@@ -204,12 +204,11 @@ The dyadic _format_ `⍕` rounds its right argument to the precision specified o
     @count     ⍳
     @deal      ?
     @roll      ?
-    @reverse   ⌽
     @rotate    ⌽
+    @reverse   ⌽
     @drop      ↓
     @take      ↑
     @nub       ↑
-    @raze      ↓
     @by        ,
     @ravel     ,
     @grade     ⍋
@@ -219,6 +218,8 @@ The dyadic _format_ `⍕` rounds its right argument to the precision specified o
 Dyadic _index_ `⍳` computes the one-based index of the first occurrence of the left argument in the list on the right.  Monadic _count_ `⍳` takes a nonnegative integer as an argument and returns the list of integers from `1` to `ω`.
 
 Dyadic _deal_ `?` select `α` random numbers without replacement from the list of integers from `1` to `ω`.  Monadic _roll_ `?` generates a random integer from `1` to `ω`. 
+
+Dyadic _rotate_ `⌽` pops elements off the front of the list `ω` and pushes them onto the back when `α` is positive.  When `α` is negative it pops them off the back and pushes them onto the front.  Monadic _reverse_ `⌽` reverses a list.
 
 
 <a name="two-dim-array"/>
@@ -256,6 +257,7 @@ other
     @nubsieve ≠
     @open >
     @over ⍪
+    @raze      ↓
     @table ⍪ 
 
 <a name="apl-intro"/>
