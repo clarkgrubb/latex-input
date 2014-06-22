@@ -127,13 +127,15 @@ document.
 About APL
 ===========
 
-[parsing](#parsing) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental)
+[parsing](#parsing) | [operators](#operators) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental)
 
 <a name="parsing"/>
 parsing
 -------
 
 [A Dictionary of APL](http://www.jsoftware.com/papers/APLDictionary.htm)
+
+Alphanumeric characters other than `¯⎕'_.()` are built-in operators and parse as a single token.  APL processes tokens from right to left.  Parens `()` can be used like in other languages to change the order of execution.
 
     @macron    ¯
     @leftarrow ←
@@ -148,6 +150,21 @@ The _quad_ `⎕` is an extra alphabetical symbol used in names which are predefi
 
 The _lamp_ `⍝` starts a comment which ends at the end of the line.
 
+<a name="operators"/>
+operators
+---------
+
+APL operators are represented by single characters.  They can be either binary infix operators, which APL calls _dyadic_, or unary prefix operators, which APL calls _monadic_.  Many operators can be used either as a dyadic or a monadic operator with different effect.  Which way the operator is used depends on how APL parses the expression.
+
+The operands of APL operators are lists.  The elements of lists are numeric literals, names,  or strings.  The elements are usually separated by spaces.  There are no delimiters to mark the edges of the list; APL knows it has encountered the left edge of a list when it encounters an operator.  Whether the operator is dyadic or monadic depends on whether a list or another operator is found to the left.
+
+errors
+------
+
+* VALENCE ERROR
+* LENGTH ERROR
+* DOMAIN ERROR
+
 <a name="arithmetic"/>
 arithmetic
 ----------
@@ -158,7 +175,7 @@ arithmetic
     @per     ÷
     @residue |
 
-The arithmetic operators can be dyadic (binary) or monadic (unary).  Their use is like in other languages.
+The arithmetic operators can be dyadic or monadic.  Their use is like in other languages.
 
 _Plus_ `+` and _minus_ `-` are ASCII characters.
 
@@ -241,6 +258,12 @@ truncation
     @cant ⍉
     @inverse ⌹
 
+strings
+-------
+
+Strings are single quoted `'` and doubling is used to insert a single quote character in a string.
+
+    @execute ⍎
 
 other
 -----
@@ -253,7 +276,6 @@ other
     @count ⍳
     @cycle ≤
     @deal ?
-    @execute ⍎
     @from {
     @in ∊
     @index ⍳
