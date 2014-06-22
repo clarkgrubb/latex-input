@@ -127,6 +127,12 @@ document.
 About APL
 ===========
 
+[parsing](#parsing) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental)
+
+<a name="parsing"/>
+parsing
+-------
+
 [A Dictionary of APL](http://www.jsoftware.com/papers/APLDictionary.htm)
 
     @macron    ¯
@@ -142,6 +148,7 @@ The _quad_ `⎕` is an extra alphabetical symbol used in names which are predefi
 
 The _lamp_ `⍝` starts a comment which ends at the end of the line.
 
+<a name="arithmetic"/>
 arithmetic
 ----------
 
@@ -150,7 +157,6 @@ arithmetic
     @times   ×
     @per     ÷
     @residue |
-    @power   *
 
 The arithmetic operators can be dyadic (binary) or monadic (unary).  Their use is like in other languages.
 
@@ -160,8 +166,7 @@ The monadic _times_ `×` is the signum function.  The monadic _per_ `÷` returns
 
 The _residue_ `|` is like the modulus operator `%` of other languages, but order of the arguments is reversed.  Monadic `|` is the absolute value function.  `| 3J4` is `5`.  `|` is an ASCII character.
 
-Monadic _power_ `*` is the natural exponential function.  `*` is an ASCII character.
-
+<a name="comparison"/>
 comparison
 ----------
 
@@ -171,9 +176,13 @@ comparison
     @equal   =
     @fore    ≤
     @unequal ≠
+    @match   ≡
 
 The above operators are exclusively dyadic in GNU APL.  They are comparison operators.  They return `1` or `0`, which APL uses to represent true and false. `=`, `<`, and `>` are ASCII characters.
 
+The dyadic _match_ `≡` returns a single boolean value when comparing two lists.  The dyadic _equal_ `=`, by contrast, performs elementwise comparison and returns a list of boolean values.
+
+<a name="logic"/>
 logic
 -----
 
@@ -187,15 +196,51 @@ Monadic _not_ `~` is logical negation.  A domain error results if the argument i
 
 _And_ `∧` and _or_ `∨` are exclusively dyadic.  On boolean arguments they are logical operators.  On other integer arguments they are the least common multiple and greatest common divisor, respectively.
 
+<a name="transcendental"/>
 transcendental
 --------------
 
+    @power   *
     @log    ⍟
     @circle ○
+    @factorial !
+
+Monadic _power_ `*` is the natural exponential function.  `*` is an ASCII character.
 
 Dyadic _log_ `⍟` is the logarithmic function, where the left operand is the base and the right operand is the argument.  Monadic _log_ is the natural logarithm.
 
-Dyadic _circle_ `○` is used for the trigonometric functions.  If the first argument is `1`, `2`, or `3`, then the sin, cos, or tan of the second argument is returned.  If the first argument is `¯1`, `¯2`, or `¯3`, then the arcsin, arccos, or arctan of the second argument is return.  Monadic _circle_ `○` returns the argument times `π`.
+Dyadic _circle_ `○` is used for the trigonometric functions.  If the first argument is `1`, `2`, or `3`, then the sin, cos, or tan of the second argument is returned.  If the first argument is `¯1`, `¯2`, or `¯3`, then the arcsin, arccos, or arctan of the second argument is returned.  Monadic _circle_ `○` returns the argument times `π`.
+
+Monadic _factorial_ `!` is the gamma function.  When the argument is an integer it is the factorial function.  Dyadic _factorial_ `!` is the beta function.  `!` is an ASCII character.
+
+<a name="truncation"/>
+truncation
+----------
+
+    @left ⊣
+    @right ⊢
+    @ceiling ⌈
+    @floor ⌊
+    @format ⍕
+
+1d array
+--------
+
+    @reverse ⌽
+    @drop ↓
+    @take ↑
+    @by ,
+    @grade ⍋
+    @downgrade ⍒
+
+2d array
+--------
+
+    @reshape ⍴
+    @upset ⊖
+    @cant ⍉
+    @inverse ⌹
+
 
 other
 -----
@@ -205,26 +250,14 @@ other
     @base ⊥
     @box <
     @box ⊃
-    @by ,
-    @cant ⍉
-    @ceiling ⌈
     @count ⍳
     @cycle ≤
     @deal ?
-    @downgrade ⍒
-    @drop ↓
     @execute ⍎
-    @factorial !
-    @floor ⌊
-    @format ⍕
     @from {
-    @grade ⍋
     @in ∊
     @index ⍳
-    @inverse ⌹
-    @left ⊣
     @less ~
-    @match ≡
     @mate +
     @maximum ⌈
     @minimum ⌊
@@ -238,18 +271,13 @@ other
     @pi ○
     @ravel ,
     @raze ↓
-    @reshape ⍴
-    @reverse ⌽
-    @right ⊢
     @roll ?
     @rotate ⌽
     @rowel ⊖
     @shape ⍴
     @size |
     @table ⍪ 
-    @take ↑
     @trend ×
-    @upset ⊖
 
 <a name="apl-intro"/>
 APL Intro
