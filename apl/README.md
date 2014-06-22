@@ -193,6 +193,10 @@ transcendental
     @log    ⍟
     @circle ○
 
+Dyadic _log_ `⍟` is the logarithmic function, where the left operand is the base and the right operand is the argument.  Monadic _log_ is the natural logarithm.
+
+Dyadic _circle_ `○` is used for the trigonometric functions.  If the first argument is `1`, `2`, or `3`, then the sin, cos, or tan of the second argument is returned.  If the first argument is `¯1`, `¯2`, or `¯3`, then the arcsin, arccos, or arctan of the second argument is return.  Monadic _circle_ `○` returns the argument times `π`.
+
 other
 -----
 
