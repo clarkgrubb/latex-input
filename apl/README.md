@@ -154,13 +154,13 @@ arithmetic
 
 The arithmetic operators can be dyadic (binary) or monadic (unary).  Their use is like in other languages.
 
-_plus_ `+` and _minus_ `-` are ASCII characters.
+_Plus_ `+` and _minus_ `-` are ASCII characters.
 
 The monadic _times_ `×` is the signum function.  The monadic _per_ `÷` returns the reciprocal of its argument.
 
 The _residue_ `|` is like the modulus operator `%` of other languages, but order of the arguments is reversed.  Monadic `|` is the absolute value function.  `| 3J4` is `5`.  `|` is an ASCII character.
 
-Monadic _power_ `*` is the natural exponential function.
+Monadic _power_ `*` is the natural exponential function.  `*` is an ASCII character.
 
 comparison
 ----------
@@ -171,6 +171,8 @@ comparison
     @equal   =
     @fore    ≤
     @unequal ≠
+
+The above operators are dyadic only in GNU APL.  They are comparison operators.  They return `1` or `0`, which APL uses to represent true and false. `=`, `<`, and `>` are ASCII characters.
 
 logic
 -----
