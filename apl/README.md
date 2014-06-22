@@ -98,7 +98,7 @@ The _lamp_ `⍝` starts a comment which ends at the end of the line.
 operators
 ---------
 
-APL operators are represented by single characters.  They can be either binary infix operators, which APL calls _dyadic_, or unary prefix operators, which APL calls _monadic_.  Many operators can be used either as a dyadic or a monadic operator with different effect.  Which way the operator is used depends on how APL parses the expression.
+APL operators are represented by single characters.  They can be either binary infix operators, which APL calls _dyadic_, or unary prefix operators, which APL calls _monadic_.  Many operators can be used either as a dyadic or a monadic operator with different effect.  Which way the operator is used depends on how APL parses the expression.  We use `α` and `ω` to refer to the left and right arguments of operators.
 
 The operands of APL operators are lists.  The elements of lists are numeric literals, names,  or strings.  The elements are usually separated by spaces.  There are no delimiters to mark the edges of the list; APL knows it has encountered the left edge of a list when it encounters an operator.  Whether the operator is dyadic or monadic depends on whether a list or another operator is found to the left.
 
@@ -122,11 +122,15 @@ arithmetic
 
 The arithmetic operators can be dyadic or monadic.  Their use is like in other languages.
 
-_Plus_ `+` and _minus_ `-` are ASCII characters.  The monadic _mate_ `+` is the complex conjugate function.
+The monadic _mate_ `+` is the complex conjugate function.
 
-The monadic _trend_ `×` is the signum function.  The monadic _per_ `÷` returns the reciprocal of its argument.
+The monadic _trend_ `×` is the signum function.
 
-The _residue_ `|` is like the modulus operator `%` of other languages, but order of the arguments is reversed.  Monadic _size_ `|` is the absolute value function.  `| 3J4` is `5`.  `|` is an ASCII character.
+The monadic _per_ `÷` returns the reciprocal of its argument.
+
+The _residue_ `|` is like the modulus operator `%` of other languages, but order of the arguments is reversed.
+
+Monadic _size_ `|` is the absolute value function.  `| 3J4` is `5`.
 
 <a name="comparison"/>
 comparison
@@ -148,14 +152,13 @@ The dyadic _match_ `≡` returns a single boolean value when comparing two lists
 logic
 -----
 
-    @less ~
     @not  ~
     @and  ∧
     @or   ∨
     @nand ⍲
     @nor  ⍱
 
-Monadic _not_ `~` is logical negation.  A domain error results if the argument is not a boolean, i.e. `1` or `0`.  Dyadic _not_ is set difference: the elements on the left with any elements on the right removed. `~` is an ASCII character.
+Monadic _not_ `~` is logical negation.  A domain error results if the argument is not a boolean, i.e. `1` or `0`.  
 
 _And_ `∧` and _or_ `∨` are exclusively dyadic.  On boolean arguments they are logical operators.  On other integer arguments they are the least common multiple and greatest common divisor, respectively.
 
@@ -170,13 +173,15 @@ transcendental
     @outof     !
     @factorial !
 
-Monadic _power_ `*` is the natural exponential function.  `*` is an ASCII character.
+Monadic _power_ `*` is the natural exponential function.
 
 Dyadic _log_ `⍟` is the logarithmic function, where the left operand is the base and the right operand is the argument.  Monadic _log_ is the natural logarithm.
 
 Dyadic _circle_ `○` is used for the trigonometric functions.  If the first argument is `1`, `2`, or `3`, then the sin, cos, or tan of the second argument is returned.  If the first argument is `¯1`, `¯2`, or `¯3`, then the arcsin, arccos, or arctan of the second argument is returned.  Monadic _circle_ `○` returns the argument times `π`.
 
-Monadic _factorial_ `!` is the function `Γ(ω + 1)`.  When the argument is an integer it is the factorial function.  Dyadic _factorial_ `!` is the function `1/((ω + 1) ⋅ Beta(ω - α + 1, α + 1))`.  When the arguments are integers this is `ω` choose `α`.  `!` is an ASCII character.
+Dyadic _factorial_ `!` is the function `1/((ω + 1) ⋅ Beta(ω - α + 1, α + 1))`.  When the arguments are integers this is `ω` choose `α`.
+
+Monadic _factorial_ `!` is the function `Γ(ω + 1)`.  When the argument is an integer it is the factorial function.
 
 <a name="truncation"/>
 truncation
@@ -200,6 +205,7 @@ The dyadic _format_ `⍕` rounds its right argument to the precision specified o
 1d array
 --------
 
+    @less ~
     @index     ⍳
     @count     ⍳
     @deal      ?
@@ -208,12 +214,12 @@ The dyadic _format_ `⍕` rounds its right argument to the precision specified o
     @reverse   ⌽
     @drop      ↓
     @take      ↑
-    @nub       ↑
     @by        ,
-    @ravel     ,
     @grade     ⍋
     @downgrade ⍒
     @in        ∊
+
+Dyadic _less_ is set difference: the elements on the left with any elements on the right removed.
 
 Dyadic _index_ `⍳` computes the one-based index of the first occurrence of the left argument in the list on the right.  Monadic _count_ `⍳` takes a nonnegative integer as an argument and returns the list of integers from `1` to `ω`.
 
@@ -221,6 +227,15 @@ Dyadic _deal_ `?` select `α` random numbers without replacement from the list o
 
 Dyadic _rotate_ `⌽` pops elements off the front of the list `ω` and pushes them onto the back when `α` is positive.  When `α` is negative it pops them off the back and pushes them onto the front.  Monadic _reverse_ `⌽` reverses a list.
 
+Dyadic _drop_ `↓` returns the list `ω` with the first `α` items removed.
+
+Dyadic _take_ `↑` returns the first `α` items from the list `ω`.
+
+Dyadic _by_ `,` concatenates the lists `α` and `ω`.
+
+Monadic _grade_ `⍋` returns the ascending rank order of the elements of `ω`.
+
+Monadic _downgrade_ `⍒` returns the descending rank order of the elements of `ω`.
 
 <a name="two-dim-array"/>
 2d array
@@ -231,6 +246,8 @@ Dyadic _rotate_ `⌽` pops elements off the front of the list `ω` and pushes th
     @upset ⊖
     @rowel ⊖
     @cant ⍉
+    @nub       ↑
+    @ravel     ,
     @inverse ⌹
     @domino ⌹
 
