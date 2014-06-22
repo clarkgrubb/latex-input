@@ -104,6 +104,7 @@ The operands of APL operators are lists.  The elements of lists are numeric lite
 
 * VALENCE ERROR
 * LENGTH ERROR
+* RANK ERROR
 * DOMAIN ERROR
 
 <a name="arithmetic"/>
@@ -147,8 +148,8 @@ The dyadic _match_ `≡` returns a single boolean value when comparing two lists
 logic
 -----
 
-    @not  ~
     @less ~
+    @not  ~
     @and  ∧
     @or   ∨
     @nand ⍲
@@ -166,8 +167,8 @@ transcendental
     @log       ⍟
     @circle    ○
     @pi        ○
-    @factorial !
     @outof     !
+    @factorial !
 
 Monadic _power_ `*` is the natural exponential function.  `*` is an ASCII character.
 
@@ -199,8 +200,8 @@ The dyadic _format_ `⍕` rounds its right argument to the precision specified o
 1d array
 --------
 
-    @count     ⍳
     @index     ⍳
+    @count     ⍳
     @deal      ?
     @roll      ?
     @reverse   ⌽
@@ -214,6 +215,11 @@ The dyadic _format_ `⍕` rounds its right argument to the precision specified o
     @grade     ⍋
     @downgrade ⍒
     @in        ∊
+
+Dyadic _index_ `⍳` computes the one-based index of the first occurrence of the left argument in the list on the right.  Monadic _count_ `⍳` takes a nonnegative integer as an argument and returns the list of integers from `1` to `ω`.
+
+Dyadic _deal_ `?` select `α` random numbers without replacement from the list of integers from `1` to `ω`.  Monadic _roll_ `?` generates a random integer from `1` to `ω`. 
+
 
 <a name="two-dim-array"/>
 2d array
