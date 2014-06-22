@@ -1,4 +1,4 @@
-**install and use:** [installing the mac input method](#mac-install) | [using the input method on mac](#mac-howto) | [installing the input method on emacs](#emacs-install) | [using the input method on emacs](#emacs-howto)
+**install and use:** [installing apl](#installing-apl) | [installing the mac input method](#mac-install) | [using the input method on mac](#mac-howto) | [installing the input method on emacs](#emacs-install) | [using the input method on emacs](#emacs-howto)
 
 **apl notation:** [about apl](#about-apl) | [apl intro](#apl-intro)
 
@@ -172,16 +172,20 @@ comparison
     @fore    ≤
     @unequal ≠
 
-The above operators are dyadic only in GNU APL.  They are comparison operators.  They return `1` or `0`, which APL uses to represent true and false. `=`, `<`, and `>` are ASCII characters.
+The above operators are exclusively dyadic in GNU APL.  They are comparison operators.  They return `1` or `0`, which APL uses to represent true and false. `=`, `<`, and `>` are ASCII characters.
 
 logic
 -----
 
+    @not  ~
     @and  ∧
     @or   ∨
-    @not  ~
     @nand ⍲
     @nor  ⍱
+
+Monadic _not_ `~` is logical negation.  A domain error results if the argument is not a boolean, i.e. `1` or `0`.  Dyadic _not_ is set difference: the elements on the left with any elements on the right removed. `~` is an ASCII character.
+
+_And_ ∧ and _or_ ∨ are exclusively dyadic.  On boolean arguments they are logical operators.  On other integer arguments they are the least common multiple and greatest common divisor, respectively.
 
 transcendental
 --------------
