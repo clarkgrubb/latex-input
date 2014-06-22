@@ -7,7 +7,7 @@ Introduction
 
 Input methods for entering APL symbols using ASCII notation.
 
-Three input methods are provided for Mac OS X and Emacs.
+Input methods are provided for Mac OS X and Emacs.
 
 When an input method is in effect, one types the ASCII notation and it
 is rendered to the APL symbol on the fly.  Here are some examples:
