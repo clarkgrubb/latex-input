@@ -2,7 +2,7 @@
 
 **latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [keyboard symbols](#latex-keyboard)
 
-**apl notation:** [apl character input methods](#apl)
+**apl notation:** [apl input methods](#apl)
 
 Introduction
 ============
@@ -466,7 +466,13 @@ The following notation can be added to a LaTeX distribution by installing [this 
     \ejectkey          ⏏                   \rightdelkey        ⌦
 
 <a name="apl"/>
-APL Character Input Methods
-===========================
+APL Input Methods
+=================
 
-[here](apl/README.md)
+[APL input methods](apl/README.md)
+
+The programming language APL uses 85 non-ASCII Unicode characters.  This repository provides input methods for entering them using an ASCII keyboard.  The input notation starts with an ampersand `@` followed by a English name used for the symbol in the APL community.
+
+The APL input notation is disjoint from the LaTeX input notation, which usually starts with a backslash `\\`.  Hence they can be combined into a single input method.
+
+
