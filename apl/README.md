@@ -135,36 +135,36 @@ assigment
 arithmetic
 ----------
 
-    @minus -
-    @plus +
-    @times ×
-    @per ÷
+    @minus   -
+    @plus    +
+    @times   ×
+    @per     ÷
     @residue |
-    @power *
+    @power   *
 
 comparison
 ----------
 
-    @aft ≥
-    @after >
-    @before <
-    @equal =
-    @fore ≤
+    @aft     ≥
+    @after   >
+    @before  <
+    @equal   =
+    @fore    ≤
     @unequal ≠
 
 logic
 -----
 
-    @and ∧
-    @or ∨
-    @not ~
+    @and  ∧
+    @or   ∨
+    @not  ~
     @nand ⍲
-    @nor ⍱
+    @nor  ⍱
 
 transcendental
 --------------
 
-    @log ⍟
+    @log    ⍟
     @circle ○
 
 other
