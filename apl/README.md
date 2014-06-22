@@ -185,7 +185,7 @@ logic
 
 Monadic _not_ `~` is logical negation.  A domain error results if the argument is not a boolean, i.e. `1` or `0`.  Dyadic _not_ is set difference: the elements on the left with any elements on the right removed. `~` is an ASCII character.
 
-_And_ ∧ and _or_ ∨ are exclusively dyadic.  On boolean arguments they are logical operators.  On other integer arguments they are the least common multiple and greatest common divisor, respectively.
+_And_ `∧` and _or_ `∨` are exclusively dyadic.  On boolean arguments they are logical operators.  On other integer arguments they are the least common multiple and greatest common divisor, respectively.
 
 transcendental
 --------------
