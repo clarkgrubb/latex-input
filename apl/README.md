@@ -7,17 +7,21 @@ Introduction
 
 Input methods for entering APL symbols using ASCII notation.
 
-Three input methods are provided; for Mac OS X, Emacs, and X Windows.
+Three input methods are provided for Mac OS X and Emacs.
 
 When an input method is in effect, one types the ASCII notation and it
-is rendered to the APL symbol on the fly.  E.g. <TODO: AN EXAMPLE>
+is rendered to the APL symbol on the fly.
+
+    @times       ×
+    @grade       ⍋ 
+    @reverse     ⌽
+    @domino      ⌹
 
 <a name="installing-apl"/>
 Installing APL
 ==============
 
 * [GNU APL](http://www.gnu.org/software/apl/)
-* [Try APL](http://www.tryapl.org/)
 
 One Mac OS X one can use Homebrew:
 
