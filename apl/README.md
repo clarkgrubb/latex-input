@@ -138,7 +138,7 @@ Positive integers and floating point numbers are like in other languages. The _m
 
 The _left arrow_ `←` assigns the value of the expression on the right to the name on the left.  Names must start with a letter or underscore and can contain digits.  APL is case sensitive.
 
-The _quad_ is an extra alaphabetical symbol used in names which are predefined by APL.  `⎕av` contains the alphabet recognized by APL.
+The _quad_ `⎕` is an extra alaphabetical symbol used in names which are predefined by APL.  `⎕av` contains the alphabet recognized by APL.
 
 The _lamp_ `⍝` starts a comment which ends at the end of the line.
 
