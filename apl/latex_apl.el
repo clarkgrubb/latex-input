@@ -73,7 +73,7 @@
 ("@greekcross " ?+)
 ("@hoof " ?⍥)
 ("@in " ?∊)
-("@index " ?⊃)
+("@index " ?⍳)
 ("@inverse " ?⌹)
 ("@iota " ?⍳)
 ("@iotaunderbar " ?⍸)

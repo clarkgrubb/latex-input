@@ -68,7 +68,7 @@
 @greekcross +
 @hoof ⍥
 @in ∊
-@index ⊃
+@index ⍳
 @inverse ⌹
 @iota ⍳
 @iotaunderbar ⍸
@@ -265,7 +265,7 @@ z z
 @greekcross +
 @hoof ⍥
 @in ∊
-@index ⊃
+@index ⍳
 @inverse ⌹
 @iota ⍳
 @iotaunderbar ⍸
