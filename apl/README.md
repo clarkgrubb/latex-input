@@ -1,4 +1,4 @@
-**install and use:** [installing apl](#installing-apl) | [installing the mac input method](#mac-install) | [using the input method on mac](#mac-howto) | [installing the input method on emacs](#emacs-install) | [using the input method on emacs](#emacs-howto)
+**install and use:** [installing apl](#installing-apl) | [installing the mac input method](#mac-install) | [using the input method on mac](#mac-howto)
 
 **apl notation:** [about apl](#about-apl) | [apl intro](#apl-intro)
 
@@ -36,6 +36,10 @@ Requires Mac OS 10.5 or higher.
 
     $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/apl/apl.cin > ~/Library/Input\ Methods/apl.cin
 
+Optionally, you can install an input method which combines the LaTeX and APL input methods:
+
+    $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/apl/latex_apl.cin > ~/Library/Input\ Methods/latex_apl.cin
+
 <a name="mac-howto"/>
 Using the Input Method on Mac
 =============================
@@ -62,66 +66,6 @@ default value conflicts with Spotlight.  Consider going to
     System Preferences | Keyboard | Keyboard Shortcuts | Keyboard & Text Input
 
 and changing it to something like ⌥`⌘Space`
-
-<a name="emacs-install"/>
-Installing the Input Method on Emacs
-====================================
-
-Requires GNU Emacs 22 or higher.
-
-Download the Emacs Lisp file to a place in your Emacs library path:
-
-    $ wget https://raw.githubusercontent.com/clarkgrubb/latex-input/master/apl/apl.el
-
-You can load `apl.el` manually at any time with the command
-
-    M-x load-file RET /PATH/TO/apl.el
-
-To load `apl.el` automatically when Emacs starts up, you need to put something
-like this in your startup file, i.e. `~/.emacs`, `~/.emacs.el`, or `~/.emacs.d/init.el`:
-
-    (setq emacs-dir (file-name-directory
-                    (or (buffer-file-name) load-file-name)))
-    (add-to-list 'load-path emacs-dir)
-    (require 'apl)
-
-Note that the above code assumes that `apl.el` is in the same directory
-as your startup file.  Modify to suit your needs.
-
-<a name="emacs-howto"/>
-Using the Input Method on Emacs
-===============================
-
-To turn on the APL input method use
-
-    C-x RET C-\ apl
-
-If you don't use other input methods it is sufficient to use
-
-    C-\ apl
-
-To get a listing of the supported APL notation, type:
-
-    C-h I
-
-For the most part the Emacs input method works the same as Mac OS X input source.
-There are a few differences:
-
-* When you type something that obviously isn't APL notation because it doesn't
-  start with a backslash, Emacs doesn't underline it or make you accept it without
-  rendering it by typing RETURN.
-* The Emacs input method is case sensitive, so if you type \Delta or \delta you
-  will get Δ or δ without any need to disambiguate.
-* If you want to type some APL notation without rendering it, type any key but
-  SPACE when you are done.  The key that you press will be entered into the document.
-  That means that if wanted the next character to be a SPACE you must delete the
-  character you typed and then type a SPACE.
-* The Emacs input method will show all possible completions for partially typed
-  notation in a separate buffer if you type TAB.
-
-In my experience Emacs uses a somewhat impoverished font, and as a result it doesn't
-always render the symbol, even though the Unicode character was inserted into the
-document.
 
 <a name="about-apl"/>
 About APL
@@ -157,9 +101,6 @@ operators
 APL operators are represented by single characters.  They can be either binary infix operators, which APL calls _dyadic_, or unary prefix operators, which APL calls _monadic_.  Many operators can be used either as a dyadic or a monadic operator with different effect.  Which way the operator is used depends on how APL parses the expression.
 
 The operands of APL operators are lists.  The elements of lists are numeric literals, names,  or strings.  The elements are usually separated by spaces.  There are no delimiters to mark the edges of the list; APL knows it has encountered the left edge of a list when it encounters an operator.  Whether the operator is dyadic or monadic depends on whether a list or another operator is found to the left.
-
-errors
-------
 
 * VALENCE ERROR
 * LENGTH ERROR
@@ -228,7 +169,7 @@ Dyadic _log_ `⍟` is the logarithmic function, where the left operand is the ba
 
 Dyadic _circle_ `○` is used for the trigonometric functions.  If the first argument is `1`, `2`, or `3`, then the sin, cos, or tan of the second argument is returned.  If the first argument is `¯1`, `¯2`, or `¯3`, then the arcsin, arccos, or arctan of the second argument is returned.  Monadic _circle_ `○` returns the argument times `π`.
 
-Monadic _factorial_ `!` is the gamma function.  When the argument is an integer it is the factorial function.  Dyadic _factorial_ `!` is the beta function.  `!` is an ASCII character.
+Monadic _factorial_ `!` is the functionn `Γ(arg + 1)`.  When the argument is an integer it is the factorial function.  Dyadic _factorial_ `!` is the beta function.  `!` is an ASCII character.
 
 <a name="truncation"/>
 truncation
