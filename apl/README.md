@@ -162,12 +162,12 @@ _And_ `∧` and _or_ `∨` are exclusively dyadic.  On boolean arguments they ar
 transcendental
 --------------
 
-    @power   *
-    @log    ⍟
-    @circle ○
-    @pi ○
+    @power     *
+    @log       ⍟
+    @circle    ○
+    @pi        ○
     @factorial !
-    @outof !
+    @outof     !
 
 Monadic _power_ `*` is the natural exponential function.  `*` is an ASCII character.
 
@@ -199,21 +199,33 @@ The dyadic _format_ `⍕` rounds its right argument to the precision specified o
 1d array
 --------
 
+    @count     ⍳
+    @index     ⍳
+    @deal      ?
+    @roll      ?
     @reverse   ⌽
+    @rotate    ⌽
     @drop      ↓
     @take      ↑
+    @nub       ↑
+    @raze      ↓
     @by        ,
+    @ravel     ,
     @grade     ⍋
     @downgrade ⍒
+    @in        ∊
 
 <a name="two-dim-array"/>
 2d array
 --------
 
     @reshape ⍴
+    @shape ⍴
     @upset ⊖
+    @rowel ⊖
     @cant ⍉
     @inverse ⌹
+    @domino ⌹
 
 <a name="strings"/>
 strings
@@ -231,24 +243,13 @@ other
     @base ⊥
     @box <
     @box ⊃
-    @count ⍳
     @cycle ≤
-    @deal ?
     @from {
-    @in ∊
-    @index ⍳
     @mix ≥
-    @nub ↑
-    @nub =
+    @nubin =
     @nubsieve ≠
     @open >
     @over ⍪
-    @ravel ,
-    @raze ↓
-    @roll ?
-    @rotate ⌽
-    @rowel ⊖
-    @shape ⍴
     @table ⍪ 
 
 <a name="apl-intro"/>
