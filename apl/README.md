@@ -134,13 +134,13 @@ About APL
     @quad      ⎕
     @lamp      ⍝
 
-Positive integers and floating point numbers are like in other languages. The _macron_ ¯ or _high minus_ is used in literals for negative numbers.  An uppercase `E` is used for scientific notation: e.g. 6.022E23. An uppercase `J` is used to separate the real and imaginary part of a complex number: e.g. 2J1.
+Positive integers and floating point numbers are like in other languages. The _macron_ `¯` or _high minus_ is used in literals for negative numbers.  An uppercase `E` is used for scientific notation: e.g. `6.022E23`. An uppercase `J` is used to separate the real and imaginary part of a complex number: e.g. `2J1`.
 
-The _left arrow_ ← assigns the value of the expression on the right to the name on the left.  Names must start with a letter or underscore and can contain digits.  APL is case sensitive.
+The _left arrow_ `←` assigns the value of the expression on the right to the name on the left.  Names must start with a letter or underscore and can contain digits.  APL is case sensitive.
 
 The _quad_ is an extra alaphabetical symbol used in names which are predefined by APL.  `⎕av` contains the alphabet recognized by APL.
 
-The _lamp_ ⍝ starts a comment which ends at the end of the line.
+The _lamp_ `⍝` starts a comment which ends at the end of the line.
 
 arithmetic
 ----------
@@ -154,13 +154,13 @@ arithmetic
 
 The arithmetic operators can be dyadic (binary) or monadic (unary).  There use is like in other languages.
 
-_plus_ and _minus_ are ASCII characters.
+_plus_ `+` and _minus_ `-` are ASCII characters.
 
-The monadic _times_ × is the signum function.  The monadic _per_ ÷ returns the reciprocal of its argument.
+The monadic _times_ `×` is the signum function.  The monadic _per_ `÷` returns the reciprocal of its argument.
 
-The _residue_ | is like the modulus operator % of other languages, but order of the arguments is reverse.  Monadic | is the absolute value function.  `| 3J4` is 5.  | is an ASCII character.
+The _residue_ `|` is like the modulus operator `%` of other languages, but order of the arguments is reversed.  Monadic `|` is the absolute value function.  `| 3J4` is `5`.  `|` is an ASCII character.
 
-Monadic _power_ is the natural exponential function.
+Monadic _power_ `*` is the natural exponential function.
 
 comparison
 ----------
