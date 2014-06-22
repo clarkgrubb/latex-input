@@ -1,6 +1,6 @@
 **install and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)
 
-**latex notation:** [about latex](#about-latex) | [use of unicode](#use-of-unicode) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [keyboard symbols](#latex-keyboard)
 
 Introduction
 ============
@@ -191,27 +191,6 @@ The input methods also use notation from the following three packages:
     \usepackage{amsmath}
     \usepackage{amssymb}
     \usepackage{wasysym}
-
-<a name="about-unicode"/>
-Use of Unicode
-==============
-As of version 6.2, Unicode specifies over 110,000 characters, but not all software which processes or
-renders Unicode strings handles all of them.  Mindful of this, the input methods
-in this repository use some restraint in their use of Unicode.
-
-First, the input methods do not use combining characters.  As a consequence, in the Latin accents
-section, only certain letters can be combined with each accent depending on whether a single
-Unicode character containing the letter and accent exists.
-
-Second, the input methods do not use any right-to-left characters.  The few Hebrew characters which
-are available come from the Letterlike Symbols block, not the Hebrew block, and are L-to-R.
-
-Third, most Unicode characters are drawn from the Basic Multilingual Plane and have points less than
-U+FFFF.  The only exceptions are the Blackboard Bold, Fraktur, and Calligraphic section.
-
-Still, there is the possibility that the rendering software will not support a character and
-render it with a missing glyph character.  Another problem one sees is when the rendering software uses
-a glyph from a font which obviously doesn't match the font of the rest of the document.
 
 <a name="latex-relation-op"/>
 Relations and Operators
