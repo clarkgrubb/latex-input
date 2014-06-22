@@ -104,7 +104,7 @@
 ("@omegaunderbar " ?⍹)
 ("@open " ?>)
 ("@or " ?∨)
-("@out " ?!)
+("@outof " ?!)
 ("@over " ?⍪)
 ("@paw " ?⍤)
 ("@per " ?÷)

@@ -71,7 +71,7 @@ and changing it to something like ⌥`⌘Space`
 About APL
 ===========
 
-[parsing](#parsing) | [operators](#operators) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental)
+[parsing](#parsing) | [operators](#operators) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental) | [truncation](#truncation) | [1d array](#one-dim-array) | [2d array](#two-dim-array) | [strings](#strings)
 
 <a name="parsing"/>
 parsing
@@ -111,18 +111,21 @@ arithmetic
 ----------
 
     @plus    +
+    @mate    +
     @minus   -
     @times   ×
+    @trend   ×
     @per     ÷
     @residue |
+    @size    |
 
 The arithmetic operators can be dyadic or monadic.  Their use is like in other languages.
 
-_Plus_ `+` and _minus_ `-` are ASCII characters.
+_Plus_ `+` and _minus_ `-` are ASCII characters.  The monadic _mate_ `+` is the complex conjugate function.
 
-The monadic _times_ `×` is the signum function.  The monadic _per_ `÷` returns the reciprocal of its argument.
+The monadic _trend_ `×` is the signum function.  The monadic _per_ `÷` returns the reciprocal of its argument.
 
-The _residue_ `|` is like the modulus operator `%` of other languages, but order of the arguments is reversed.  Monadic `|` is the absolute value function.  `| 3J4` is `5`.  `|` is an ASCII character.
+The _residue_ `|` is like the modulus operator `%` of other languages, but order of the arguments is reversed.  Monadic _size_ `|` is the absolute value function.  `| 3J4` is `5`.  `|` is an ASCII character.
 
 <a name="comparison"/>
 comparison
@@ -145,6 +148,7 @@ logic
 -----
 
     @not  ~
+    @less ~
     @and  ∧
     @or   ∨
     @nand ⍲
@@ -161,7 +165,9 @@ transcendental
     @power   *
     @log    ⍟
     @circle ○
+    @pi ○
     @factorial !
+    @outof !
 
 Monadic _power_ `*` is the natural exponential function.  `*` is an ASCII character.
 
@@ -169,7 +175,7 @@ Dyadic _log_ `⍟` is the logarithmic function, where the left operand is the ba
 
 Dyadic _circle_ `○` is used for the trigonometric functions.  If the first argument is `1`, `2`, or `3`, then the sin, cos, or tan of the second argument is returned.  If the first argument is `¯1`, `¯2`, or `¯3`, then the arcsin, arccos, or arctan of the second argument is returned.  Monadic _circle_ `○` returns the argument times `π`.
 
-Monadic _factorial_ `!` is the function `Γ(ω + 1)`.  When the argument is an integer it is the factorial function.  Dyadic _factorial_ `!` is the function `1/((ω + 1)Beta(ω - α + 1, α + 1))`.  When the arguments are integers this is `ω` choose `α`.  `!` is an ASCII character.
+Monadic _factorial_ `!` is the function `Γ(ω + 1)`.  When the argument is an integer it is the factorial function.  Dyadic _factorial_ `!` is the function `1/((ω + 1) ⋅ Beta(ω - α + 1, α + 1))`.  When the arguments are integers this is `ω` choose `α`.  `!` is an ASCII character.
 
 <a name="truncation"/>
 truncation
@@ -177,10 +183,19 @@ truncation
 
     @left    ⊣
     @right   ⊢
+    @maximum ⌈
+    @minimum ⌊
     @ceiling ⌈
     @floor   ⌊
     @format  ⍕
 
+_Left_ `⊣` and _right_ `⊢` are exclusively dyadic operators.  They return their left and right arguments, respectively.
+
+The dyadic _maximum_ `⌈` and _minimum_ `⌊` operators return the greater and the lesser of their arguments, respectively.  When used as monadic operators they are ceiling and floor functions.  That is, they return the least integer greater than or equal to the argument or the greatest integer less than or equal to argument, respectively.
+
+The dyadic _format_ `⍕` rounds its right argument to the precision specified on the left.  The monadic _format_ uses the built-in name `⎕pp`.
+
+<a name="one-dim-array"/>
 1d array
 --------
 
@@ -191,6 +206,7 @@ truncation
     @grade     ⍋
     @downgrade ⍒
 
+<a name="two-dim-array"/>
 2d array
 --------
 
@@ -199,6 +215,7 @@ truncation
     @cant ⍉
     @inverse ⌹
 
+<a name="strings"/>
 strings
 -------
 
@@ -220,27 +237,19 @@ other
     @from {
     @in ∊
     @index ⍳
-    @less ~
-    @mate +
-    @maximum ⌈
-    @minimum ⌊
     @mix ≥
     @nub ↑
     @nub =
     @nubsieve ≠
     @open >
-    @out !
     @over ⍪
-    @pi ○
     @ravel ,
     @raze ↓
     @roll ?
     @rotate ⌽
     @rowel ⊖
     @shape ⍴
-    @size |
     @table ⍪ 
-    @trend ×
 
 <a name="apl-intro"/>
 APL Intro
