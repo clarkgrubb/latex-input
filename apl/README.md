@@ -152,7 +152,7 @@ arithmetic
     @residue |
     @power   *
 
-The arithmetic operators can be dyadic (binary) or monadic (unary).  There use is like in other languages.
+The arithmetic operators can be dyadic (binary) or monadic (unary).  Their use is like in other languages.
 
 _plus_ `+` and _minus_ `-` are ASCII characters.
 
