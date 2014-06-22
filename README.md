@@ -473,6 +473,6 @@ APL Input Methods
 
 The programming language APL uses 85 non-ASCII Unicode characters.  This repository provides input methods for entering them using an ASCII keyboard.  The input notation starts with an ampersand `@` followed by a English name used for the symbol in the APL community.
 
-The APL input notation is disjoint from the LaTeX input notation, which usually starts with a backslash `\\`.  Hence they can be combined into a single input method.
+Since LaTeX input notation usually starts with a backslash and never with an ampersand, it is disjoint from the APL input notation.  Hence we are able to provide a single input method for both.
 
 
