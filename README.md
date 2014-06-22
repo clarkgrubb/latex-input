@@ -2,6 +2,8 @@
 
 **latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [keyboard symbols](#latex-keyboard)
 
+**apl notation:** [apl character input methods](#apl)
+
 Introduction
 ============
 
@@ -462,3 +464,9 @@ The following notation can be added to a LaTeX distribution by installing [this 
     \delkey            ⌫                   \returnkey          ⏎
     \capslockkey       ⇪                   \enterkey           ⌤
     \ejectkey          ⏏                   \rightdelkey        ⌦
+
+<a name="apl"/>
+APL Character Input Methods
+===========================
+
+[here](apl/README.md)
