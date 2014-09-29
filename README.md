@@ -18,7 +18,7 @@ Here are some examples of LaTeX notation:
     \alpha             α
     \subseteq          ⊆
 
-Three input methods are provided; for Mac OS X, Emacs, and X Windows.
+Four input methods are provided; for Mac OS X, Windows, Emacs, and X Windows.
 
 When an input method is in effect, one types LaTeX notation and it
 is rendered to the mathematical symbol on the fly.  E.g. type
