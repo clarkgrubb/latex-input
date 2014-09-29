@@ -1,4 +1,4 @@
-**install and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)
+**install and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [windows installation](#windows-install) | [how to use on windows](#windows-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)
 
 **latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [keyboard symbols](#latex-keyboard)
 
@@ -69,6 +69,22 @@ default value conflicts with Spotlight.  Consider going to
     System Preferences | Keyboard | Keyboard Shortcuts | Keyboard & Text Input
 
 and changing it to something like ⌥⌘Space
+
+<a name="windows-install"/>
+Windows Installation
+====================
+
+Download and install [AutoHotkey](http://www.autohotkey.com/).
+
+Download [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.ahk).  
+
+<a name="windows-howto"/>
+How to Use on Windows
+=====================
+
+Double-clicking on `latex.ahk` in File Explorer activates the input method.  The AutoHotkey logo, which is an H, appears in the system tray.  To deactivate the input method, right click on the AutoHotkey logo and select `Exit`.
+
+When the input method is active, typing LaTeX notation followed by SPACE renders the notation.
 
 <a name="emacs-install"/>
 Emacs Installation
