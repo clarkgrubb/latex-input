@@ -32,11 +32,7 @@ Only LaTeX notation for which there is a Unicode character is rendered.
 Mac Installation
 ================
 
-Requires Mac OS 10.5 or higher.
-
     $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.cin > ~/Library/Input\ Methods/latex.cin
-
-Log out and log back in. (Not needed in recent versions of OS X)
 
 <a name="mac-howto"/>
 How to Use on Mac
@@ -76,13 +72,13 @@ Windows Installation
 
 Download and install [AutoHotkey](http://www.autohotkey.com/).
 
-Download [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.ahk).  
+Download [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.ahk) and install it in your Startup folder.  Open the Startup folder in File Explorer by pressing `Cmd+R` and entering `shell:startup`.  The input method will run the next time you log in.  You can also start it by double-clicking on it in File Explorer.
 
 <a name="windows-howto"/>
 How to Use on Windows
 =====================
 
-Double-clicking on `latex.ahk` in File Explorer activates the input method.  The AutoHotkey logo, which is an H, appears in the system tray.  To deactivate the input method, right click on the AutoHotkey logo and select `Exit`.
+The input method starts in an inactivate state.  Use `Ctrl+Alt+S` to toggle between active and inactive.
 
 When the input method is active, typing LaTeX notation followed by SPACE renders the notation.
 
