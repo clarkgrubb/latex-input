@@ -328,7 +328,8 @@ Mac OS X
 installation
 ------------
 
-    $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.cin > ~/Library/Input\ Methods/latex.cin
+    $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.cin \
+        > ~/Library/Input\ Methods/latex.cin
 
 <a name="mac-howto"/>
 how to use
