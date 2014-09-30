@@ -1,3 +1,4 @@
+Suspend On
 #Hotstring EndChars `t `t
 :c:!'::
 Send {U+00A1}
