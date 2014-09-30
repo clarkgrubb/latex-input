@@ -1,4 +1,5 @@
 Suspend On
+^!s::Suspend
 #Hotstring EndChars `t `t
 :c:0::
 Send {U+0030}
@@ -585,3 +586,6 @@ return
 :c:z::
 Send {U+007A}
 return
+
+
+
