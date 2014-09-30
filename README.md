@@ -322,14 +322,17 @@ The following notation can be added to a LaTeX distribution by installing [this 
     \ejectkey          ⏏                   \rightdelkey        ⌦
 
 <a name="mac-install"/>
-Mac Installation
-================
+Mac OS X
+========
+
+installation
+------------
 
     $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.cin > ~/Library/Input\ Methods/latex.cin
 
 <a name="mac-howto"/>
-How to Use on Mac
-=================
+how to use
+----------
 
 In
 
@@ -360,24 +363,30 @@ default value conflicts with Spotlight.  Consider going to
 and changing it to something like ⌥⌘Space
 
 <a name="windows-install"/>
-Windows Installation
-====================
+Microsoft Windows
+=================
+
+installation
+------------
 
 Download and install [AutoHotkey](http://www.autohotkey.com/).
 
 Download [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.ahk) and install it in your Startup folder.  Open the Startup folder in File Explorer by pressing `Cmd+R` and entering `shell:startup`.  The input method will run the next time you log in.  You can also start it by double-clicking it in File Explorer.
 
 <a name="windows-howto"/>
-How to Use on Windows
-=====================
+how to use
+----------
 
 The input method starts in an inactivate state.  Use `Ctrl+Alt+L` to toggle between active and inactive.
 
 When the input method is active, type LaTeX notation followed by a SPACE to render a symbol.
 
 <a name="emacs-install"/>
-Emacs Installation
-==================
+Emacs
+=====
+
+installation
+-----------
 
 *Note: Emacs already comes with an input method called* TeX.
 
@@ -403,8 +412,8 @@ Note that the above code assumes that `latex.el` is in the same directory
 as your startup file.  Modify to suit your needs.
 
 <a name="emacs-howto"/>
-How to Use on Emacs
-===================
+how to use
+----------
 
 To turn on the LaTeX input method use
 
@@ -438,8 +447,11 @@ always render the symbol, even though the Unicode character was inserted into th
 document.
 
 <a name="x-install"/>
-X Windows Installation
-======================
+X Windows
+=========
+
+installation
+------------
 
 *Note: Ubuntu already comes with a package called* ibus-latex-table.
 
@@ -470,8 +482,8 @@ Log out of X Windows and log back in.  There should be a keyboard symbol in the 
 
 
 <a name="x-howto"/>
-How to Use on X Windows
-=======================
+how to use
+----------
 
 There should be an iBus icon in the menu bar which changes depending upon the input method that is in effect.  When no input method is in effect, the icon is a keyboard.  The input method can be changed by clicking the icon and selecting from the drop down.  The input method is set per application.
 
