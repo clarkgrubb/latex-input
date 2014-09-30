@@ -1,5 +1,5 @@
 Suspend On
-^!s::Suspend
+^!l::Suspend
 #Hotstring EndChars `t `t
 <% notation_to_unicode.keys.sort.each do |latex| %>:c:<%= latex.gsub(/`/, "``") %>::
 Send {U+<%= notation_to_unicode[latex].ord.to_s(16).upcase.rjust(4, "0") %>}

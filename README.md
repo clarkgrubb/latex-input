@@ -78,7 +78,7 @@ Download [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/ma
 How to Use on Windows
 =====================
 
-The input method starts in an inactivate state.  Use `Ctrl+Alt+S` to toggle between active and inactive.
+The input method starts in an inactivate state.  Use `Ctrl+Alt+L` to toggle between active and inactive.
 
 When the input method is active, type LaTeX notation followed by a SPACE to render a symbol.
 

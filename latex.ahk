@@ -1,5 +1,5 @@
 Suspend On
-^!s::Suspend
+^!l::Suspend
 #Hotstring EndChars `t `t
 :c:!'::
 Send {U+00A1}
