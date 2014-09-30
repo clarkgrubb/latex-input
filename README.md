@@ -1,6 +1,6 @@
-**install and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [windows installation](#windows-install) | [how to use on windows](#windows-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)
-
 **latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [keyboard symbols](#latex-keyboard)
+
+**install and use:** [mac installation](#mac-install) | [how to use on mac](#mac-howto) | [windows installation](#windows-install) | [how to use on windows](#windows-howto) | [emacs installation](#emacs-install) | [how to use on emacs](#emacs-howto) | [x windows installation](#x-install) | [how to use on x windows](#x-howto)
 
 **apl notation:** [apl input methods](#apl)
 
@@ -27,162 +27,6 @@ is rendered to the mathematical symbol on the fly.  E.g. type
 LaTeX notation which cannot be rendered has no effect.  The input
 method cannot make fractions, radicals, or matrices, for example.
 Only LaTeX notation for which there is a Unicode character is rendered.
-
-<a name="mac-install"/>
-Mac Installation
-================
-
-    $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.cin > ~/Library/Input\ Methods/latex.cin
-
-<a name="mac-howto"/>
-How to Use on Mac
-=================
-
-In
-
-    System Preferences | Keyboard | Input Sources
-
-you should see a new input source called `LaTeX`.  An input source
-is what Mac OS X calls an input method.  If you check the box next
-to `LaTeX` and if you make sure that `Show Input menu in menu bar` is
-checked, then you can use the menu bar to set or unset LaTeX as the
-input source.
-
-When you type LaTeX notation it will be underlined.  When the notation
-is finished, type SPACE to render it or RETURN to use it without rendering
-it.  SPACE and RETURN are special when used in this manner and don't insert
-a space or a newline in the document.  If you want a space or newline you
-must press SPACE or RETURN again.
-
-The Mac LaTeX input source is case insensitive.  In LaTeX, \Delta is used
-for Δ and \delta is used for δ, but the Mac LaTeX input source will nevertheless
-insist that you disambiguate.  It does this with a pop-up window.  Use the arrow
-keys to select the correct symbol and press RETURN.
-
-There is a Mac OS X keyboard shortcut for switching input source, but the
-default value conflicts with Spotlight.  Consider going to 
-
-    System Preferences | Keyboard | Keyboard Shortcuts | Keyboard & Text Input
-
-and changing it to something like ⌥⌘Space
-
-<a name="windows-install"/>
-Windows Installation
-====================
-
-Download and install [AutoHotkey](http://www.autohotkey.com/).
-
-Download [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.ahk) and install it in your Startup folder.  Open the Startup folder in File Explorer by pressing `Cmd+R` and entering `shell:startup`.  The input method will run the next time you log in.  You can also start it by double-clicking it in File Explorer.
-
-<a name="windows-howto"/>
-How to Use on Windows
-=====================
-
-The input method starts in an inactivate state.  Use `Ctrl+Alt+L` to toggle between active and inactive.
-
-When the input method is active, type LaTeX notation followed by a SPACE to render a symbol.
-
-<a name="emacs-install"/>
-Emacs Installation
-==================
-
-*Note: Emacs already comes with an input method called* TeX.
-
-Requires GNU Emacs 22 or higher.
-
-Download the Emacs Lisp file to a place in your Emacs library path:
-
-    $ wget https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.el
-
-You can load `latex.el` manually at any time with the command
-
-    M-x load-file RET /PATH/TO/latex.el
-
-To load `latex.el` automatically when Emacs starts up, you need to put something
-like this in your startup file, i.e. `~/.emacs`, `~/.emacs.el`, or `~/.emacs.d/init.el`:
-
-    (setq emacs-dir (file-name-directory
-                    (or (buffer-file-name) load-file-name)))
-    (add-to-list 'load-path emacs-dir)
-    (require 'latex)
-
-Note that the above code assumes that `latex.el` is in the same directory
-as your startup file.  Modify to suit your needs.
-
-<a name="emacs-howto"/>
-How to Use on Emacs
-===================
-
-To turn on the LaTeX input method use
-
-    C-x RET C-\ latex
-
-If you don't use other input methods it is sufficient to use
-
-    C-\ latex
-
-To get a listing of the supported LaTeX notation, type:
-
-    C-h I
-
-For the most part the Emacs input method works the same as Mac OS X input source.
-There are a few differences:
-
-* When you type something that obviously isn't LaTeX notation because it doesn't
-  start with a backslash, Emacs doesn't underline it or make you accept it without
-  rendering it by typing RETURN.
-* The Emacs input method is case sensitive, so if you type \Delta or \delta you
-  will get Δ or δ without any need to disambiguate.
-* If you want to type some LaTeX notation without rendering it, type any key but
-  SPACE when you are done.  The key that you press will be entered into the document.
-  That means that if wanted the next character to be a SPACE you must delete the
-  character you typed and then type a SPACE.
-* The Emacs input method will show all possible completions for partially typed
-  notation in a separate buffer if you type TAB.
-
-In my experience Emacs uses a somewhat impoverished font, and as a result it doesn't
-always render the symbol, even though the Unicode character was inserted into the
-document.
-
-<a name="x-install"/>
-X Windows Installation
-======================
-
-*Note: Ubuntu already comes with a package called* ibus-latex-table.
-
-The following procedure works on Ubuntu 12.04.
-
-Install the necessary packages:
-
-    $ sudo apt-get install im-config ibus-table
-
-This command launches a pop-up window to choose the input method configuration.  Choose `ibus`:
-
-    $ im-config
-
-The above command should also create the file `.xinputrc` if it does not exist and add this line:
-
-    run_im ibus
-
-Then install the input method
-
-    $ sudo ./ibus-install.sh
-
-*If you want to install both the* `ibus-latex-table` *input method and the input method provided
-by this repository, you must give it a name other than the default* `latex`.  *Do something like this instead:*
-
-    $ sudo ./ibus-install.sh latex2
-
-Log out of X Windows and log back in.  There should be a keyboard symbol in the menu bar.  Click on the symbol and select `Preferences`.  Under the `Input Methods` tab, select the `Customize active input methods` checkbox.  Then in the `Select an input method` drop down, select `Other`.  Find the latex input method and add it.
-
-
-<a name="x-howto"/>
-How to Use on X Windows
-=======================
-
-There should be an iBus icon in the menu bar which changes depending upon the input method that is in effect.  When no input method is in effect, the icon is a keyboard.  The input method can be changed by clicking the icon and selecting from the drop down.  The input method is set per application.
-
-When the latex input method is in effect, one types LaTeX notation, following by SPACE to render or RETURN to accept the LaTeX notation literally.
 
 <a name="about-latex"/>
 About LaTeX
@@ -476,6 +320,162 @@ The following notation can be added to a LaTeX distribution by installing [this 
     \delkey            ⌫                   \returnkey          ⏎
     \capslockkey       ⇪                   \enterkey           ⌤
     \ejectkey          ⏏                   \rightdelkey        ⌦
+
+<a name="mac-install"/>
+Mac Installation
+================
+
+    $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.cin > ~/Library/Input\ Methods/latex.cin
+
+<a name="mac-howto"/>
+How to Use on Mac
+=================
+
+In
+
+    System Preferences | Keyboard | Input Sources
+
+you should see a new input source called `LaTeX`.  An input source
+is what Mac OS X calls an input method.  If you check the box next
+to `LaTeX` and if you make sure that `Show Input menu in menu bar` is
+checked, then you can use the menu bar to set or unset LaTeX as the
+input source.
+
+When you type LaTeX notation it will be underlined.  When the notation
+is finished, type SPACE to render it or RETURN to use it without rendering
+it.  SPACE and RETURN are special when used in this manner and don't insert
+a space or a newline in the document.  If you want a space or newline you
+must press SPACE or RETURN again.
+
+The Mac LaTeX input source is case insensitive.  In LaTeX, \Delta is used
+for Δ and \delta is used for δ, but the Mac LaTeX input source will nevertheless
+insist that you disambiguate.  It does this with a pop-up window.  Use the arrow
+keys to select the correct symbol and press RETURN.
+
+There is a Mac OS X keyboard shortcut for switching input source, but the
+default value conflicts with Spotlight.  Consider going to 
+
+    System Preferences | Keyboard | Keyboard Shortcuts | Keyboard & Text Input
+
+and changing it to something like ⌥⌘Space
+
+<a name="windows-install"/>
+Windows Installation
+====================
+
+Download and install [AutoHotkey](http://www.autohotkey.com/).
+
+Download [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.ahk) and install it in your Startup folder.  Open the Startup folder in File Explorer by pressing `Cmd+R` and entering `shell:startup`.  The input method will run the next time you log in.  You can also start it by double-clicking it in File Explorer.
+
+<a name="windows-howto"/>
+How to Use on Windows
+=====================
+
+The input method starts in an inactivate state.  Use `Ctrl+Alt+L` to toggle between active and inactive.
+
+When the input method is active, type LaTeX notation followed by a SPACE to render a symbol.
+
+<a name="emacs-install"/>
+Emacs Installation
+==================
+
+*Note: Emacs already comes with an input method called* TeX.
+
+Requires GNU Emacs 22 or higher.
+
+Download the Emacs Lisp file to a place in your Emacs library path:
+
+    $ wget https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.el
+
+You can load `latex.el` manually at any time with the command
+
+    M-x load-file RET /PATH/TO/latex.el
+
+To load `latex.el` automatically when Emacs starts up, you need to put something
+like this in your startup file, i.e. `~/.emacs`, `~/.emacs.el`, or `~/.emacs.d/init.el`:
+
+    (setq emacs-dir (file-name-directory
+                    (or (buffer-file-name) load-file-name)))
+    (add-to-list 'load-path emacs-dir)
+    (require 'latex)
+
+Note that the above code assumes that `latex.el` is in the same directory
+as your startup file.  Modify to suit your needs.
+
+<a name="emacs-howto"/>
+How to Use on Emacs
+===================
+
+To turn on the LaTeX input method use
+
+    C-x RET C-\ latex
+
+If you don't use other input methods it is sufficient to use
+
+    C-\ latex
+
+To get a listing of the supported LaTeX notation, type:
+
+    C-h I
+
+For the most part the Emacs input method works the same as Mac OS X input source.
+There are a few differences:
+
+* When you type something that obviously isn't LaTeX notation because it doesn't
+  start with a backslash, Emacs doesn't underline it or make you accept it without
+  rendering it by typing RETURN.
+* The Emacs input method is case sensitive, so if you type \Delta or \delta you
+  will get Δ or δ without any need to disambiguate.
+* If you want to type some LaTeX notation without rendering it, type any key but
+  SPACE when you are done.  The key that you press will be entered into the document.
+  That means that if wanted the next character to be a SPACE you must delete the
+  character you typed and then type a SPACE.
+* The Emacs input method will show all possible completions for partially typed
+  notation in a separate buffer if you type TAB.
+
+In my experience Emacs uses a somewhat impoverished font, and as a result it doesn't
+always render the symbol, even though the Unicode character was inserted into the
+document.
+
+<a name="x-install"/>
+X Windows Installation
+======================
+
+*Note: Ubuntu already comes with a package called* ibus-latex-table.
+
+The following procedure works on Ubuntu 12.04.
+
+Install the necessary packages:
+
+    $ sudo apt-get install im-config ibus-table
+
+This command launches a pop-up window to choose the input method configuration.  Choose `ibus`:
+
+    $ im-config
+
+The above command should also create the file `.xinputrc` if it does not exist and add this line:
+
+    run_im ibus
+
+Then install the input method
+
+    $ sudo ./ibus-install.sh
+
+*If you want to install both the* `ibus-latex-table` *input method and the input method provided
+by this repository, you must give it a name other than the default* `latex`.  *Do something like this instead:*
+
+    $ sudo ./ibus-install.sh latex2
+
+Log out of X Windows and log back in.  There should be a keyboard symbol in the menu bar.  Click on the symbol and select `Preferences`.  Under the `Input Methods` tab, select the `Customize active input methods` checkbox.  Then in the `Select an input method` drop down, select `Other`.  Find the latex input method and add it.
+
+
+<a name="x-howto"/>
+How to Use on X Windows
+=======================
+
+There should be an iBus icon in the menu bar which changes depending upon the input method that is in effect.  When no input method is in effect, the icon is a keyboard.  The input method can be changed by clicking the icon and selecting from the drop down.  The input method is set per application.
+
+When the latex input method is in effect, one types LaTeX notation, following by SPACE to render or RETURN to accept the LaTeX notation literally.
 
 <a name="apl"/>
 APL Input Methods
