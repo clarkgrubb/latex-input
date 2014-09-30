@@ -72,7 +72,7 @@ Windows Installation
 
 Download and install [AutoHotkey](http://www.autohotkey.com/).
 
-Download [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.ahk) and install it in your Startup folder.  Open the Startup folder in File Explorer by pressing `Cmd+R` and entering `shell:startup`.  The input method will run the next time you log in.  You can also start it by double-clicking on it in File Explorer.
+Download [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.ahk) and install it in your Startup folder.  Open the Startup folder in File Explorer by pressing `Cmd+R` and entering `shell:startup`.  The input method will run the next time you log in.  You can also start it by double-clicking it in File Explorer.
 
 <a name="windows-howto"/>
 How to Use on Windows
@@ -80,7 +80,7 @@ How to Use on Windows
 
 The input method starts in an inactivate state.  Use `Ctrl+Alt+S` to toggle between active and inactive.
 
-When the input method is active, typing LaTeX notation followed by SPACE renders the notation.
+When the input method is active, type LaTeX notation followed by a SPACE to render a symbol.
 
 <a name="emacs-install"/>
 Emacs Installation
