@@ -4,9 +4,6 @@
 
 **apl notation:** [apl input methods](#apl)
 
-Introduction
-============
-
 Keyboard input methods for mathematics.
 
 Use LaTeX notation to enter 969 Unicode characters.
@@ -14,7 +11,8 @@ Use LaTeX notation to enter 969 Unicode characters.
 Input methods for [Mac OS X](#mac-install), [Microsoft Windows](#windows-install),
 [Emacs](#emacs-install), and [X Windows](#x-install).
 
-----
+Introduction
+============
 
 Here are some examples of LaTeX notation:
 
