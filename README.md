@@ -6,7 +6,7 @@
 
 ----
 
-Keyboard input methods for mathematics.
+Difficulty typing mathematical symbols?  Install one of these keyboard input methods for mathematics.
 
 Use LaTeX notation to enter 969 Unicode characters.
 
