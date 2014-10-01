@@ -7,7 +7,12 @@
 Introduction
 ============
 
+Keyboard input methods for mathematics.
+
 Use LaTeX notation to enter 969 Unicode characters.
+
+Input methods for [Mac OS X](#mac-install), [Microsoft Windows](#windows-install),
+[Emacs](#emacs-install), and [X Windows](#x-install).
 
 Here are some examples of LaTeX notation:
 
@@ -17,9 +22,6 @@ Here are some examples of LaTeX notation:
     \leftarrow         ←
     \alpha             α
     \subseteq          ⊆
-
-Four input methods are provided; for [Mac OS X](#mac-install), [Microsoft Windows](#windows-install),
-[Emacs](#emacs-install), and [X Windows](#x-install).
 
 When an input method is in effect, one types LaTeX notation and it
 is rendered to the mathematical symbol on the fly.  E.g. type
