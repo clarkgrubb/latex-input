@@ -27,7 +27,7 @@ Here are some examples of LaTeX notation:
 
 When the input method is in effect, one types LaTeX notation and it
 is rendered to the mathematical symbol on the fly.  E.g. type
-\infty followed by a SPACE and an ∞ is inserted into the document.
+`\infty` followed by a `SPACE` and an `∞` is inserted into the document.
 
 LaTeX notation which cannot be rendered has no effect.  The input
 method cannot make fractions, radicals, or matrices, for example.
@@ -351,22 +351,22 @@ checked, then you can use the menu bar to set or unset LaTeX as the
 input source.
 
 When you type LaTeX notation it will be underlined.  When the notation
-is finished, type SPACE to render it or RETURN to use it without rendering
-it.  SPACE and RETURN are special when used in this manner and don't insert
+is finished, type `SPACE` to render it or `RETURN` to use it without rendering
+it.  `SPACE` and `RETURN` are special when used in this manner and don't insert
 a space or a newline in the document.  If you want a space or newline you
-must press SPACE or RETURN again.
+must press `SPACE` or `RETURN` again.
 
-The Mac LaTeX input source is case insensitive.  In LaTeX, \Delta is used
-for Δ and \delta is used for δ, but the Mac LaTeX input source will nevertheless
+The Mac LaTeX input source is case insensitive.  In LaTeX, `\Delta` is used
+for `Δ` and `\delta` is used for `δ`, but the Mac LaTeX input source will nevertheless
 insist that you disambiguate.  It does this with a pop-up window.  Use the arrow
-keys to select the correct symbol and press RETURN.
+keys to select the correct symbol and press `RETURN`.
 
 There is a Mac OS X keyboard shortcut for switching input source, but the
 default value conflicts with Spotlight.  Consider going to 
 
     System Preferences | Keyboard | Keyboard Shortcuts | Keyboard & Text Input
 
-and changing it to something like ⌥⌘Space
+and changing it to something like `⌥⌘Space`.
 
 <a name="windows-install"/>
 Microsoft Windows
@@ -385,7 +385,7 @@ how to use
 
 The input method starts in an inactivate state.  Use `Ctrl+Alt+L` to toggle between active and inactive.
 
-When the input method is active, type LaTeX notation followed by a SPACE to render a symbol.
+When the input method is active, type LaTeX notation followed by a `SPACE` to render a symbol.
 
 <a name="emacs-install"/>
 Emacs
@@ -436,15 +436,15 @@ There are a few differences:
 
 * When you type something that obviously isn't LaTeX notation because it doesn't
   start with a backslash, Emacs doesn't underline it or make you accept it without
-  rendering it by typing RETURN.
-* The Emacs input method is case sensitive, so if you type \Delta or \delta you
-  will get Δ or δ without any need to disambiguate.
+  rendering it by typing `RETURN`.
+* The Emacs input method is case sensitive, so if you type `\Delta` or `\delta` you
+  will get `Δ` or `δ` without any need to disambiguate.
 * If you want to type some LaTeX notation without rendering it, type any key but
-  SPACE when you are done.  The key that you press will be entered into the document.
-  That means that if wanted the next character to be a SPACE you must delete the
-  character you typed and then type a SPACE.
+  `SPACE` when you are done.  The key that you press will be entered into the document.
+  That means that if wanted the next character to be a `SPACE` you must delete the
+  character you typed and then type a `SPACE`.
 * The Emacs input method will show all possible completions for partially typed
-  notation in a separate buffer if you type TAB.
+  notation in a separate buffer if you type `TAB`.
 
 In my experience Emacs uses a somewhat impoverished font, and as a result it doesn't
 always render the symbol, even though the Unicode character was inserted into the
@@ -491,7 +491,7 @@ how to use
 
 There should be an iBus icon in the menu bar which changes depending upon the input method that is in effect.  When no input method is in effect, the icon is a keyboard.  The input method can be changed by clicking the icon and selecting from the drop down.  The input method is set per application.
 
-When the latex input method is in effect, one types LaTeX notation, following by SPACE to render or RETURN to accept the LaTeX notation literally.
+When the latex input method is in effect, one types LaTeX notation, following by `SPACE` to render or `RETURN` to accept the LaTeX notation literally.
 
 <a name="apl"/>
 APL Input Methods
