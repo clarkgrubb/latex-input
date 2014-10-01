@@ -4,6 +4,8 @@
 
 **apl notation:** [apl input methods](#apl)
 
+----
+
 Keyboard input methods for mathematics.
 
 Use LaTeX notation to enter 969 Unicode characters.
