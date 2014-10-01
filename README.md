@@ -392,8 +392,6 @@ installation
 
 *Note: Emacs already comes with an input method called* TeX.
 
-Requires GNU Emacs 22 or higher.
-
 Download the Emacs Lisp file to a place in your Emacs library path:
 
     $ wget https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.el
