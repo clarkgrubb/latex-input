@@ -14,6 +14,8 @@ Use LaTeX notation to enter 969 Unicode characters.
 Input methods for [Mac OS X](#mac-install), [Microsoft Windows](#windows-install),
 [Emacs](#emacs-install), and [X Windows](#x-install).
 
+----
+
 Here are some examples of LaTeX notation:
 
     \infty             ∞
