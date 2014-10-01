@@ -27,7 +27,7 @@ Here are some examples of LaTeX notation:
     \alpha             α
     \subseteq          ⊆
 
-When an input method is in effect, one types LaTeX notation and it
+When the input method is in effect, one types LaTeX notation and it
 is rendered to the mathematical symbol on the fly.  E.g. type
 \infty followed by a SPACE and an ∞ is inserted into the document.
 
