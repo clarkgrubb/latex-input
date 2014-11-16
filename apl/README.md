@@ -73,7 +73,7 @@ Installing the Windows Input Method
 
 Download [apl.exe](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/apl/apl.exe) and install it in your Startup folder.  Open the Startup folder in File Explorer by pressing `Cmd+R` and entering `shell:startup`.  The input method will run the next time you log in.  You can also start it by double-clicking it in File Explorer.
 
-If you have [AutoHotkey](http://www.autohotkey.com/) installed, you can download and install [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/apl/apl.ahk) instead.
+If you have [AutoHotkey](http://www.autohotkey.com/) installed, you can download and install [apl.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/apl/apl.ahk) instead.
 
 <a name="windows-howto"/>
 Using the Input Method on Windows
