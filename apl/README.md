@@ -1,4 +1,4 @@
-**install and use:** [installing apl](#installing-apl) | [installing the mac input method](#mac-install) | [using the input method on mac](#mac-howto)
+**install and use:** [installing apl](#installing-apl) | [installing the mac input method](#mac-install) | [using the input method on mac](#mac-howto) | [installing the windows input method](#windows-install) | [using the input method on windows](#windows-howto)
 
 **apl notation:** [about apl](#about-apl) | [apl intro](#apl-intro)
 
@@ -66,6 +66,22 @@ default value conflicts with Spotlight.  Consider going to
     System Preferences | Keyboard | Keyboard Shortcuts | Keyboard & Text Input
 
 and changing it to something like ⌥`⌘Space`
+
+<a name="windows-install"/>
+Installing the Windows Input Method
+===================================
+
+Download [apl.exe](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/apl/apl.exe) and install it in your Startup folder.  Open the Startup folder in File Explorer by pressing `Cmd+R` and entering `shell:startup`.  The input method will run the next time you log in.  You can also start it by double-clicking it in File Explorer.
+
+If you have [AutoHotkey](http://www.autohotkey.com/) installed, you can download and install [latex.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/apl/apl.ahk) instead.
+
+<a name="windows-howto"/>
+Using the Input Method on Windows
+=================================
+
+The input method starts in an inactivate state.  Use `Ctrl+Alt+L` to toggle between active and inactive.
+
+When the input method is active, type APL notation followed by a `SPACE` to render a symbol.
 
 <a name="about-apl"/>
 About APL
