@@ -205,7 +205,7 @@ The dyadic _format_ `⍕` rounds its right argument to the precision specified o
 1d array
 --------
 
-    @less ~
+    @less      ~
     @index     ⍳
     @count     ⍳
     @deal      ?
@@ -219,7 +219,7 @@ The dyadic _format_ `⍕` rounds its right argument to the precision specified o
     @downgrade ⍒
     @in        ∊
 
-Dyadic _less_ is set difference: the elements on the left with any elements on the right removed.
+Dyadic _less_ `~` is set difference: the elements on the left with any elements on the right removed.
 
 Dyadic _index_ `⍳` computes the one-based index of the first occurrence of the left argument in the list on the right.  Monadic _count_ `⍳` takes a nonnegative integer as an argument and returns the list of integers from `1` to `ω`.
 
@@ -241,15 +241,15 @@ Monadic _downgrade_ `⍒` returns the descending rank order of the elements of `
 2d array
 --------
 
-    @reshape ⍴
-    @shape ⍴
-    @upset ⊖
-    @rowel ⊖
-    @cant ⍉
+    @reshape    ⍴
+    @shape      ⍴
+    @upset     ⊖
+    @rowel     ⊖
+    @cant      ⍉
     @nub       ↑
     @ravel     ,
-    @inverse ⌹
-    @domino ⌹
+    @inverse   ⌹
+    @domino    ⌹
 
 <a name="strings"/>
 strings
