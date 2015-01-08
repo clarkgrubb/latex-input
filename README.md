@@ -1,4 +1,4 @@
-**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [games](#games) | [keyboard symbols](#latex-keyboard)
 
 **install and use:** [mac os x](#mac-install) | [microsoft windows](#windows-install) | [emacs](#emacs-install) | [x windows](#x-install)
 
@@ -313,6 +313,23 @@ Astronomy
     \descnode          ☋
     \conjunction       ☌
     \opposition        ☍    
+
+<a name="games"/>
+Games
+=====
+
+    \blackbishop      ♝                       \epsdice{1}      ⚀
+    \blackking        ♚                       \epsdice{2}      ⚁
+    \blackknight      ♞                       \epsdice{3}      ⚂
+    \blackpawn        ♟                       \epsdice{4}      ⚃
+    \blackqueen       ♛                       \epsdice{5}      ⚄
+    \blackrook        ♜                       \epsdice{6}      ⚅
+    \whitebishop      ♗                       \clubsuit        ♣
+    \whiteking        ♔                       \heartsuit       ♡
+    \whiteknight      ♘                       \spadesuit       ♠
+    \whitepawn        ♙                       \diamondsuit     ♢
+    \whitequeen       ♕
+    \whiterook        ♖
 
 <a name="latex-keyboard"/>
 Keyboard Symbols
