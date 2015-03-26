@@ -378,12 +378,9 @@ for `Δ` and `\delta` is used for `δ`, but the Mac LaTeX input source will neve
 insist that you disambiguate.  It does this with a pop-up window.  Use the arrow
 keys to select the correct symbol and press `RETURN`.
 
-There is a Mac OS X keyboard shortcut for switching input source, but the
-default value conflicts with Spotlight.  Consider going to 
+To set a Mac OS X keyboard shortcut for switching input source, go to:
 
-    System Preferences | Keyboard | Keyboard Shortcuts | Keyboard & Text Input
-
-and changing it to something like `⌥⌘Space`.
+    System Preferences | Keyboard | Shortcuts | Input Sources
 
 <a name="windows-install"/>
 Microsoft Windows
