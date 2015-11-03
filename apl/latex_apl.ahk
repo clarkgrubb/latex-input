@@ -4420,14 +4420,41 @@ return
 :c:_e::
 Send {U+2091}
 return
+:c:_h::
+Send {U+2095}
+return
 :c:_i::
 Send {U+1D62}
+return
+:c:_j::
+Send {U+2C7C}
+return
+:c:_k::
+Send {U+2096}
+return
+:c:_l::
+Send {U+2097}
+return
+:c:_m::
+Send {U+2098}
+return
+:c:_n::
+Send {U+2099}
 return
 :c:_o::
 Send {U+2092}
 return
+:c:_p::
+Send {U+209A}
+return
 :c:_r::
 Send {U+1D63}
+return
+:c:_s::
+Send {U+209B}
+return
+:c:_t::
+Send {U+209C}
 return
 :c:_u::
 Send {U+1D64}
