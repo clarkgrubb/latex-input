@@ -8,7 +8,7 @@
 
 Difficulty typing mathematical symbols?
 
-Install a keyboard input method for mathematics and use LaTeX notation to enter 969 Unicode characters.
+Install a keyboard input method for mathematics and use LaTeX notation to enter 978 Unicode characters.
 
 Input methods for [Mac OS X](#mac-install), [Microsoft Windows](#windows-install),
 [Emacs](#emacs-install), and [X Windows](#x-install).
@@ -155,7 +155,7 @@ Superscripts and Subscripts
 
 Can be superscript: `0-9a-pr-zABD-PRTUVW+-=()αβγδ∊θιϕφχ`
 
-Can be subscript: `0-9aeioruvx+-=()βγρφχ`
+Can be subscript: `0-9aehijklmnoprstuvx+-=()βγρφχ`
 
 
 <a name="latex-arrows"/>
