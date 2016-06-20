@@ -2332,6 +2332,9 @@ return
 :c:\lambda::
 Send {U+03BB}
 return
+:c:\langle::
+Send {U+27E8}
+return
 :c:\lceil::
 Send {U+2308}
 return
@@ -3162,6 +3165,9 @@ Send {U+221D}
 return
 :c:\psi::
 Send {U+03C8}
+return
+:c:\rangle::
+Send {U+27E9}
 return
 :c:\rceil::
 Send {U+2309}

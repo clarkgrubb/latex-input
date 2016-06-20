@@ -810,6 +810,7 @@ Z	Z	1
 \kappa	κ	1
 \l	ł	1
 \lambda	λ	1
+\langle	⟨	1
 \lceil	⌈	1
 \ldots	…	1
 \le	≤	1
@@ -1087,6 +1088,7 @@ Z	Z	1
 \prod	∏	1
 \propto	∝	1
 \psi	ψ	1
+\rangle	⟩	1
 \rceil	⌉	1
 \registered	®	1
 \returnkey	⏎	1

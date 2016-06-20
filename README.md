@@ -8,7 +8,7 @@
 
 Difficulty typing mathematical symbols?
 
-Install a keyboard input method for mathematics and use LaTeX notation to enter 978 Unicode characters.
+Install a keyboard input method for mathematics and use LaTeX notation to enter 980 Unicode characters.
 
 Input methods for [Mac OS X](#mac-install), [Microsoft Windows](#windows-install),
 [Emacs](#emacs-install), and [X Windows](#x-install).

@@ -161,6 +161,7 @@
 \iota ι
 \kappa κ
 \lambda λ
+\langle ⟨
 \lceil ⌈
 \le ≤
 \leadsto ↝
@@ -235,6 +236,7 @@
 \prod ∏
 \propto ∝
 \psi ψ
+\rangle ⟩
 \rceil ⌉
 \registered ®
 \rfloor ⌋

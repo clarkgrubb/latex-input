@@ -915,6 +915,7 @@ Z Z
 \kappa κ
 \l ł
 \lambda λ
+\langle ⟨
 \lceil ⌈
 \ldots …
 \le ≤
@@ -1192,6 +1193,7 @@ Z Z
 \prod ∏
 \propto ∝
 \psi ψ
+\rangle ⟩
 \rceil ⌉
 \registered ®
 \returnkey ⏎
@@ -2448,6 +2450,7 @@ Z Z
 \kappa κ
 \l ł
 \lambda λ
+\langle ⟨
 \lceil ⌈
 \ldots …
 \le ≤
@@ -2725,6 +2728,7 @@ Z Z
 \prod ∏
 \propto ∝
 \psi ψ
+\rangle ⟩
 \rceil ⌉
 \registered ®
 \returnkey ⏎
