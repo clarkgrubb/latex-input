@@ -274,6 +274,8 @@ Monadic _cant_ `⍉` transposes a 2-dimensional array.
 
 Dyadic _take_ `↑` returns a corner subarray from the 2-dimensional array `ω` of size determined by `α`.  If all elements of `α` are positive, the subarray is taken from the upper left corner.
 
+Monadic _ravel_ `,` converts a 2-dimensional array into a 1-dimensional array using row major order.
+
 Monadic _inverse_ `⌹` returns the inverse of a 2-dimensional array.  Dyadic _domino_  `⌹` solves the linear equation `Ax = y`, where `ω` is `A` and `α` is `y`.
 
 <a name="strings"/>
