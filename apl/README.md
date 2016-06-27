@@ -242,7 +242,7 @@ Dyadic _index_ `⍳` computes the one-based index of the first occurrence of the
 
 Dyadic _deal_ `?` select `α` random numbers without replacement from the list of integers from `1` to `ω`.  Monadic _roll_ `?` generates a random integer from `1` to `ω`. 
 
-Dyadic _rotate_ `⌽` pops elements off the front of the list `ω` and pushes them onto the back when `α` is positive.  When `α` is negative it pops them off the back and pushes them onto the front.  Monadic _reverse_ `⌽` reverses a list.
+Dyadic _rotate_ `⌽` pops elements off the front of the list `ω` and pushes them onto the back when `α` is positive.  When `α` is negative it pops them off the back and pushes them onto the front.  Monadic _reverse_ `⌽` reverses a list.  On a 2-dimensional array it reverses each row.
 
 Dyadic _drop_ `↓` returns the list `ω` with the first `α` items removed.
 
@@ -268,7 +268,9 @@ Monadic _downgrade_ `⍒` returns the descending rank order of the elements of `
     @inverse   ⌹
     @domino    ⌹
     
-Dyadic _reshape_ converts the elements of `ω` into a multidimensional array with the shape `α`.  Monadic _shape_ returns the length of an array, or the dimensions of a multidimensional array.
+Dyadic _reshape_ `⍴` converts the elements of `ω` into a multidimensional array with the shape `α`.  Monadic _shape_ `⍴` returns the length of an array, or the dimensions of a multidimensional array.
+
+Monadic _upset_ `⊖` reverses the elements in each column of a 2-dimensional array.
 
 <a name="strings"/>
 strings
