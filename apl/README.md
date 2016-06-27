@@ -312,7 +312,7 @@ True and false are 1 and 0.
 
 Some functions can be used as monadic and dyadic functions. In addition to minus, which works like other languages, the ∣ function (U+2223) is absolute value when monadic and modulus when dyadic. ⋆ (U+22C6) is the exponential function when monadic and the power function when dyadic. The ○ function (U+25CB) is a multiple of π when monadic and a trigonometric function when dyadic, with the first argument determining which trigonometric function.
 
-Most APL function work on arrays. The following performs elementwise addition to give `3 5 7`:
+Most APL functions work on arrays. The following performs elementwise addition to give `3 5 7`:
 
     1 2 3 + 2 3 4
 
