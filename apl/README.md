@@ -266,6 +266,8 @@ Monadic _downgrade_ `⍒` returns the descending rank order of the elements of `
     @ravel     ,
     @inverse   ⌹
     @domino    ⌹
+    
+Dyadic _reshape_ converts the elements of `ω` into a multidimensional array with the shape `α`.  Monadic _shape_ returns the length of an array, or the dimensions of a multidimensional array.
 
 <a name="strings"/>
 strings
