@@ -87,7 +87,7 @@ When the input method is active, type APL notation followed by a `SPACE` to rend
 APL Operator Reference
 ======================
 
-[parsing](#parsing) | [operators](#operators) | [lists](#lists) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental) | [truncation](#truncation) | [1d array](#one-dim-array) | [2d array](#two-dim-array) | [strings](#strings)
+[parsing](#parsing) | [operators](#operators) | [lists](#lists) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental) | [truncation](#truncation) | [1d array](#one-dim-array) | [2d array](#two-dim-array) | [strings](#strings) | [higher order operators](#higher-order-op)
 
 <a name="parsing"/>
 parsing
@@ -285,6 +285,18 @@ strings
 Strings are single quoted `'` and doubling is used to insert a single quote character in a string.
 
     @execute ⍎
+
+<a name="higher-order-op"/>
+higher order operators
+----------------------
+
+    @dieresis     ¨
+    @period       .
+    @paw          ⍤
+    @cup          ∪
+    @cap          ∩
+    @slashbar     ⌿
+    @backslashbar ⍀
 
 other
 -----
