@@ -308,13 +308,13 @@ other
 APL Tutorial
 ============
 
-APL calls unary operators monadic functions and binary operators dyadic functions. Unary operators are prefix and binary operators are infix. APL does not have functions with syntax like the other languages. In APL terminology, operators are functions which take a function as an argument. And example of such an operator is /, which acts like reduce. The following expression uses addition to reduce the list `[1, 2, 3]1 and evaluates to 6:
+APL calls unary operators _monadic_ and binary operators _dyadic_. Monadic operators are prefix and dyadic operators are infix. Most APL operators take lists as arguments, but there are higher order operators which take other operators as arguments. And example of such an operator is /, which acts like reduce. The following expression uses addition to reduce the list `[1, 2, 3]1 and evaluates to 6:
 
     + / 1 2 3
 
 True and false are 1 and 0.
 
-Some functions can be used as monadic and dyadic functions. In addition to minus, which works like other languages, the ∣ function (U+2223) is absolute value when monadic and modulus when dyadic. ⋆ (U+22C6) is the exponential function when monadic and the power function when dyadic. The ○ function (U+25CB) is a multiple of π when monadic and a trigonometric function when dyadic, with the first argument determining which trigonometric function.
+Some operators can be used as both monadic and dyadic operators. In addition to minus, which works like other languages, the ∣ operator (U+2223) is absolute value when monadic and modulus when dyadic. ⋆ (U+22C6) is the exponential operator when monadic and the power operator when dyadic. The ○ operator (U+25CB) is a multiple of π when monadic and a trigonometric operator when dyadic, with the first argument determining which trigonometric function.
 
 Most APL functions work on arrays. The following performs elementwise addition to give `3 5 7`:
 
@@ -334,7 +334,7 @@ Another way to compute the dot product is:
 
     1 2 3 +.× 2 3 4
 
-The . operator is called the inner product operator. It takes two dyadic functions as its arguments and returns a dyadic function.
+The . operator is called the inner product operator. It takes two dyadic operators as its arguments and returns a dyadic operator.
 
 When a scalar is added to an array, the scalar is added to each element of the array. This expression evaluates to `2 3 4`:
 
