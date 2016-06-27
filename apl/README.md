@@ -272,6 +272,8 @@ Dyadic _reshape_ `⍴` converts the elements of `ω` into a multidimensional arr
 
 Monadic _upset_ `⊖` reverses the elements in each column of a 2-dimensional array.
 
+Monadic _cant_ `⍉` transposes a 2-dimensional array.
+
 <a name="strings"/>
 strings
 -------
