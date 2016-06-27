@@ -1,6 +1,6 @@
 **install and use:** [installing apl](#installing-apl) | [installing the mac input method](#mac-install) | [using the input method on mac](#mac-howto) | [installing the windows input method](#windows-install) | [using the input method on windows](#windows-howto)
 
-**apl notation:** [about apl](#about-apl) | [apl intro](#apl-intro)
+**apl notation:** [operator reference](#apl-op-ref) | [tutorial](#apl-tutorial)
 
 Introduction
 ============
@@ -83,9 +83,9 @@ The input method starts in an inactivate state.  Use `Ctrl+Alt+L` to toggle betw
 
 When the input method is active, type APL notation followed by a `SPACE` to render a symbol.
 
-<a name="about-apl"/>
-About APL
-===========
+<a name="apl-op-ref"/>
+APL Operator Reference
+======================
 
 [parsing](#parsing) | [operators](#operators) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental) | [truncation](#truncation) | [1d array](#one-dim-array) | [2d array](#two-dim-array) | [strings](#strings)
 
@@ -296,9 +296,9 @@ other
     @raze      ↓
     @table ⍪ 
 
-<a name="apl-intro"/>
-APL Intro
-=========
+<a name="apl-tutorial"/>
+APL Tutorial
+============
 
 APL calls unary operators monadic functions and binary operators dyadic functions. Unary operators are prefix and binary operators are infix. APL does not have functions with syntax like the other languages. In APL terminology, operators are functions which take a function as an argument. And example of such an operator is /, which acts like reduce. The following expression uses addition to reduce the list `[1, 2, 3]1 and evaluates to 6:
 
