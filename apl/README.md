@@ -242,9 +242,9 @@ Dyadic _deal_ `?` select `α` random numbers without replacement from the list o
 
 Dyadic _rotate_ `⌽` pops elements off the front of the list `ω` and pushes them onto the back when `α` is positive.  When `α` is negative it pops them off the back and pushes them onto the front.  Monadic _reverse_ `⌽` reverses a list.  On a 2-dimensional array it reverses each row.
 
-Dyadic _drop_ `↓` returns the list `ω` with the first `α` items removed.
+Dyadic _drop_ `↓` returns the list `ω` with the first `α` items removed.  `α` can be negative, in which case items are removed from the end.
 
-Dyadic _take_ `↑` returns the first `α` items from the list `ω`.
+Dyadic _take_ `↑` returns the first `α` items from the list `ω`.  `α` can be negative, in which case items are returned from the end.
 
 Dyadic _by_ `,` concatenates the lists `α` and `ω`.
 
@@ -261,7 +261,7 @@ Monadic _downgrade_ `⍒` returns the descending rank order of the elements of `
     @upset     ⊖
     @rowel     ⊖
     @cant      ⍉
-    @nub       ↑
+    @take      ↑
     @ravel     ,
     @inverse   ⌹
     @domino    ⌹
@@ -271,6 +271,8 @@ Dyadic _reshape_ `⍴` converts the elements of `ω` into a multidimensional arr
 Monadic _upset_ `⊖` reverses the elements in each column of a 2-dimensional array.
 
 Monadic _cant_ `⍉` transposes a 2-dimensional array.
+
+Dyadic _take_ `↑` returns a corner subarray from the 2-dimensional array `ω` of size determined by `α`.  If all elements of `α` are positive, the subarray is taken from the upper left corner.
 
 Monadic _inverse_ `⌹` returns the inverse of a 2-dimensional array.  Dyadic _domino_  `⌹` solves the linear equation `Ax = y`, where `ω` is `A` and `α` is `y`.
 
