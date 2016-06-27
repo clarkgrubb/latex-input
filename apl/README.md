@@ -377,7 +377,7 @@ Matrix multiplication is performed like the dot product of arrays:
 * min/max (use floor ceil)
 * membership
 * decode / encode
-* matrix invese
+* matrix inverse
 * general transpose
 * reverse / rotate
 * grade up / grade down
