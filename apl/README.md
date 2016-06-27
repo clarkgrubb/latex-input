@@ -210,7 +210,7 @@ _Left_ `⊣` and _right_ `⊢` are exclusively dyadic operators.  They return th
 
 The dyadic _maximum_ `⌈` and _minimum_ `⌊` operators return the greater and the lesser of their arguments, respectively.  When used as monadic operators they are ceiling and floor functions.  That is, they return the least integer greater than or equal to the argument or the greatest integer less than or equal to argument, respectively.
 
-The dyadic _format_ `⍕` rounds its right argument to the precision specified on the left.  The monadic _format_ uses the built-in name `⎕pp`.
+The dyadic _format_ `⍕` rounds its right argument to the precision specified on the left.  The monadic _format_ `⍕` uses the built-in name `⎕pp`.
 
 <a name="one-dim-array"/>
 1d array
