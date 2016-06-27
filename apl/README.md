@@ -87,7 +87,7 @@ When the input method is active, type APL notation followed by a `SPACE` to rend
 APL Operator Reference
 ======================
 
-[parsing](#parsing) | [operators](#operators) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental) | [truncation](#truncation) | [1d array](#one-dim-array) | [2d array](#two-dim-array) | [strings](#strings)
+[parsing](#parsing) | [operators](#operators) | [lists](#lists) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental) | [truncation](#truncation) | [1d array](#one-dim-array) | [2d array](#two-dim-array) | [strings](#strings)
 
 <a name="parsing"/>
 parsing
@@ -115,6 +115,10 @@ operators
 ---------
 
 APL operators are represented by single characters.  They can be either binary infix operators, which APL calls _dyadic_, or unary prefix operators, which APL calls _monadic_.  Many operators can be used either as a dyadic or a monadic operator with different effect.  Which way the operator is used depends on how APL parses the expression.  We use `α` and `ω` to refer to the left and right arguments of operators.
+
+< name="lsits"/>
+lists
+-----
 
 The operands of APL operators are lists.  The elements of lists are numeric literals, names,  or strings.  The elements are usually separated by spaces.  There are no delimiters to mark the edges of the list; APL knows it has encountered the left edge of a list when it encounters an operator.  Whether the operator is dyadic or monadic depends on whether a list or another operator is found to the left.
 
