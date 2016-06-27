@@ -118,12 +118,6 @@ APL operators are represented by single characters.  They can be either binary i
 
 The operands of APL operators are lists.  The elements of lists are numeric literals, names,  or strings.  The elements are usually separated by spaces.  There are no delimiters to mark the edges of the list; APL knows it has encountered the left edge of a list when it encounters an operator.  Whether the operator is dyadic or monadic depends on whether a list or another operator is found to the left.
 
-* VALENCE ERROR
-* LENGTH ERROR
-* RANK ERROR
-* DOMAIN ERROR
-* INDEX ERROR
-
 <a name="arithmetic"/>
 arithmetic
 ----------
@@ -306,7 +300,7 @@ other
 APL Intro
 =========
 
-APL calls unary operators monadic functions and binary operators dyadic functions. Unary operators are prefix and binary operators are infex. APL does not have functions with syntax like the other languages. In APL terminology, operators are functions which take a function as an argument. And example of such an operator is /, which acts like reduce. The following expression uses addition to reduce the list `[1, 2, 3]1 and evaluates to 6:
+APL calls unary operators monadic functions and binary operators dyadic functions. Unary operators are prefix and binary operators are infix. APL does not have functions with syntax like the other languages. In APL terminology, operators are functions which take a function as an argument. And example of such an operator is /, which acts like reduce. The following expression uses addition to reduce the list `[1, 2, 3]1 and evaluates to 6:
 
     + / 1 2 3
 
@@ -381,3 +375,11 @@ Matrix multiplication is performed like the dot product of arrays:
 * grade up / grade down
 * factorial / combinations
 * outer product
+
+GNU APL errors:
+
+* VALENCE ERROR
+* LENGTH ERROR
+* RANK ERROR
+* DOMAIN ERROR
+* INDEX ERROR
