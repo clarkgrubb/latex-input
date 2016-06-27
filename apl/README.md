@@ -116,7 +116,7 @@ operators
 
 APL operators are represented by single characters.  They can be either binary infix operators, which APL calls _dyadic_, or unary prefix operators, which APL calls _monadic_.  Many operators can be used either as a dyadic or a monadic operator with different effect.  Which way the operator is used depends on how APL parses the expression.  We use `α` and `ω` to refer to the left and right arguments of operators.
 
-< name="lsits"/>
+<a name="lists"/>
 lists
 -----
 
