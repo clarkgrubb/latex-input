@@ -122,6 +122,7 @@ The operands of APL operators are lists.  The elements of lists are numeric lite
 * LENGTH ERROR
 * RANK ERROR
 * DOMAIN ERROR
+* INDEX ERROR
 
 <a name="arithmetic"/>
 arithmetic
