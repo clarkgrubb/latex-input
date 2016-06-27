@@ -274,6 +274,8 @@ Monadic _upset_ `⊖` reverses the elements in each column of a 2-dimensional ar
 
 Monadic _cant_ `⍉` transposes a 2-dimensional array.
 
+Monadic _inverse_ `⌹` returns the inverse of a 2-dimensional array.
+
 <a name="strings"/>
 strings
 -------
