@@ -114,7 +114,22 @@ The _lamp_ `⍝` starts a comment which ends at the end of the line.
 operators
 ---------
 
+    @del       ∇
+
 APL operators are represented by single characters.  They can be either binary infix operators, which APL calls _dyadic_, or unary prefix operators, which APL calls _monadic_.  Many operators can be used either as a dyadic or a monadic operator with different effect.  Which way the operator is used depends on how APL parses the expression.  We use `α` and `ω` to refer to the left and right arguments of operators.
+
+The _del_ `∇` is used to define new monadic or dyadic operators:
+
+    ∇r ← double n
+    r ← 2 × n ∇
+
+    ∇r ← a add b
+    r ← a + b ∇
+    
+Invoking the operators:
+
+    double 7
+    3 add 7
 
 <a name="lists"/>
 lists
