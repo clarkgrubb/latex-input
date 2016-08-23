@@ -1,4 +1,4 @@
-**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [ipa](#latex-ipa) | [astronomy](#latex-astronomy) | [games](#games) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [plosives](#latex-ipa-plosives) | [nasals](#latex-ipa-nasals) | [fricatives & approximants](#latex-ipa-fricatives-approximants) | [vowels](#latex-ipa-vowels) | [astronomy](#latex-astronomy) | [games](#games) | [keyboard symbols](#latex-keyboard)
 
 **install and use:** [mac os x](#mac-install) | [microsoft windows](#windows-install) | [emacs](#emacs-install) | [x windows](#x-install)
 
@@ -54,6 +54,7 @@ The input methods also use notation from the following three packages:
     \usepackage{amsmath}
     \usepackage{amssymb}
     \usepackage{wasysym}
+    \usepackage{tipa}
 
 <a name="latex-relation-op"/>
 Relations and Operators
@@ -294,15 +295,9 @@ Greek
     \varsigma           ς
     \vartheta           ϑ
 
-<a name="latex-ipa"/>
-International Phonetic Alphabet
-===============================
-
-The notation comes from this package:
-
-    \usepackage{tipa}
-
-_plosives_
+<a name="latex-ipa-plosives"/>
+International Phonetic Alphabet: Plosives
+=========================================
 
     b                    b    voiced bilabial plosive
     c                    c    voiceless palatal stop (e.g. Hungarian ty)
@@ -318,7 +313,9 @@ _plosives_
     \textglotstop        ʔ    glottal plosive
     \textbarglotstop     ʡ    epiglottal plosive
 
-_nasals_
+<a name="latex-ipa-nasals"/>
+International Phonetic Alphabet: Nasals
+=======================================
 
     m                    m    voiced bilabial nasal
     \textltailm          ɱ    voiced labiodental nasal
@@ -328,7 +325,9 @@ _nasals_
     \ng                  ŋ    voiced velar nasal
     \textscn             ɴ    voiced uvular nasal
 
-_fricatives and approximants_
+<a name="latex-ipa-fricatives-approximants"/>
+International Phonetic Alphabet: Fricatives & Approximants
+==========================================================
 
     \textbeta            β    voiced bilabial fricative
     \textctc             ɕ    voicelss alveolo-palatal median laminal fricative
@@ -349,7 +348,7 @@ _fricatives and approximants_
     \textltilde          ɫ    velarized voiced alveolar lateral approximant
     \textlyoghlig        ɮ    voiced alveolar lateral fricative
     \textscl             ʟ    voiced velar lateral approximant
-    \textturnmrleg       ɰ
+    \textturnmrleg       ɰ    voiced velar median approximant
     \texttheta           θ    voiceless interdental median fricative
     \textphi             ɸ    voiceless bilabial fricative
     r                    r    voiced apico-alveolar trill
@@ -377,21 +376,9 @@ _fricatives and approximants_
     \textrevglotstop     ʕ    voiced pharyngeal fricative
     \textbarrevglotstop  ʢ    voiced epiglottal fricative
 
-_implosvies_
-
-    \texthtb             ɓ    voiced glottalic ingressive bilabial stop
-    \texthtd             ɗ    voiced glottalic ingressive dental/postalveolar stop
-    \texthtg             ɠ    voiced glottalic ingressive velar stop
-    \texthtscg           ʛ    voiced glottalic ingressive uvular stop
-
-_clicks_
-
-    \textbullseye        ʘ    bilabial click
-    \textpipe            ǀ    dental click
-    \textdoublepipe      ǁ    alveolar click
-    !                    !    alveloar/postalveolar click
-
-_vowels_
+<a name="latex-ipa-vowels"/>
+International Phonetic Alphabet: Vowels
+=======================================
 
     a                    a
     \"a                  ä
@@ -424,6 +411,21 @@ _vowels_
     \textupsilon         ʊ
     y                    y
     \textscy             ʏ
+
+<a name="latex-ipa-implosives-clicks"/>
+International Phonetic Alphabet: Implosives & Clicks
+====================================================
+
+    \texthtb             ɓ    voiced glottalic ingressive bilabial stop
+    \texthtd             ɗ    voiced glottalic ingressive dental/postalveolar stop
+    \texthtg             ɠ    voiced glottalic ingressive velar stop
+    \texthtscg           ʛ    voiced glottalic ingressive uvular stop
+    \textbullseye        ʘ    bilabial click
+    \textpipe            ǀ    dental click
+    \textdoublepipe      ǁ    alveolar click
+    !                    !    alveloar/postalveolar click
+
+
 
 <a name="latex-astronomy"/>
 Astronomy
