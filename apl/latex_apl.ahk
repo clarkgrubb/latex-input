@@ -1,6 +1,9 @@
 Suspend On
 ^!l::Suspend
 #Hotstring EndChars `t `t
+:c:!::
+Send {U+0021}
+return
 :c:!'::
 Send {U+00A1}
 return
@@ -3397,6 +3400,9 @@ return
 :c:\nexists::
 Send {U+2204}
 return
+:c:\ng::
+Send {U+014B}
+return
 :c:\ni::
 Send {U+220B}
 return
@@ -3760,11 +3766,239 @@ return
 :c:\taurus::
 Send {U+2649}
 return
+:c:\textbabygamma::
+Send {U+0264}
+return
+:c:\textbarglotstop::
+Send {U+02A1}
+return
+:c:\textbari::
+Send {U+0268}
+return
+:c:\textbaro::
+Send {U+0275}
+return
+:c:\textbarrevglotstop::
+Send {U+02A2}
+return
+:c:\textbaru::
+Send {U+0289}
+return
+:c:\textbeltl::
+Send {U+026C}
+return
+:c:\textbeta::
+Send {U+03B2}
+return
+:c:\textbullseye::
+Send {U+0298}
+return
+:c:\textchi::
+Send {U+03C7}
+return
+:c:\textcloserevepsilon::
+Send {U+025E}
+return
+:c:\textcrh::
+Send {U+0127}
+return
+:c:\textctc::
+Send {U+0255}
+return
+:c:\textctj::
+Send {U+029D}
+return
+:c:\textctz::
+Send {U+0291}
+return
+:c:\textdoublepipe::
+Send {U+01C1}
+return
+:c:\textdyoghlig::
+Send {U+02A4}
+return
+:c:\textepsilon::
+Send {U+025B}
+return
+:c:\textesh::
+Send {U+0283}
+return
+:c:\textfishhookr::
+Send {U+027E}
+return
+:c:\textgamma::
+Send {U+0263}
+return
+:c:\textglotstop::
+Send {U+0294}
+return
+:c:\textgrgamma::
+Send {U+03B3}
+return
+:c:\texthtb::
+Send {U+0253}
+return
+:c:\texthtd::
+Send {U+0257}
+return
+:c:\texthtg::
+Send {U+0260}
+return
+:c:\texthth::
+Send {U+0266}
+return
+:c:\texththeng::
+Send {U+0267}
+return
+:c:\texthtscg::
+Send {U+029B}
+return
+:c:\textinvscr::
+Send {U+0281}
+return
+:c:\textiota::
+Send {U+03B9}
+return
+:c:\textltailm::
+Send {U+0271}
+return
+:c:\textltailn::
+Send {U+0272}
+return
+:c:\textltilde::
+Send {U+026B}
+return
+:c:\textlyoghlig::
+Send {U+026E}
+return
+:c:\textopeno::
+Send {U+0254}
+return
+:c:\textphi::
+Send {U+0278}
+return
+:c:\textpipe::
+Send {U+01C0}
+return
 :c:\textregistered::
 Send {U+00AE}
 return
+:c:\textreve::
+Send {U+0258}
+return
+:c:\textrevepsilon::
+Send {U+025C}
+return
+:c:\textrevglotstop::
+Send {U+0295}
+return
+:c:\textrhookrevepsilon::
+Send {U+025D}
+return
+:c:\textrighthookschwa::
+Send {U+025A}
+return
+:c:\textrtaild::
+Send {U+0256}
+return
+:c:\textrtaill::
+Send {U+026D}
+return
+:c:\textrtailn::
+Send {U+0273}
+return
+:c:\textrtailr::
+Send {U+027D}
+return
+:c:\textrtails::
+Send {U+0282}
+return
+:c:\textrtailt::
+Send {U+0288}
+return
+:c:\textrtailz::
+Send {U+0290}
+return
+:c:\textscb::
+Send {U+0299}
+return
+:c:\textscg::
+Send {U+0262}
+return
+:c:\textsch::
+Send {U+029C}
+return
+:c:\textschwa::
+Send {U+0259}
+return
+:c:\textsci::
+Send {U+026A}
+return
+:c:\textscl::
+Send {U+029F}
+return
+:c:\textscn::
+Send {U+0274}
+return
+:c:\textscoelig::
+Send {U+0276}
+return
+:c:\textscr::
+Send {U+0280}
+return
+:c:\textscripta::
+Send {U+0251}
+return
+:c:\textscriptv::
+Send {U+028B}
+return
+:c:\textscy::
+Send {U+028F}
+return
+:c:\textteshlig::
+Send {U+02A7}
+return
+:c:\texttheta::
+Send {U+03B8}
+return
 :c:\texttrademark::
 Send {U+2122}
+return
+:c:\textturna::
+Send {U+0250}
+return
+:c:\textturnh::
+Send {U+0265}
+return
+:c:\textturnlonglegr::
+Send {U+027A}
+return
+:c:\textturnm::
+Send {U+026F}
+return
+:c:\textturnmrleg::
+Send {U+0270}
+return
+:c:\textturnr::
+Send {U+0279}
+return
+:c:\textturnrrtail::
+Send {U+027B}
+return
+:c:\textturnscripta::
+Send {U+0252}
+return
+:c:\textturnw::
+Send {U+028D}
+return
+:c:\textturny::
+Send {U+028E}
+return
+:c:\textupsilon::
+Send {U+028A}
+return
+:c:\textyogh::
+Send {U+0292}
 return
 :c:\th::
 Send {U+00FE}

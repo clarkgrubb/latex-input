@@ -1,4 +1,4 @@
-**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [astronomy](#latex-astronomy) | [games](#games) | [keyboard symbols](#latex-keyboard)
+**latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [ipa](#latex-ipa) | [astronomy](#latex-astronomy) | [games](#games) | [keyboard symbols](#latex-keyboard)
 
 **install and use:** [mac os x](#mac-install) | [microsoft windows](#windows-install) | [emacs](#emacs-install) | [x windows](#x-install)
 
@@ -8,7 +8,7 @@
 
 Difficulty typing mathematical symbols?
 
-Install a keyboard input method for mathematics and use LaTeX notation to enter 980 Unicode characters.
+Install a keyboard input method for mathematics and use LaTeX notation to enter 1052 Unicode characters.
 
 Input methods for [Mac OS X](#mac-install), [Microsoft Windows](#windows-install),
 [Emacs](#emacs-install), and [X Windows](#x-install).
@@ -293,6 +293,137 @@ Greek
     \varrho             ϱ
     \varsigma           ς
     \vartheta           ϑ
+
+<a name="latex-ipa"/>
+International Phonetic Alphabet
+===============================
+
+The notation comes from this package:
+
+    \usepackage{tipa}
+
+_plosives_
+
+    b                    b    voiced bilabial plosive
+    c                    c    voiceless palatal stop (e.g. Hungarian ty)
+    d                    d    voiced dental/alveolar plosive
+    \textrtaild          ɖ    voiced retroflex plosive
+    g                    g    voiced velar plosive
+    \textscg             ɢ    voiced uvular plosive
+    k                    k    voiceless velar plosive
+    p                    p    voiceless bilabial plosive
+    q                    q    voiceless uvular plosive
+    t                    t    voiceless dental/alveolar plosive
+    \textrtailt          ʈ    voiceless retroflex plosive
+    \textglotstop        ʔ    glottal plosive
+    \textbarglotstop     ʡ    epiglottal plosive
+
+_nasals_
+
+    m                    m    voiced bilabial nasal
+    \textltailm          ɱ    voiced labiodental nasal
+    n                    n    voiced dental/alveolar nasal
+    \textrtailn          ɳ    voiced retroflex nasal
+    \textltailn          ɲ    voiced palatal nasal
+    \ng                  ŋ    voiced velar nasal
+    \textscn             ɴ    voiced uvular nasal
+
+_fricatives and approximants_
+
+    \textbeta            β    voiced bilabial fricative
+    \textctc             ɕ    voicelss alveolo-palatal median laminal fricative
+    \c{c}                ç    voiceless palatal median fricative.
+    \dh                  ð    voiced apico-dental/interdental fricative
+    \textgamma           ɣ    voiced velar fricative
+    h                    h    voiceless glottal fricative/approximant
+    \textcrh             ħ    voiceless pharyngeal fricative
+    \textturnh           ɥ    voiced rounded palatal median approximant (i.e. rounded [j])
+    \textsch             ʜ    voiceless epiglottal fricative
+    \texthth             ɦ    voiced glottal fricative
+    \texththeng          ɧ    combination of [x] and [ʃ] (e.g. Swedish tj, kj)
+    j                    j    voiced palatal median approximant
+    \textctj             ʝ    voiced palatal median fricative
+    l                    l    voiced alveolar lateral approximant
+    \textrtaill          ɭ    voiced retroflex lateral approximant
+    \textbeltl           ɬ    voiceless alveolar lateral fricative
+    \textltilde          ɫ    velarized voiced alveolar lateral approximant
+    \textlyoghlig        ɮ    voiced alveolar lateral fricative
+    \textscl             ʟ    voiced velar lateral approximant
+    \textturnmrleg       ɰ
+    \texttheta           θ    voiceless interdental median fricative
+    \textphi             ɸ    voiceless bilabial fricative
+    r                    r    voiced apico-alveolar trill
+    \textturnr           ɹ    voiced alveolar/postalveolar approximant
+    \textturnlonglegr    ɺ    voiced alveolar lateral flap
+    \textfishhookr       ɾ    voiced alveolar flap
+    \textturnrrtail      ɻ    voiced retroflex approximant
+    \textscr             ʀ    voiced uvular trill or flap
+    \textinvscr          ʁ    voiced uvular fricative or approximant (e.g. French r)
+    \textrtailr          ɽ    voiced retroflex flap
+    s                    s    voiceless alveolar median fricative
+    \textrtails          ʂ    voiceless retroflex median fricative
+    \textesh             ʃ    voiceless palato-alveolar median laminal fricative
+    v                    v    voiced labiodental fricative
+    \textscriptv         ʋ    voiced labiodental approximant
+    w                    w    voiced rounded labial-velar approximant
+    \textturnw           ʍ    voiceless rounded labial-velar approximant/fricative (i.e. voiceless [w])
+    x                    x    voiceless velar median fricative
+    \textchi             χ    voicelss uvular median fricative
+    \textturny           ʎ    voiced palatal lateral approximant (e.g. Italian gl)
+    z                    z    voiced alveolar/dental median fricative
+    \textrtailz          ʐ    voiced retroflex median fricative
+    \textctz             ʑ    voiced alveolo-palatal median laminal fricative
+    \textyogh            ʒ    voiced palato-alveolar median laminal fricative
+    \textrevglotstop     ʕ    voiced pharyngeal fricative
+    \textbarrevglotstop  ʢ    voiced epiglottal fricative
+
+_implosvies_
+
+    \texthtb             ɓ    voiced glottalic ingressive bilabial stop
+    \texthtd             ɗ    voiced glottalic ingressive dental/postalveolar stop
+    \texthtg             ɠ    voiced glottalic ingressive velar stop
+    \texthtscg           ʛ    voiced glottalic ingressive uvular stop
+
+_clicks_
+
+    \textbullseye        ʘ    bilabial click
+    \textpipe            ǀ    dental click
+    \textdoublepipe      ǁ    alveolar click
+    !                    !    alveloar/postalveolar click
+
+_vowels_
+
+    a                    a
+    \"a                  ä
+    \textturna           ɐ
+    \textscripta         ɑ
+    \textturnscripta     ɒ
+    \ae                  æ
+    e                    e
+    \textschwa           ə
+    \textreve            ɘ
+    \textrighthookschwa  ɚ
+    \textepsilon         ɛ
+    \textrevepsilon      ɜ
+    \textrhookrevepsilon ɝ
+    \textcloserevepsilon ɞ
+    \textbabygamma       ɤ
+    \textturnm           ɯ
+    i                    i
+    \textsci             ɪ
+    \textiota            ι
+    \textbari            ɨ
+    o                    o
+    \textbaro            ɵ
+    \o                   ø
+    \oe                  œ
+    \textscoelig         ɶ
+    \textopeno           ɔ
+    u                    u
+    \textbaru            ʉ
+    \textupsilon         ʊ
+    y                    y
+    \textscy             ʏ
 
 <a name="latex-astronomy"/>
 Astronomy
