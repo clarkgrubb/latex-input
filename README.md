@@ -49,7 +49,7 @@ Most of the notation used by the input methods is drawn from *math mode*.  Notat
 quote `'` and doubled single quotes `''` which are right single quote and right double quote
 in *paragraph mode* and prime and double prime in *math mode*.
 
-The input methods also use notation from the following three packages:
+The input methods also use notation from the following four packages:
 
     \usepackage{amsmath}
     \usepackage{amssymb}
