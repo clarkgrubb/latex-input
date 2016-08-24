@@ -23,7 +23,7 @@ Installing APL
 
 * [GNU APL](http://www.gnu.org/software/apl/)
 
-One Mac OS X one can use Homebrew:
+On Mac OS X one can use Homebrew:
 
     $ brew install gnu-apl
 
