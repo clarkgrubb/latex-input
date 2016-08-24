@@ -303,7 +303,7 @@ Plosives
 --------
 
     b                    b    voiced bilabial plosive
-    c                    c    voiceless palatal stop (e.g. Hungarian ty)
+    c                    c    voiceless palatal plosive (e.g. Hungarian ty)
     d                    d    voiced dental/alveolar plosive
     \textrtaild          ɖ    voiced retroflex plosive
     g                    g    voiced velar plosive
