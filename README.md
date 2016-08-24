@@ -426,7 +426,7 @@ Implosives & Clicks
     \texthtscg           ʛ    voiced glottalic ingressive uvular stop
     \textbullseye        ʘ    bilabial click
     \textpipe            ǀ    dental click
-    \textdoublepipe      ǁ    alveolar click
+    \textdoublepipe      ǁ    lateral click
     !                    !    alveloar/postalveolar click
 
 
