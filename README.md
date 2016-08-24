@@ -295,9 +295,12 @@ Greek
     \varsigma           ς
     \vartheta           ϑ
 
+International Phonetic Alphabet
+===============================
+
 <a name="latex-ipa-plosives"/>
-International Phonetic Alphabet: Plosives
-=========================================
+Plosives
+--------
 
     b                    b    voiced bilabial plosive
     c                    c    voiceless palatal stop (e.g. Hungarian ty)
@@ -314,8 +317,8 @@ International Phonetic Alphabet: Plosives
     \textbarglotstop     ʡ    epiglottal plosive
 
 <a name="latex-ipa-nasals"/>
-International Phonetic Alphabet: Nasals
-=======================================
+Nasals
+------
 
     m                    m    voiced bilabial nasal
     \textltailm          ɱ    voiced labiodental nasal
@@ -326,13 +329,14 @@ International Phonetic Alphabet: Nasals
     \textscn             ɴ    voiced uvular nasal
 
 <a name="latex-ipa-fricatives-approximants"/>
-International Phonetic Alphabet: Fricatives & Approximants
-==========================================================
+Fricatives & Approximants
+-------------------------
 
     \textbeta            β    voiced bilabial fricative
     \textctc             ɕ    voicelss alveolo-palatal median laminal fricative
     \c{c}                ç    voiceless palatal median fricative.
     \dh                  ð    voiced apico-dental/interdental fricative
+    f                    f    voiceless labiodental fricative
     \textgamma           ɣ    voiced velar fricative
     h                    h    voiceless glottal fricative/approximant
     \textcrh             ħ    voiceless pharyngeal fricative
@@ -377,8 +381,8 @@ International Phonetic Alphabet: Fricatives & Approximants
     \textbarrevglotstop  ʢ    voiced epiglottal fricative
 
 <a name="latex-ipa-vowels"/>
-International Phonetic Alphabet: Vowels
-=======================================
+Vowels
+-----
 
     a                    a
     \"a                  ä
@@ -413,8 +417,8 @@ International Phonetic Alphabet: Vowels
     \textscy             ʏ
 
 <a name="latex-ipa-implosives-clicks"/>
-International Phonetic Alphabet: Implosives & Clicks
-====================================================
+Implosives & Clicks
+-------------------
 
     \texthtb             ɓ    voiced glottalic ingressive bilabial stop
     \texthtd             ɗ    voiced glottalic ingressive dental/postalveolar stop
