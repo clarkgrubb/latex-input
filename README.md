@@ -8,7 +8,7 @@
 
 Difficulty typing mathematical symbols?
 
-Install a keyboard input method for mathematics and use LaTeX notation to enter 1052 Unicode characters.
+Install a keyboard input method for mathematics and use LaTeX notation to enter 1054 Unicode characters.
 
 Input methods for [Mac OS X](#mac-install), [Microsoft Windows](#windows-install),
 [Emacs](#emacs-install), and [X Windows](#x-install).
@@ -384,37 +384,37 @@ Fricatives & Approximants
 Vowels
 -----
 
-    a                    a
-    \"a                  ä
-    \textturna           ɐ
-    \textscripta         ɑ
-    \textturnscripta     ɒ
-    \ae                  æ
-    e                    e
-    \textschwa           ə
-    \textreve            ɘ
-    \textrighthookschwa  ɚ
-    \textepsilon         ɛ
-    \textrevepsilon      ɜ
-    \textrhookrevepsilon ɝ
-    \textcloserevepsilon ɞ
-    \textbabygamma       ɤ
-    \textturnm           ɯ
-    i                    i
-    \textsci             ɪ
-    \textiota            ι
-    \textbari            ɨ
-    o                    o
-    \textbaro            ɵ
-    \o                   ø
-    \oe                  œ
-    \textscoelig         ɶ
-    \textopeno           ɔ
-    u                    u
-    \textbaru            ʉ
-    \textupsilon         ʊ
-    y                    y
-    \textscy             ʏ
+    a                    a    unrounded front low vowel (cardinal vowel no. 4)
+    \textturna           ɐ    unrounded central low vowel
+    \textscripta         ɑ    unrounded back low vowel (cardinal vowel no. 5)
+    \textturnscripta     ɒ    rounded back low vowel (cardinal vowel no. 13)
+    \ae                  æ    unrounded front semi-low vowel
+    e                    e    unrounded front high-mid vowel (cardinal vowel no. 2)
+    \textschwa           ə    unrounded central mid vowel
+    \textreve            ɘ    unrounded central high-mid vowel
+    \textrighthookschwa  ɚ    rhotacized [ə]
+    \textepsilon         ɛ    unrounded front low-mid vowel (cardinal vowel no. 3)
+    \textrevepsilon      ɜ    unrounded central low-mid vowel
+    \textrhookrevepsilon ɝ    rhotacized [ɜ]
+    \textcloserevepsilon ɞ    rounded central low-mid vowel
+    \textbabygamma       ɤ    unrounded back high-mid vowel (cardinal vowel no. 15)
+    \textturnm           ɯ    unrounded back high vowel (cardinal vowel no. 16)
+    i                    i    unrounded front high vowel (cardinal vowel no. 1)
+    \textiota            ι    unrounded front semi-high vowel
+    \textsci             ɪ    synonym for [ι]
+    \textbari            ɨ    unrounded central high vowel (cardinal vowel no. 17)
+    o                    o    rounded back high-mid vowel (cardinal vowel no. 7)
+    \textbaro            ɵ    rounded central high-mid vowel
+    \o                   ø    rounded front high-mid vowel (cardinal vowel no. 10)
+    \oe                  œ    rounded front low-mid vowel (cardinal vowel no. 11)
+    \textscoelig         ɶ    rounded front low vowel (cardinal vowel no. 12)
+    \textopeno           ɔ    rounded back low-md vowel (cardinal vowel no. 6)
+    u                    u    rounded back high vowel (cardinal vowel no. 8)
+    \textbaru            ʉ    rounded central high vowel (cardinal vowel no. 18)
+    \textupsilon         ʊ    rounded back semi-high vowel
+    \textturnv           ʌ    unrounded back low-mid vowel (cardinal vowel no. 14)
+    y                    y    rounded front high vowel (cardinal vowel no. 9)
+    \textscy             ʏ    rounded front semi-high vowel
 
 <a name="latex-ipa-implosives-clicks"/>
 Implosives & Clicks

@@ -1332,6 +1332,7 @@
 ("\\textturnr " ?ɹ)
 ("\\textturnrrtail " ?ɻ)
 ("\\textturnscripta " ?ɒ)
+("\\textturnv " ?ʌ)
 ("\\textturnw " ?ʍ)
 ("\\textturny " ?ʎ)
 ("\\textupsilon " ?ʊ)

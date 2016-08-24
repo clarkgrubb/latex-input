@@ -1,2 +1,2 @@
-characters: 1109
-input strings: 1611
+characters: 1110
+input strings: 1612

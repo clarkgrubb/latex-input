@@ -1229,6 +1229,7 @@ Z	Z	1
 \textturnr	ɹ	1
 \textturnrrtail	ɻ	1
 \textturnscripta	ɒ	1
+\textturnv	ʌ	1
 \textturnw	ʍ	1
 \textturny	ʎ	1
 \textupsilon	ʊ	1

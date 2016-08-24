@@ -66,6 +66,7 @@
 \textteshlig ʧ
 \textbaru ʉ
 \textupsilon ʊ
+\textturnv ʌ
 \textscriptv ʋ
 \textturnw ʍ
 \textchi χ

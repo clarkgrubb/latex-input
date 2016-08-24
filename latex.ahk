@@ -3589,6 +3589,9 @@ return
 :c:\textturnscripta::
 Send {U+0252}
 return
+:c:\textturnv::
+Send {U+028C}
+return
 :c:\textturnw::
 Send {U+028D}
 return
