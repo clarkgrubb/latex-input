@@ -9,6 +9,7 @@ DATA_DIR = File.join(ROOT_DIR, 'data')
 TEMPLATES_DIR = File.join(ROOT_DIR, 'templates')
 CIN_TEMPLATE = File.join(TEMPLATES_DIR, 'cin.erb')
 EL_TEMPLATE = File.join(TEMPLATES_DIR, 'el.erb')
+INPUTPLUGIN_TEMPLATE = File.join(TEMPLATES_DIR, 'inputplugin.erb')
 TXT_TEMPLATE = File.join(TEMPLATES_DIR, 'txt.erb')
 AHK_TEMPLATE = File.join(TEMPLATES_DIR, 'ahk.erb')
 
@@ -30,7 +31,7 @@ def load_data(notation_to_unicode_files)
   notation_to_unicode
 end
 
-def generate(name, latex_el, latex_cin,
+def generate(name, latex_el, latex_cin, latex_inputplugin,
              stats_file, latex_txt, latex_ahk, data_files)
   notation_to_unicode = load_data(data_files)
 
@@ -44,6 +45,10 @@ def generate(name, latex_el, latex_cin,
     File.open(latex_cin, 'w') { |fout| fout.puts cin_template.result(binding) }
   end
 
+  if (latex_inputplugin)
+    inputplugin_template = ERB.new(File.open(INPUTPLUGIN_TEMPLATE).read)
+    File.open(latex_inputplugin, 'w') { |fout| fout.puts inputplugin_template.result(binding) }
+  end
 
   if (latex_txt)
     txt_template = ERB.new(File.open(TXT_TEMPLATE).read)
@@ -82,6 +87,10 @@ if $0 == __FILE__
       options[:cin_file] = arg
     end
 
+    opts.on("-p", "--inputplugin-file FILE") do |arg|
+      options[:inputplugin_file] = arg
+    end
+
     opts.on("-i", "--ibus-file FILE") do |arg|
       options[:ibus_file] = arg
     end
@@ -99,6 +108,7 @@ if $0 == __FILE__
   generate(options[:name],
            options[:emacs_lisp_file],
            options[:cin_file],
+           options[:inputplugin_file],
            options[:stats_file],
            options[:ibus_file],
            options[:autohotkey_file],

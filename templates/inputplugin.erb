@@ -1,0 +1,9 @@
+METHOD: TABLE
+ENCODE: Unicode
+PROMPT: <%= name %>
+DELIMITER: ,
+VERSION: 1.0
+VALIDINPUTKEY: !"'()+-.0123456789<=>?ABCDEFGHIJKLMNOPQRSTUVWXYZ\^_`abcdefghijklmnopqrstuvwxyz{}~
+BEGINCHARACTER
+<% notation_to_unicode.keys.sort.each do |latex| %><%= latex %> <%= notation_to_unicode[latex] %>
+<% end %>ENDCHARACTER
