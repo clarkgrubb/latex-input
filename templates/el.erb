@@ -3,7 +3,7 @@
  "Use <%= name %>  notation to enter Unicode characters.")
 
 (quail-define-rules
-<% notation_to_unicode.keys.sort.each do |notation| %>("<%= escape(notation)%> " ?<%= notation_to_unicode[notation] %>)
+<% notation_to_unicode_char.keys.sort.each do |notation| %>("<%= escape(notation)%> " ?<%= notation_to_unicode_char[notation] %>)
 <% end %>)
 
 (provide '<%= name.downcase %>)

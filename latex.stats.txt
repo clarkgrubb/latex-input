@@ -1,2 +1,4 @@
 characters: 1054
-input strings: 1479
+input strings for characters: 1479
+strings: 1054
+input strings for strings: 1479

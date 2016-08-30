@@ -5,8 +5,8 @@
 %selkey @\abcdefghijklmnopqrstuvwxyz
 %endkey 
 %keyname begin
-<% notation_to_unicode.keys.sort.each do |latex| %><%= latex %> <%= notation_to_unicode[latex] %>
+<% notation_to_unicode_char.keys.sort.each do |latex| %><%= latex %> <%= notation_to_unicode_char[latex] %>
 <% end %>%keyname end
 %chardef begin
-<% notation_to_unicode.keys.sort.each do |latex| %><%= latex %> <%= notation_to_unicode[latex] %>
+<% notation_to_unicode_char.keys.sort.each do |latex| %><%= latex %> <%= notation_to_unicode_char[latex] %>
 <% end %>%chardef end

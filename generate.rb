@@ -18,22 +18,33 @@ def escape(str)
 end
 
 def load_data(notation_to_unicode_files)
-  notation_to_unicode = {}
+  notation_to_unicode_str = {}
   notation_to_unicode_files.each do |path|
     File.open(path, "r:utf-8").each do |line|
       fields = line.strip.split()
       if fields.size != 2
         raise Exception.new("expected two fields on line: #{line}")
       end
-      notation_to_unicode[fields[0]] = fields[1]
+      notation_to_unicode_str[fields[0]] = fields[1]
     end
   end
-  notation_to_unicode
+  notation_to_unicode_str
+end
+
+def filter_unicode_char(notation_to_unicode_str)
+  notation_to_unicode_char = {}
+  notation_to_unicode_str.each do |k, v|
+    if v.size == 1
+      notation_to_unicode_char[k] = v
+    end
+  end
+  notation_to_unicode_char
 end
 
 def generate(name, latex_el, latex_cin, latex_inputplugin,
              stats_file, latex_txt, latex_ahk, data_files)
-  notation_to_unicode = load_data(data_files)
+  notation_to_unicode_str = load_data(data_files)
+  notation_to_unicode_char = filter_unicode_char(notation_to_unicode_str)
 
   if (latex_el)
     el_template = ERB.new(File.open(EL_TEMPLATE).read)
@@ -62,8 +73,10 @@ def generate(name, latex_el, latex_cin, latex_inputplugin,
 
   if (stats_file)
     File.open(stats_file, 'w') do |fout|
-      fout.puts "characters: #{notation_to_unicode.values.uniq.size}"
-      fout.puts "input strings: #{notation_to_unicode.keys.uniq.size}"
+      fout.puts "characters: #{notation_to_unicode_char.values.uniq.size}"
+      fout.puts "input strings for characters: #{notation_to_unicode_char.keys.uniq.size}"
+      fout.puts "strings: #{notation_to_unicode_str.values.uniq.size}"
+      fout.puts "input strings for strings: #{notation_to_unicode_str.keys.uniq.size}"      
     end
   end
 end

@@ -5,5 +5,5 @@ DELIMITER: ,
 VERSION: 1.0
 VALIDINPUTKEY: !"'()+-.0123456789<=>?ABCDEFGHIJKLMNOPQRSTUVWXYZ\^_`abcdefghijklmnopqrstuvwxyz{}~
 BEGINCHARACTER
-<% notation_to_unicode.keys.sort.each do |latex| %><%= latex %> <%= notation_to_unicode[latex] %>
+<% notation_to_unicode_str.keys.sort.each do |latex| %><%= latex %> <%= notation_to_unicode_str[latex] %>
 <% end %>ENDCHARACTER
