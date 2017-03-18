@@ -34,6 +34,7 @@ method cannot make fractions, radicals, or matrices, for example.
 Only LaTeX notation for which there is a Unicode character is rendered.
 
 <a name="about-latex"/>
+
 About LaTeX
 ===========
 
