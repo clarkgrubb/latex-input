@@ -18,6 +18,7 @@ is rendered to the APL symbol on the fly.  Here are some examples:
     @domino      ⌹
 
 <a name="installing-apl"/>
+
 Installing APL
 ==============
 
@@ -29,6 +30,7 @@ On Mac OS X one can use Homebrew:
 
 
 <a name="mac-install"/>
+
 Installing the Mac Input Method
 ===============================
 
@@ -41,6 +43,7 @@ Optionally, you can install an input method which combines the LaTeX and APL inp
     $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/apl/latex_apl.cin > ~/Library/Input\ Methods/latex_apl.cin
 
 <a name="mac-howto"/>
+
 Using the Input Method on Mac
 =============================
 
@@ -68,6 +71,7 @@ default value conflicts with Spotlight.  Consider going to
 and changing it to something like ⌥`⌘Space`
 
 <a name="windows-install"/>
+
 Installing the Windows Input Method
 ===================================
 
@@ -76,6 +80,7 @@ Download [apl.exe](https://raw.githubusercontent.com/clarkgrubb/latex-input/mast
 If you have [AutoHotkey](http://www.autohotkey.com/) installed, you can download and install [apl.ahk](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/apl/apl.ahk) instead.
 
 <a name="windows-howto"/>
+
 Using the Input Method on Windows
 =================================
 
@@ -84,12 +89,14 @@ The input method starts in an inactivate state.  Use `Ctrl+Alt+L` to toggle betw
 When the input method is active, type APL notation followed by a `SPACE` to render a symbol.
 
 <a name="apl-op-ref"/>
+
 APL Operator Reference
 ======================
 
 [parsing](#parsing) | [operators](#operators) | [lists](#lists) | [arithmetic](#arithmetic) | [comparison](#comparison) | [logic](#logic) | [transcendental](#transcendental) | [truncation](#truncation) | [1d array](#one-dim-array) | [2d array](#two-dim-array) | [strings](#strings) | [higher order operators](#higher-order-op)
 
 <a name="parsing"/>
+
 parsing
 -------
 
@@ -111,6 +118,7 @@ The _quad_ `⎕` is an extra alphabetical symbol used in names which are predefi
 The _lamp_ `⍝` starts a comment which ends at the end of the line.
 
 <a name="operators"/>
+
 operators
 ---------
 
@@ -132,12 +140,14 @@ Invoking the operators:
     3 add 7
 
 <a name="lists"/>
+
 lists
 -----
 
 The operands of APL operators are lists.  The elements of lists are numeric literals, names,  or strings.  The elements are usually separated by spaces.  There are no delimiters to mark the edges of the list; APL knows it has encountered the left edge of a list when it encounters an operator.  Whether the operator is dyadic or monadic depends on whether a list or another operator is found to the left.
 
 <a name="arithmetic"/>
+
 arithmetic
 ----------
 
@@ -163,6 +173,7 @@ The _residue_ `|` is like the modulus operator `%` of other languages, but order
 Monadic _size_ `|` is the absolute value function.  `| 3J4` is `5`.
 
 <a name="comparison"/>
+
 comparison
 ----------
 
@@ -179,6 +190,7 @@ The above operators are exclusively dyadic in GNU APL.  They are comparison oper
 The dyadic _match_ `≡` returns a single boolean value when comparing two lists.  The dyadic _equal_ `=`, by contrast, performs elementwise comparison and returns a list of boolean values.
 
 <a name="logic"/>
+
 logic
 -----
 
@@ -193,6 +205,7 @@ Monadic _not_ `~` is logical negation.  A domain error results if the argument i
 _And_ `∧` and _or_ `∨` are exclusively dyadic.  On boolean arguments they are logical operators.  On other integer arguments they are the least common multiple and greatest common divisor, respectively.
 
 <a name="transcendental"/>
+
 transcendental
 --------------
 
@@ -214,6 +227,7 @@ Dyadic _factorial_ `!` is the function `1/((ω + 1) ⋅ Beta(ω - α + 1, α + 1
 Monadic _factorial_ `!` is the function `Γ(ω + 1)`.  When the argument is an integer it is the factorial function.
 
 <a name="truncation"/>
+
 truncation
 ----------
 
@@ -232,6 +246,7 @@ The dyadic _maximum_ `⌈` and _minimum_ `⌊` operators return the greater and 
 The dyadic _format_ `⍕` rounds its right argument to the precision specified on the left.  The monadic _format_ `⍕` uses the built-in name `⎕pp`.
 
 <a name="one-dim-array"/>
+
 1d array
 --------
 
@@ -268,6 +283,7 @@ Monadic _grade_ `⍋` returns the ascending rank order of the elements of `ω`.
 Monadic _downgrade_ `⍒` returns the descending rank order of the elements of `ω`.
 
 <a name="two-dim-array"/>
+
 2d array
 --------
 
@@ -294,6 +310,7 @@ Monadic _ravel_ `,` converts a 2-dimensional array into a 1-dimensional array us
 Monadic _inverse_ `⌹` returns the inverse of a 2-dimensional array.  Dyadic _domino_  `⌹` solves the linear equation `Ax = y`, where `ω` is `A` and `α` is `y`.
 
 <a name="strings"/>
+
 strings
 -------
 
@@ -302,6 +319,7 @@ Strings are single quoted `'` and doubling is used to insert a single quote char
     @execute ⍎
 
 <a name="higher-order-op"/>
+
 higher order operators
 ----------------------
 
@@ -332,6 +350,7 @@ other
     @table ⍪ 
 
 <a name="apl-tutorial"/>
+
 APL Tutorial
 ============
 
