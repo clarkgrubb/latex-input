@@ -75,6 +75,8 @@ Relations and Operators
     \not>               ≯
     \not\le             ≰
     \not\ge             ≱
+    \ll                 ≪
+    \gg                 ≫
 
 <a name="latex-sets-logic"/>
 
