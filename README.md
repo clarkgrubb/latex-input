@@ -129,9 +129,9 @@ Analysis
     \iint               ∬                   '                   ′
     \iiint              ∭                   ''                  ″
     \iiiint             ⨌                  '''                 ‴
-    \oint               ∮
-    \Re                 ℜ
-    \Im                 ℑ
+    \oint               ∮                   \sqrt               √
+    \Re                 ℜ                   \curt               ∛
+    \Im                 ℑ                   \fort               ∜
     \wp                 ℘
 
 <a name="latex-algebra"/>
