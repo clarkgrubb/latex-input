@@ -4,7 +4,7 @@
 
 **apl notation:** [apl input methods](#apl)
 
-----
+# Keyboard Input for Mathematics
 
 Difficulty typing mathematical symbols?
 
@@ -13,8 +13,7 @@ Install a keyboard input method for mathematics and use LaTeX notation to enter 
 Input methods for [Mac OS X](#mac-install), [Microsoft Windows](#windows-install),
 [Emacs](#emacs-install), and [X Windows](#x-install).
 
-Introduction
-============
+## Introduction
 
 Here are some examples of LaTeX notation:
 
@@ -35,8 +34,7 @@ Only LaTeX notation for which there is a Unicode character is rendered.
 
 <a name="about-latex"/>
 
-About LaTeX
-===========
+## About LaTeX
 
 LaTeX is used for documents which contain mathematical notation.  The mathematical notation
 is set off from the rest of the text by *math mode* markers such as the double dollar sign, e.g:
@@ -59,8 +57,7 @@ The input methods also use notation from the following four packages:
 
 <a name="latex-relation-op"/>
 
-Relations and Operators
-=======================
+### Relations and Operators
 
     \le                 ≤                   \pm                 ±
     \ge                 ≥                   \mp                 ∓
@@ -80,8 +77,7 @@ Relations and Operators
 
 <a name="latex-sets-logic"/>
 
-Sets and Logic
-==============
+### Sets and Logic
 
     \emptyset           ∅                   \aleph              ℵ
     \in                 ∈                   \beth               ℶ
@@ -104,8 +100,7 @@ Sets and Logic
 
 <a name="latex-geometry"/>
 
-Geometry
-========
+### Geometry
 
     \angle              ∠
     \triangle           △
@@ -116,8 +111,7 @@ Geometry
 
 <a name="latex-analysis"/>
 
-Analysis
-========
+### Analysis
 
     \infty              ∞                   \lfloor             ⌊
     \Delta              Δ                   \rfloor             ⌋
@@ -136,8 +130,7 @@ Analysis
 
 <a name="latex-algebra"/>
 
-Algebra
-=======
+### Algebra
 
     \oplus              ⊕                   \bigoplus           ⨁
     \otimes             ⊗                   \bigotimes          ⨂
@@ -148,8 +141,7 @@ Algebra
 
 <a name="latex-superscripts-subscripts"/>
 
-Superscripts and Subscripts
-===========================
+### Superscripts and Subscripts
 
     ^0                  ⁰                   _0                  ₀
     ^1                  ¹                   _1                  ₁
@@ -176,8 +168,7 @@ Can be subscript: `0-9aehijklmnoprstuvx+-=()βγρφχ`
 
 <a name="latex-arrows"/>
 
-Arrows
-======
+### Arrows
 
     \rightarrow         →                   \Rightarrow         ⇒
     \leftarrow          ←                   \Leftarrow          ⇐
@@ -193,8 +184,7 @@ Arrows
 
 <a name="latex-dots"/>
 
-Dots
-====
+### Dots
 
     \cdot               ⋅
     \cdots              ⋯
@@ -204,8 +194,7 @@ Dots
 
 <a name="latex-blackboard-fraktur-calligraphic"/>
 
-Blackboard Bold, Fraktur, and Calligraphic
-==========================================
+### Blackboard Bold, Fraktur, and Calligraphic
 
 Some of the characters in this section have Unicode points greater than `U+FFFF`.
 
@@ -226,8 +215,7 @@ Some of the characters in this section have Unicode points greater than `U+FFFF`
 
 <a name="latex-english-punct"/>
 
-English Punctuation
-===================
+### English Punctuation
 
     `                   ‘                   \S                  §
     \mbox{'}            ’                   \dag                †
@@ -238,8 +226,7 @@ English Punctuation
 
 <a name="latex-latin-accent"/>
 
-Latin Accent
-============
+### Latin Accent
 
     \'a                 á                   \acute{a}           á
     \`a                 à                   \grave{a}           à
@@ -287,8 +274,7 @@ Underdot: `ạ ḅ ḍ ẹ ḥ ị ḳ ḷ ṃ ṇ ọ ṛ ṣ ṭ ụ ṿ ẉ �
 
 <a name="latex-greek"/>
 
-Greek
-=====
+### Greek
 
     \alpha              α                   \Alpha              Α
     \beta               β                   \Beta               Β
@@ -322,13 +308,11 @@ Greek
     \varsigma           ς
     \vartheta           ϑ
 
-International Phonetic Alphabet
-===============================
+### International Phonetic Alphabet
 
 <a name="latex-ipa-plosives"/>
 
-Plosives
---------
+#### Plosives
 
     b                    b    voiced bilabial plosive
     c                    c    voiceless palatal plosive (e.g. Hungarian ty)
@@ -346,8 +330,7 @@ Plosives
 
 <a name="latex-ipa-nasals"/>
 
-Nasals
-------
+#### Nasals
 
     m                    m    voiced bilabial nasal
     \textltailm          ɱ    voiced labiodental nasal
@@ -359,8 +342,7 @@ Nasals
 
 <a name="latex-ipa-fricatives-approximants"/>
 
-Fricatives & Approximants
--------------------------
+#### Fricatives & Approximants
 
     \textbeta            β    voiced bilabial fricative
     \textctc             ɕ    voicelss alveolo-palatal median laminal fricative
@@ -412,8 +394,7 @@ Fricatives & Approximants
 
 <a name="latex-ipa-vowels"/>
 
-Vowels
------
+#### Vowels
 
     a                    a    unrounded front low vowel (cardinal vowel no. 4)
     \textturna           ɐ    unrounded central low vowel
@@ -449,8 +430,7 @@ Vowels
 
 <a name="latex-ipa-implosives-clicks"/>
 
-Implosives & Clicks
--------------------
+#### Implosives & Clicks
 
     \texthtb             ɓ    voiced glottalic ingressive bilabial stop
     \texthtd             ɗ    voiced glottalic ingressive dental/postalveolar stop
@@ -465,8 +445,7 @@ Implosives & Clicks
 
 <a name="latex-astronomy"/>
 
-Astronomy
-=========
+### Astronomy
 
     \mercury           ☿                   \aries              ♈
     \venus             ♀                   \taurus             ♉
@@ -487,8 +466,7 @@ Astronomy
 
 <a name="games"/>
 
-Games
-=====
+### Games
 
     \blackbishop      ♝                       \epsdice{1}      ⚀
     \blackking        ♚                       \epsdice{2}      ⚁
@@ -505,8 +483,7 @@ Games
 
 <a name="latex-keyboard"/>
 
-Keyboard Symbols
-================
+### Keyboard Symbols
 
 The following notation can be added to a LaTeX distribution by installing [this package](http://tex.stackexchange.com/questions/19646/how-to-typeset-special-apple-mac-keyboard-symbols).
 
@@ -519,19 +496,16 @@ The following notation can be added to a LaTeX distribution by installing [this 
 
 <a name="mac-install"/>
 
-Mac OS X
-========
+## Mac OS X
 
-installation
-------------
+### installation
 
     $ curl https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.cin \
         > ~/Library/Input\ Methods/latex.cin
 
 <a name="mac-howto"/>
 
-how to use
-----------
+### how to use
 
 In
 
@@ -560,11 +534,9 @@ To set a Mac OS X keyboard shortcut for switching input source, go to:
 
 <a name="windows-install"/>
 
-Microsoft Windows
-=================
+## Microsoft Windows
 
-installation
-------------
+### installation
 
 Download [latex.exe](https://raw.githubusercontent.com/clarkgrubb/latex-input/master/latex.exe) and install it in your Startup folder.  Open the Startup folder in File Explorer by pressing `Cmd+R` and entering `shell:startup`.  The input method will run the next time you log in.  You can also start it by double-clicking it in File Explorer.
 
@@ -572,8 +544,7 @@ If you have [AutoHotkey](http://www.autohotkey.com/) installed, you can download
 
 <a name="windows-howto"/>
 
-how to use
-----------
+### how to use
 
 The input method starts in an inactivate state.  Use `Ctrl+Alt+L` to toggle between active and inactive.
 
@@ -581,11 +552,9 @@ When the input method is active, type LaTeX notation followed by a `SPACE` to re
 
 <a name="emacs-install"/>
 
-Emacs
-=====
+## Emacs
 
-installation
------------
+### installation
 
 *Note: Emacs already comes with an input method called* TeX.
 
@@ -610,8 +579,7 @@ as your startup file.  Modify to suit your needs.
 
 <a name="emacs-howto"/>
 
-how to use
-----------
+### how to use
 
 To turn on the LaTeX input method use
 
@@ -646,11 +614,9 @@ document.
 
 <a name="x-install"/>
 
-X Windows
-=========
+## X Windows
 
-installation
-------------
+### installation
 
 *Note: Ubuntu already comes with a package called* ibus-latex-table.
 
@@ -682,8 +648,7 @@ Log out of X Windows and log back in.  There should be a keyboard symbol in the 
 
 <a name="x-howto"/>
 
-how to use
-----------
+### how to use
 
 There should be an iBus icon in the menu bar which changes depending upon the input method that is in effect.  When no input method is in effect, the icon is a keyboard.  The input method can be changed by clicking the icon and selecting from the drop down.  The input method is set per application.
 
@@ -691,13 +656,10 @@ When the latex input method is in effect, one types LaTeX notation, following by
 
 <a name="apl"/>
 
-APL Input Methods
-=================
+## APL Input Methods
 
 [APL input methods](apl/README.md)
 
 The programming language APL uses 85 non-ASCII Unicode characters.  This repository provides input methods for entering them using an ASCII keyboard.  The input notation starts with an ampersand `@` followed by a name used in the APL community for the symbol.
 
 Since LaTeX input notation usually starts with a backslash and never with an ampersand, it is disjoint from the APL input notation.  Hence we are able to provide a single input method for both.
-
-
