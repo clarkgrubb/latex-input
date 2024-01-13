@@ -1,6 +1,6 @@
 **latex notation:** [about latex](#about-latex) | [relations and operators](#latex-relation-op) | [sets and logic](#latex-sets-logic) | [geometry](#latex-geometry) | [analysis](#latex-analysis) | [algebra](#latex-algebra) | [superscripts and subscripts](#latex-superscripts-subscripts) | [arrows](#latex-arrows) | [dots](#latex-dots) | [blackboard bold, fraktur, and calligraphic](#latex-blackboard-fraktur-calligraphic) | [english punctuation](#latex-english-punct) | [latin accent](#latex-latin-accent) | [greek](#latex-greek) | [ipa: plosives](#latex-ipa-plosives) | [ipa: nasals](#latex-ipa-nasals) | [ipa: fricatives & approximants](#latex-ipa-fricatives-approximants) | [ipa: vowels](#latex-ipa-vowels) | [astronomy](#latex-astronomy) | [games](#games) | [keyboard symbols](#latex-keyboard)
 
-**install and use:** [mac os x](#mac-install) | [microsoft windows](#windows-install) | [emacs](#emacs-install) | [x windows](#x-install)
+**install and use:** [mac os x](#mac-install) | [microsoft windows](#windows-install) | [emacs](#emacs-install) | [GNU/Linux (X windows)](#x-install)
 
 **apl notation:** [apl input methods](#apl)
 
@@ -11,7 +11,7 @@ Difficulty typing mathematical symbols?
 Install a keyboard input method for mathematics and use LaTeX notation to enter 1054 Unicode characters.
 
 Input methods for [Mac OS X](#mac-install), [Microsoft Windows](#windows-install),
-[Emacs](#emacs-install), and [X Windows](#x-install).
+[Emacs](#emacs-install), and [GNU/Linux (X windows)](#x-install).
 
 Introduction
 ============
@@ -646,23 +646,21 @@ document.
 
 <a name="x-install"/>
 
-X Windows
+GNU/Linux (X Windows)
 =========
 
 installation
 ------------
 
-*Note: Ubuntu already comes with a package called* ibus-latex-table.
-
-The following procedure works on Ubuntu 12.04.
+The following procedure works on Ubuntu 22.04.3.
 
 Install the necessary packages:
 
-    $ sudo apt-get install im-config ibus-table
+    $ sudo apt-get install im-config ibus-table ibus-table-latex
 
 This command launches a pop-up window to choose the input method configuration.  Choose `ibus`:
 
-    $ im-config
+    im-config
 
 The above command should also create the file `.xinputrc` if it does not exist and add this line:
 
@@ -670,12 +668,12 @@ The above command should also create the file `.xinputrc` if it does not exist a
 
 Then install the input method
 
-    $ sudo ./ibus-install.sh
+    sudo ./ibus-install.sh
 
 *If you want to install both the* `ibus-latex-table` *input method and the input method provided
 by this repository, you must give it a name other than the default* `latex`.  *Do something like this instead:*
 
-    $ sudo ./ibus-install.sh latex2
+    sudo ./ibus-install.sh latex2
 
 Log out of X Windows and log back in.  There should be a keyboard symbol in the menu bar.  Click on the symbol and select `Preferences`.  Under the `Input Methods` tab, select the `Customize active input methods` checkbox.  Then in the `Select an input method` drop down, select `Other`.  Find the latex input method and add it.
 
